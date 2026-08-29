@@ -1,0 +1,91 @@
+/* Neurotidy — calm, mobile-first, ADHD-friendly (low visual noise, high contrast) */
+:root{
+  --ink:#1f2430; --muted:#5b6472; --bg:#fbfaf7; --card:#ffffff;
+  --accent:#7c5cff; --accent-ink:#ffffff; --line:#ececf3; --soft:#f4f2fb;
+  --maxw:720px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  text-rendering:optimizeLegibility;
+}
+a{color:var(--accent)}
+img{max-width:100%;height:auto}
+
+/* header / footer */
+header.site{
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  max-width:var(--maxw);margin:0 auto;padding:18px 20px;
+}
+.brand{font-weight:800;font-size:20px;letter-spacing:-.02em;color:var(--ink);text-decoration:none}
+.nav-cta{
+  font-size:14px;font-weight:600;text-decoration:none;color:var(--accent);
+  background:var(--soft);padding:8px 14px;border-radius:999px;white-space:nowrap;
+}
+footer.site{
+  max-width:var(--maxw);margin:40px auto 0;padding:24px 20px 48px;
+  border-top:1px solid var(--line);color:var(--muted);font-size:14px;
+}
+
+/* article */
+main.article{max-width:var(--maxw);margin:0 auto;padding:8px 20px 0}
+main.article h1{font-size:30px;line-height:1.2;letter-spacing:-.02em;margin:18px 0 10px}
+.lede{font-size:19px;color:var(--ink);background:var(--soft);
+  border-left:3px solid var(--accent);padding:14px 16px;border-radius:8px;margin:0 0 24px}
+main.article h2{font-size:22px;letter-spacing:-.01em;margin:34px 0 8px}
+main.article h3{font-size:17px;margin:20px 0 4px}
+main.article p{margin:0 0 14px}
+main.article ol,main.article ul{margin:0 0 16px;padding-left:22px}
+main.article li{margin:6px 0}
+.faq h3{color:var(--ink)}
+
+/* CTA block */
+.cta{background:var(--card);border:1px solid var(--line);border-radius:14px;
+  padding:22px;margin:36px 0 8px;box-shadow:0 1px 0 rgba(31,36,48,.03)}
+.cta h2{margin-top:0}
+.button{display:inline-block;background:var(--accent);color:var(--accent-ink);
+  text-decoration:none;font-weight:700;padding:13px 22px;border-radius:999px;margin-top:6px}
+.button:hover{filter:brightness(1.06)}
+
+/* home */
+.hero{max-width:var(--maxw);margin:0 auto;padding:20px 20px 6px;text-align:center}
+.hero h1{font-size:34px;line-height:1.15;letter-spacing:-.02em;margin:10px 0 8px}
+.hero p.sub{font-size:19px;color:var(--muted);margin:0 auto 20px;max-width:34ch}
+.grid{max-width:var(--maxw);margin:8px auto 0;padding:0 20px;
+  display:grid;grid-template-columns:1fr;gap:12px}
+@media(min-width:620px){.grid{grid-template-columns:1fr 1fr}}
+.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;
+  padding:16px 18px;text-decoration:none;color:var(--ink)}
+.card:hover{border-color:var(--accent)}
+.card b{display:block;font-size:17px;margin-bottom:3px}
+.card span{color:var(--muted);font-size:14px}
+.section-label{max-width:var(--maxw);margin:34px auto 6px;padding:0 20px;
+  font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+
+/* 2026-08-30: proof, entity, and navigation blocks */
+.crumbs{font-size:13px;color:var(--muted);margin:14px 0 0}
+.crumbs a{color:var(--muted);text-decoration:none}.crumbs a:hover{color:var(--accent)}
+.byline{font-size:14px;color:var(--muted);margin:0 0 18px}
+.byline a{color:var(--muted)}
+a.cite{font-size:13px;color:var(--muted);text-decoration:none;white-space:nowrap}
+a.cite:hover{color:var(--accent)}
+.sources{margin-top:36px;padding-top:8px;border-top:1px solid var(--line)}
+.sources ol{font-size:14px;color:var(--muted)}
+.sources li{margin:8px 0}
+.sources .supports{display:block;font-size:13px;color:var(--muted);opacity:.9}
+.small{font-size:14px;color:var(--muted)}
+.related ul,.guide-list{list-style:none;padding:0;margin:0 0 16px}
+.related li,.guide-list li{margin:8px 0;padding:10px 14px;background:var(--card);border:1px solid var(--line);border-radius:10px}
+.related li a,.guide-list li a{font-weight:600;text-decoration:none}
+.guide-list span{display:block;color:var(--muted);font-size:14px;margin-top:2px}
+.taskcard{background:var(--card);border:1.5px dashed var(--line);border-radius:12px;padding:16px 18px;margin:14px 0}
+.taskcard h2{margin:0 0 4px}
+.taskcard .truth{display:inline-block;font-size:13px;font-weight:600;background:var(--ink);color:#fff;border-radius:6px;padding:1px 8px;margin:0 0 8px}
+.taskcard .badday{margin:10px 0 0;padding-top:8px;border-top:1px solid var(--line);color:#b3582c;font-size:15px}
+.tablewrap{overflow-x:auto;margin:12px 0 18px}
+.tablewrap table{border-collapse:collapse;width:100%;font-size:15px}
+.tablewrap th,.tablewrap td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--line)}
+.button.secondary{background:var(--soft);color:var(--accent)}
+.types h2{font-size:22px;margin:0 0 6px}

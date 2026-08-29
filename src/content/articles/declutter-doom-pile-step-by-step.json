@@ -1,0 +1,43 @@
+{
+  "slug": "declutter-doom-pile-step-by-step",
+  "title": "How to declutter a doom pile step by step (ADHD method)",
+  "description": "How to declutter a doom pile step by step with ADHD: one pile, a 10-minute timer, four boxes, no decisions. The sort that finally makes the pile shrink.",
+  "h1": "How to declutter a doom pile, step by step, without deciding anything",
+  "group": "clutter",
+  "target_query": "how to declutter a doom pile step by step with ADHD",
+  "published": "2026-08-30",
+  "faq": [
+    {
+      "q": "How long does it take to clear a doom pile with ADHD?",
+      "a": "One pile, one 10-minute timer, and you stop when it rings even if the pile is not finished. Most piles need two or three of those sessions, not one heroic afternoon. The short timer is the point: a session you can actually start beats a session you keep avoiding."
+    },
+    {
+      "q": "What are the four boxes for a doom pile?",
+      "a": "Trash, belongs elsewhere, needs a decision, and stays here. Every object gets an address, not a verdict. The decision box is allowed to exist; it holds the hard things so they stop blocking the easy ones."
+    },
+    {
+      "q": "Why does my doom pile keep coming back after I clear it?",
+      "a": "Because the pile is where things land when they have no home you can see. If the same category keeps piling up, that category needs a visible spot, like a tray or an open basket, near where it lands. Clear the pile, then give the repeat offenders a landing place, and the pile shrinks instead of rebuilding."
+    }
+  ],
+  "related": [
+    "the-doom-box",
+    "doom-pile-vs-hoarding",
+    "adhd-object-permanence-cleaning",
+    "body-doubling"
+  ],
+  "sources": [
+    {
+      "id": "alderson2013",
+      "supports": "Adults with ADHD show measurable working memory deficits, which is why holding a whole pile's worth of decisions in your head at once is the wrong plan."
+    },
+    {
+      "id": "willcutt2005",
+      "supports": "Planning and organising a multi-step task are executive function skills that are reliably weaker in ADHD, so the sort has to be pre-decided."
+    },
+    {
+      "id": "moreinzamir2022",
+      "supports": "Hoarding symptoms are more common in adults with ADHD and are linked to inattention; the article separates a doom pile from hoarding and points readers to the hoarding guide."
+    }
+  ]
+}

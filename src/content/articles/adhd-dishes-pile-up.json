@@ -1,0 +1,44 @@
+{
+  "slug": "adhd-dishes-pile-up",
+  "title": "Why dishes pile up with ADHD (and the fix)",
+  "description": "ADHD dishes pile up because every dish is really four decisions stacked behind it, not laziness. Here is why it happens and a five-step fix.",
+  "h1": "Why the dishes pile up with ADHD (and the fix that actually sticks)",
+  "group": "kitchen",
+  "target_query": "why do dishes pile up with ADHD",
+  "published": "2026-07-29",
+  "legacy_modified": "2026-07-31",
+  "faq": [
+    {
+      "q": "Why can't I do the dishes even when I want to?",
+      "a": "Because wanting to is not the blocker. A single dish is a short stack of decisions: scrape, rinse, load or hand-wash, and where it goes when it is clean. ADHD brains run out of decision-making fuel fast, so you stall at the first choice even though the physical task is small. It is a capacity problem, not a caring problem."
+    },
+    {
+      "q": "Is avoiding the dishes an ADHD thing?",
+      "a": "Yes, it is extremely common with ADHD. The kitchen is a decision minefield and dishes never fully end, so they collect every unmade choice from a whole day. When you are already low on focus and dopamine, the sink is the first place it shows. You are not the only one, and it is not a character flaw."
+    },
+    {
+      "q": "How do people with ADHD keep the kitchen clean?",
+      "a": "They stop relying on willpower and remove the decisions instead. Rinse while you are still standing at the sink, treat the dishwasher as a drying rack you load as you go, keep a sink of soapy water so things soak themselves, and wash only the three things on top when the pile feels huge. Fewer choices means fewer places to stall."
+    }
+  ],
+  "related": [
+    "cup-collection",
+    "the-reset",
+    "adhd-cleaning-checklist",
+    "time-blindness"
+  ],
+  "sources": [
+    {
+      "id": "willcutt2005",
+      "supports": "Planning and sequencing multi-step tasks are executive functions with medium-sized deficits in ADHD, so a chain of small choices stalls."
+    },
+    {
+      "id": "volkow2009",
+      "supports": "Reduced dopamine reward-pathway markers in adult ADHD are linked to motivation deficits for low-reward tasks."
+    },
+    {
+      "id": "sonugabarke2003",
+      "supports": "Boring tasks with no finish line are exactly the delay-aversion case where ADHD brains disengage."
+    }
+  ]
+}

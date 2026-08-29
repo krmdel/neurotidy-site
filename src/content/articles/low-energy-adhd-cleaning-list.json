@@ -1,0 +1,29 @@
+{
+  "slug": "low-energy-adhd-cleaning-list",
+  "title": "The low-energy ADHD cleaning list for bad brain days",
+  "description": "A low energy cleaning list for ADHD bad brain days: six tiny tasks, no decisions, done in under ten minutes. Enough to keep the spiral from starting.",
+  "h1": "What can you actually clean on a bad brain day? Less than you think, and that's the point",
+  "group": "method",
+  "target_query": "low energy cleaning list for ADHD bad brain days",
+  "published": "2026-08-30",
+  "faq": [
+    {
+      "q": "What should I clean when I have no energy and ADHD?",
+      "a": "Only the things that make tomorrow worse if you skip them: one mug rinsed, trash tied, dishes soaking, the path to the bed clear. That is the whole list. Everything else can wait for a day when your brain shows up, and skipping it today costs you nothing."
+    },
+    {
+      "q": "Is it okay to do the bare minimum on bad days?",
+      "a": "It is the correct move, not a failure. A bad brain day is a capacity problem, not a motivation problem, and pushing through it usually ends in a half-finished mess and a worse mood. A tiny fixed list keeps the house from sliding into unbearable while your energy comes back."
+    },
+    {
+      "q": "How do I stop bad days from turning into a week of mess?",
+      "a": "Make the bad-day list boring and fixed so it runs on autopilot. Same six items, same order, no deciding. When it is written down and taped somewhere visible, your brain does not have to hold it, and a bad day stays a bad day instead of becoming a bad month."
+    }
+  ],
+  "related": ["bare-minimum-cleaning-day", "the-reset", "cleaning-paralysis", "the-meds-window"],
+  "sources": [
+    {"id": "willcutt2005", "supports": "Task initiation and planning are measurably impaired in ADHD, which is why open-ended cleaning stalls on low-capacity days."},
+    {"id": "alderson2013", "supports": "Working memory is reduced in adults with ADHD, so a written, fixed list works better than holding tasks in your head."},
+    {"id": "sonugabarke2003", "supports": "Delay aversion and altered reward processing explain why boring, unrewarded tasks are the first to drop on a bad day."}
+  ]
+}

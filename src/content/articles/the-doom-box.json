@@ -1,0 +1,40 @@
+{
+  "slug": "the-doom-box",
+  "title": "What is a doom pile? The ADHD reframe that clears it",
+  "description": "A doom pile (or doom box, doom drawer) is not junk or laziness. It's the pile of decisions your ADHD brain deferred. Here's how to clear one.",
+  "h1": "What is a doom pile? (and why the ADHD one is not procrastination)",
+  "group": "clutter",
+  "target_query": "what is a doom pile and how do I clear it",
+  "published": "2026-07-29",
+  "legacy_modified": "2026-07-31",
+  "faq": [
+    {
+      "q": "What does DOOM stand for in doom pile?",
+      "a": "DOOM stands for Didn't Organize, Only Moved. It's a fitting name because a doom pile is usually the result of picking things up and setting them down somewhere else, over and over, without ever making the actual decision about where they belong. The pile isn't disorganized because you're lazy. It's disorganized because every item in it needed a decision your brain skipped."
+    },
+    {
+      "q": "Why do people with ADHD have doom piles?",
+      "a": "ADHD brains find small decisions unusually expensive, especially open-ended ones with no clear right answer. So when a receipt, a cable, or a half-read letter shows up and asks 'where does this go?', your brain defers the decision and drops the object in a box to deal with later. The box fills with the exact things that were hardest to decide on, which is why it feels stuck. It's a decision backlog, not a character flaw."
+    },
+    {
+      "q": "How do you clear a doom pile without getting overwhelmed?",
+      "a": "Don't try to clear the whole thing. Set a 10-minute timer, pull the obvious trash first, then work five items at a time and sort each one by decision type: keep, toss, belongs-somewhere-else, or 'I don't know'. Allowing a maybe pile means no single item can stall you. Ten minutes of that, repeated whenever you have the energy, clears a doom pile faster than one dreaded all-day purge."
+    }
+  ],
+  "related": [
+    "declutter-doom-pile-step-by-step",
+    "doom-pile-vs-hoarding",
+    "body-doubling",
+    "cleaning-paralysis"
+  ],
+  "sources": [
+    {
+      "id": "willcutt2005",
+      "supports": "Open-ended decisions draw on planning and working memory, executive functions with measurable deficits in ADHD."
+    },
+    {
+      "id": "eagle2023",
+      "supports": "Body doubling is a named, studied technique neurodivergent people use to start and sustain tasks."
+    }
+  ]
+}

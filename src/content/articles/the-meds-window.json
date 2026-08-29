@@ -1,0 +1,40 @@
+{
+  "slug": "the-meds-window",
+  "title": "The meds window: timing chores to when your ADHD brain shows up",
+  "description": "Cleaning when ADHD meds kick in is easier for a reason. Find your daily window and schedule five-minute resets inside it instead of fighting your brain.",
+  "h1": "The meds window: timing chores to when your ADHD brain shows up",
+  "group": "mind",
+  "target_query": "when is the best time to do chores if you take ADHD medication",
+  "published": "2026-07-31",
+  "legacy_modified": "2026-07-31",
+  "faq": [
+    {
+      "q": "Is it bad that I can only clean when my ADHD medication is working?",
+      "a": "No, and the shame around this is worth putting down. Medication lowers the cost of starting tasks for many ADHD brains, and choosing to do chores during the easier hours is the same logic as a runner training in cool weather instead of a heatwave. You are working with your brain instead of against it. Using a tool well is planning, not dependence."
+    },
+    {
+      "q": "When is the best time to do chores if you take ADHD medication?",
+      "a": "During the stretch of your day when starting things feels lightest. If your routine is steady, that stretch tends to show up around the same time each day, and two or three days of casual noticing will find it. Put your five-minute reset inside that slot and guard it from the phone. Any questions about the medication itself belong with your prescriber."
+    },
+    {
+      "q": "What should I do on days when the window never shows up?",
+      "a": "Fall back to something smaller and kinder. Pick one tiny anchor, like clearing the mug next to you or starting the dishwasher, and let that count as the reset for the day. A no-window day is information about your day, not a verdict on you. A system that can shrink is a system you will still be using next month."
+    }
+  ],
+  "related": [
+    "the-reset",
+    "time-blindness",
+    "cleaning-paralysis",
+    "bare-minimum-cleaning-day"
+  ],
+  "sources": [
+    {
+      "id": "cortese2018",
+      "supports": "Stimulant medications reduce ADHD symptoms in adults in the short term, which is the chemistry behind an easier stretch of the day."
+    },
+    {
+      "id": "volkow2009",
+      "supports": "Dopamine reward-pathway dysfunction in adult ADHD is tied to motivation deficits, and stimulants act on that pathway."
+    }
+  ]
+}

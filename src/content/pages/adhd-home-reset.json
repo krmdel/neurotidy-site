@@ -1,0 +1,45 @@
+{
+  "name": "adhd-home-reset",
+  "path": "/adhd-home-reset/",
+  "title": "The ADHD Home Reset: 20 printable task cards ($9)",
+  "description": "The ADHD Home Reset: a $9 deck of 20 printable task cards plus a short guide for kitchen, laundry, bathroom, doom piles, mornings and evenings.",
+  "h1": "The ADHD Home Reset: 20 printable task cards and the guide",
+  "type": "page",
+  "nav_label": "$9 deck",
+  "faq": [
+    {
+      "q": "Is the ADHD Home Reset physical or digital?",
+      "a": "Digital. You get print-ready PDFs on Gumroad the moment you pay. Print at home or at a print shop, as many times as you want, on plain paper or cardstock."
+    },
+    {
+      "q": "What if the cards do not fit how my brain works?",
+      "a": "Start with the free five first. They use the same format, so if they do not click, do not buy the deck. Gumroad handles refunds, and we would rather you keep your $9 than own cards you never use."
+    },
+    {
+      "q": "Do I need an ADHD diagnosis to use it?",
+      "a": "No. The cards are written for brains that stall at boring multi-step tasks, lose track of time, and forget what they cannot see. Diagnosed, self-identified or just tired of shame-based advice, the cards work the same way. Nothing in the deck is medical advice."
+    },
+    {
+      "q": "How is this different from the $27 Whole Home Reset?",
+      "a": "The $9 deck is the core 20 cards for everyday rooms. The $27 Whole Home Reset includes those 20 plus 36 more: bedroom, living room, workspace, a reset-day deck for re-entering after a wrecked week, and a bad-brain-day deck. If you only need the kitchen, laundry and bathroom handled, $9 is the right one."
+    }
+  ],
+  "jsonld_extra": [
+    {
+      "@type": "Product",
+      "name": "The ADHD Home Reset: 20 printable task cards + guide",
+      "description": "A $9 deck of 20 printable ADHD task cards covering kitchen, laundry, bathroom, trash, doom piles, mornings and evenings, plus a short guide on why routines fail and the five levers that replace willpower. Every card has a bad-day version.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Neurotidy"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "9",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://neurotidy.gumroad.com/l/adhd-home-reset"
+      }
+    }
+  ]
+}

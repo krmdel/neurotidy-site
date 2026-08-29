@@ -1,0 +1,44 @@
+{
+  "slug": "cleaning-paralysis",
+  "title": "ADHD cleaning paralysis: why you can't start (even when you want to)",
+  "description": "ADHD cleaning paralysis is when you want to clean but can't make yourself start. It's task-initiation failure, not laziness. Here's the fix.",
+  "h1": "ADHD cleaning paralysis: why you can't start (even when you want to)",
+  "group": "mind",
+  "target_query": "why can't I start cleaning even though I want to",
+  "published": "2026-07-31",
+  "legacy_modified": "2026-07-31",
+  "faq": [
+    {
+      "q": "Why can't I start cleaning even though I want to?",
+      "a": "Because wanting and starting run on different brain circuits. Your motivation is real, but task initiation, the executive function that turns intent into a first physical movement, is the part ADHD disrupts. So you can sit there genuinely wanting a clean room and still not move. The fix is to shrink the first move until it is almost silly, then launch it with an outside cue like a timer or a song."
+    },
+    {
+      "q": "Is cleaning paralysis a real thing with ADHD?",
+      "a": "Yes. People usually call it task paralysis or ADHD freeze, and it shows up hardest around cleaning because a messy room is hundreds of small open decisions at once. It is an executive function issue, not laziness and not a character flaw. If the freeze is constant and wrecking daily life, that is worth raising with a clinician, but the pattern itself is common and very workable."
+    },
+    {
+      "q": "How do I make myself start cleaning when I'm frozen?",
+      "a": "Pick one tiny entry task before you need it, like carrying five things to the kitchen, so there is no decision left at start time. Then borrow an external starter: a 10-minute timer, one specific song, or a friend on a video call doing their own thing. Give yourself full permission to do it badly, and stop while it still feels okay. A start that ends well makes tomorrow's start cheaper."
+    }
+  ],
+  "related": [
+    "body-doubling",
+    "time-blindness",
+    "the-meds-window",
+    "low-energy-adhd-cleaning-list"
+  ],
+  "sources": [
+    {
+      "id": "barkley1997",
+      "supports": "ADHD as a deficit of behavioral inhibition and executive self-regulation, distinct from motivation."
+    },
+    {
+      "id": "willcutt2005",
+      "supports": "Executive functions such as planning and working memory show consistent deficits in ADHD."
+    },
+    {
+      "id": "eagle2023",
+      "supports": "Body doubling as a studied external starter for neurodivergent people."
+    }
+  ]
+}

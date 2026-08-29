@@ -1,0 +1,43 @@
+{
+  "slug": "adhd-object-permanence-cleaning",
+  "title": "ADHD object permanence: why out of sight is out of mind",
+  "description": "ADHD object permanence and cleaning: why out of sight is out of mind, what research actually calls it (working memory), and the visible-storage fix.",
+  "h1": "Why out of sight really is out of mind with ADHD (and what to do about your drawers)",
+  "group": "mind",
+  "target_query": "ADHD object permanence and cleaning: why out of sight is out of mind",
+  "published": "2026-08-30",
+  "faq": [
+    {
+      "q": "Is object permanence a real ADHD symptom?",
+      "a": "Not in the textbook sense. Object permanence is a developmental milestone that adults with ADHD have. What the community calls ADHD object permanence is a working memory difference: when a thing leaves your sight, it also drops out of the mental list you were holding. The label is loose, the experience is real, and the research on working memory backs it up."
+    },
+    {
+      "q": "Why do I forget things exist when I put them away?",
+      "a": "Because putting something in a drawer removes the visual cue that was doing the remembering for you. With weaker working memory the cue was carrying most of the load, so once it is gone the item is effectively gone too. Visible storage keeps the cue in place, which is why open shelves and clear bins work where drawers fail."
+    },
+    {
+      "q": "How do I organise my home if I forget what I own?",
+      "a": "Store things where you use them, in containers you can see into, and keep one visible home per daily item. Fewer objects helps more than better drawers. The goal is not a tidy-looking room, it is a room where your eyes do the remembering."
+    }
+  ],
+  "related": [
+    "cup-collection",
+    "the-floor",
+    "messy-room",
+    "adhd-dishes-pile-up"
+  ],
+  "sources": [
+    {
+      "id": "alderson2013",
+      "supports": "A meta-analysis of 38 studies found consistent working memory deficits in adults with ADHD, which is the mechanism behind the out-of-sight experience."
+    },
+    {
+      "id": "willcutt2005",
+      "supports": "Working memory is one of the executive functions most consistently impaired in ADHD across 83 studies, supporting the claim that this is a documented difference rather than carelessness."
+    },
+    {
+      "id": "barkley1997",
+      "supports": "Barkley's model places working memory among the core executive functions affected in ADHD and links it to holding goals in mind over time."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "body-doubling",
+  "title": "ADHD body doubling: why you can clean when someone's just there",
+  "description": "Body doubling means doing a task while someone else is simply present, and for ADHD brains that presence makes starting to clean dramatically easier.",
+  "h1": "Why you can suddenly clean when someone else is just there (ADHD body doubling)",
+  "group": "method",
+  "target_query": "what is body doubling for ADHD and why does it work",
+  "published": "2026-07-31",
+  "legacy_modified": "2026-07-31",
+  "faq": [
+    {
+      "q": "What is body doubling for ADHD?",
+      "a": "Body doubling is doing a task while another person is simply present, either in the room or on a video call, usually doing their own thing. Nobody helps, coaches, or supervises. For ADHD brains, that quiet presence lowers the barrier to starting, which is often the hardest part of any chore. It's a recognized tool in the ADHD community, not a crutch."
+    },
+    {
+      "q": "Why does body doubling work for ADHD brains?",
+      "a": "An ADHD brain often can't generate the internal activation to start a boring task, even one you genuinely want done. Another person's presence adds gentle external accountability and a calming sense of shared time, and that's usually enough to get you over the start line. You're not borrowing their labor, you're borrowing their presence. That's why it works even when they're folding their own laundry on the other end of a call."
+    },
+    {
+      "q": "How do I find a body double for cleaning?",
+      "a": "Start with people you already talk to. Ask a friend to stay on a video call while you both do chores, or clean during a regular phone catch-up. If that's not available, try a body doubling app, a virtual focus room, or a study-with-me video on YouTube. Keep it silent and low pressure: the double doesn't need to watch you or check your progress, they just need to be there."
+    }
+  ],
+  "related": [
+    "cleaning-paralysis",
+    "the-doom-box",
+    "the-reset",
+    "low-energy-adhd-cleaning-list"
+  ],
+  "sources": [
+    {
+      "id": "eagle2023",
+      "supports": "Body doubling is a named technique that neurodivergent participants describe using to start and sustain tasks, in person or over video."
+    },
+    {
+      "id": "barkley1997",
+      "supports": "ADHD is best understood as an impairment of self-regulation and executive function, not of wanting."
+    }
+  ]
+}

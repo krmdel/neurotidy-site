@@ -1,0 +1,36 @@
+{
+  "name": "about",
+  "path": "/about/",
+  "title": "About Neurotidy and who writes the guides",
+  "description": "Neurotidy publishes plain-language cleaning systems for people with ADHD. Written under the pen name Mara Ellery, built from 21,000 real ADHD threads.",
+  "h1": "About Neurotidy",
+  "type": "page",
+  "nav_label": "About",
+  "faq": [
+    {
+      "q": "Is Mara Ellery a real person?",
+      "a": "Mara Ellery is a pen name. The person behind it is Neurotidy's founder, who writes every guide and built the task cards. The name is a pen name so the brand stays about the systems rather than one face. Nothing else about the author is invented: no credentials, no titles, no claimed training."
+    },
+    {
+      "q": "Is anything on Neurotidy medical advice?",
+      "a": "No. Neurotidy is not a clinician and does not diagnose or treat anything. The guides explain mechanisms that published research describes and turn them into practical cleaning systems. If you have questions about ADHD, medication or your mental health, talk to a professional."
+    }
+  ],
+  "jsonld_extra": [
+    {
+      "@type": "Person",
+      "name": "Mara Ellery",
+      "description": "Pen name of Neurotidy's founder. Writes the Neurotidy guides.",
+      "url": "/about/",
+      "sameAs": [
+        "https://www.instagram.com/neuro.tidy/",
+        "https://www.tiktok.com/@neuro.tidy"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Neurotidy",
+        "url": "/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "free-adhd-task-cards",
+  "path": "/free-adhd-task-cards/",
+  "title": "5 free printable ADHD task cards (no email needed)",
+  "description": "Five free printable ADHD task cards for dishes, showers, doom piles, body doubling and bad days. Direct PDF, no signup, every card has a bad-day version.",
+  "h1": "5 free printable ADHD task cards, no email needed",
+  "type": "page",
+  "og_image": "/free-adhd-task-cards/cover.png",
+  "nav_label": "Free cards",
+  "faq": [
+    {
+      "q": "Are the ADHD task cards really free?",
+      "a": "Yes. The PDF link on this page is a direct download. There is no checkout, no trial and no catch. The five cards are a sample of the 20-card ADHD Home Reset, which costs $9 if you want the rest later."
+    },
+    {
+      "q": "Do I need to give my email to download the cards?",
+      "a": "No. The link goes straight to the PDF. If you would rather download from Gumroad, that also works, but nothing here asks you to sign up."
+    },
+    {
+      "q": "Will the cards work if I am not diagnosed with ADHD?",
+      "a": "Yes. The cards are built for brains that struggle to start boring tasks, hold multi-step jobs in mind, or feel time pass. That includes plenty of people without a diagnosis. Nothing on the cards is medical advice and none of it needs a label to work."
+    },
+    {
+      "q": "What printer and paper do I need?",
+      "a": "Any home printer on plain A4 or letter paper is fine. The cards print four to a sheet with dashed cut lines. Cardstock lasts longer, and a bit of tape or a magnet keeps each card where its task happens."
+    }
+  ],
+  "jsonld_extra": [
+    {
+      "@type": "Product",
+      "name": "5 Free ADHD Task Cards (printable)",
+      "description": "Five printable ADHD task cards for dishes, showers, doom piles, body doubling and bad days. Each card breaks the task into steps an ADHD brain can start, with a bad-day version at the bottom. Free direct PDF, no email required.",
+      "image": "/free-adhd-task-cards/cover.png",
+      "brand": { "@type": "Brand", "name": "Neurotidy" },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "/free-adhd-task-cards/"
+      },
+      "isAccessibleForFree": true
+    },
+    {
+      "@type": "DigitalDocument",
+      "name": "Neurotidy 5 free ADHD task cards",
+      "url": "/free-adhd-task-cards/neurotidy-free-adhd-task-cards.pdf",
+      "encodingFormat": "application/pdf",
+      "isAccessibleForFree": true
+    }
+  ]
+}

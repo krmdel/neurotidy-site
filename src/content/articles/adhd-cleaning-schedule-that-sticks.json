@@ -1,0 +1,43 @@
+{
+  "slug": "adhd-cleaning-schedule-that-sticks",
+  "title": "An ADHD cleaning schedule that actually sticks",
+  "description": "An ADHD cleaning schedule that actually sticks is short, anchored to habits you already have, and has a bad-day line. How to build one you keep running.",
+  "h1": "Why every cleaning schedule died by week two, and the one that doesn't",
+  "group": "method",
+  "target_query": "ADHD cleaning schedule that actually sticks",
+  "published": "2026-08-30",
+  "faq": [
+    {
+      "q": "What does a realistic ADHD cleaning schedule look like?",
+      "a": "One short daily reset of five to fifteen minutes, anchored to something you already do like the kettle or the evening show, plus one weekly task per day picked from a short list. No colour-coded chart. If it does not fit on a sticky note, it is too big to survive a bad week."
+    },
+    {
+      "q": "How do I stick to a cleaning routine with ADHD when I lose motivation?",
+      "a": "Stop relying on motivation and rely on anchors instead. Attach the reset to an existing habit, keep a timer running, and write the bad-day version underneath so a low day still counts as done. The routine survives because it never depends on how you feel."
+    },
+    {
+      "q": "Should I clean every day with ADHD or do one big clean?",
+      "a": "Every day, but tiny. A five-minute daily reset keeps the house at a livable baseline, and it removes the dread that makes the big clean impossible to start. The big clean can still happen occasionally, but it stops being the only way the house ever gets clean."
+    }
+  ],
+  "related": [
+    "the-reset",
+    "adhd-cleaning-checklist",
+    "bare-minimum-cleaning-day",
+    "the-meds-window"
+  ],
+  "sources": [
+    {
+      "id": "sonugabarke2003",
+      "supports": "Delay aversion and altered reward processing explain why a boring task with no near-term payoff keeps losing to anything more immediately rewarding."
+    },
+    {
+      "id": "volkow2009",
+      "supports": "Differences in the dopamine reward pathway in adults with ADHD are the basis for the claim that motivation cannot be the engine of a routine."
+    },
+    {
+      "id": "ptacek2019",
+      "supports": "Altered time perception in ADHD is why the schedule uses anchors and timers instead of clock times."
+    }
+  ]
+}

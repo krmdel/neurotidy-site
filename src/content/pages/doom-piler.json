@@ -1,0 +1,19 @@
+{
+  "name": "doom-piler",
+  "path": "/adhd-mess-types/doom-piler/",
+  "title": "The Doom Piler: the ADHD mess type of deferred decisions",
+  "description": "The Doom Piler is the ADHD mess type where every flat surface becomes a someday-pile. What it looks like, why it happens, and the first card to use.",
+  "h1": "The Doom Piler",
+  "type": "page",
+  "nav_label": "Doom Piler",
+  "faq": [
+    {
+      "q": "Is a doom pile the same as hoarding?",
+      "a": "No. A doom pile is deferred decisions you would happily be rid of. Hoarding involves real distress at parting with things. Most ADHD mess is the first kind. The guide on doom piles versus hoarding covers the difference and why it lifts the shame."
+    },
+    {
+      "q": "Why does the pile come back after I clear it?",
+      "a": "Because clearing it changes the room, not the input. Items with no obvious home and no deadline will land on the nearest surface again. The fix is a triage habit that runs on a timer, plus one visible home for the things that keep landing."
+    }
+  ]
+}

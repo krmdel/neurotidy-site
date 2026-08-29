@@ -1,0 +1,26 @@
+{
+  "origin": "https://www.neurotidy.co",
+  "brand": "Neurotidy",
+  "tagline": "5-minute reset systems for ADHD homes",
+  "description": "Free printable ADHD task cards and plain-language guides for cleaning with ADHD. Reset systems built for how your brain actually works, not willpower.",
+  "author": {
+    "name": "Mara Ellery",
+    "path": "/about/",
+    "description": "Mara Ellery is the pen name of Neurotidy's founder. The guides are built from reading and sorting more than 21,000 real ADHD threads about cleaning and home life, then checking the mechanisms against published research.",
+    "sameAs": ["https://www.instagram.com/neuro.tidy/", "https://www.tiktok.com/@neuro.tidy"]
+  },
+  "organization": {
+    "sameAs": ["https://www.instagram.com/neuro.tidy/", "https://www.tiktok.com/@neuro.tidy", "https://neurotidy.gumroad.com/"]
+  },
+  "products": {
+    "free_cards_pdf": "/free-adhd-task-cards/neurotidy-free-adhd-task-cards.pdf",
+    "free_cards_page": "/free-adhd-task-cards/",
+    "home_reset_page": "/adhd-home-reset/",
+    "home_reset_gumroad": "https://neurotidy.gumroad.com/l/adhd-home-reset",
+    "whole_home_gumroad": "https://neurotidy.gumroad.com/l/whole-home-reset",
+    "store": "https://neurotidy.gumroad.com/"
+  },
+  "utm": { "source": "site", "campaign": "free_cards" },
+  "analytics_script": "/_vercel/insights/script.js",
+  "reviewed_line": "Sources checked against the papers listed at the end of each guide."
+}

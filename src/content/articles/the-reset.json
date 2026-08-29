@@ -1,0 +1,40 @@
+{
+  "slug": "the-reset",
+  "title": "The 5-minute ADHD cleaning reset (closing-shift method)",
+  "description": "A 5-minute ADHD cleaning reset is a closing shift for your home: set a timer, clear surfaces, set up tomorrow. Here's the checklist that actually sticks.",
+  "h1": "Your home doesn't need a deep clean, it needs a closing shift",
+  "group": "method",
+  "target_query": "what is a 5 minute ADHD cleaning reset",
+  "published": "2026-07-29",
+  "legacy_modified": "2026-07-31",
+  "faq": [
+    {
+      "q": "How long should an ADHD cleaning reset take?",
+      "a": "Five to fifteen minutes, and you set a timer so it cannot quietly eat your whole evening. Five minutes is enough to clear the main surfaces and reset the sink. Fifteen is the full closing shift with the floor and tomorrow's setup added. When the timer goes off, you stop, even if it is not perfect."
+    },
+    {
+      "q": "What if I can't finish the whole house in the reset?",
+      "a": "You are not supposed to. The reset is about the surfaces you see and use, not the closets or a deep clean. A room with clear counters and a clean sink reads as calm even when the drawers behind them are a mess. Finishing the whole house is not the goal. Getting it ready for tomorrow is."
+    },
+    {
+      "q": "How do I make an ADHD cleaning routine that actually sticks?",
+      "a": "Do the same short steps in the same order every night so there are no decisions left to make. Decisions are the part that drains an ADHD brain, so a fixed sequence like sink, surfaces, floor removes the friction. Attach it to something you already do, like right after dinner, and keep it to a single timer. Same time, same order, small enough that tomorrow-you will actually repeat it."
+    }
+  ],
+  "related": [
+    "adhd-cleaning-checklist",
+    "adhd-cleaning-schedule-that-sticks",
+    "the-meds-window",
+    "bare-minimum-cleaning-day"
+  ],
+  "sources": [
+    {
+      "id": "sonugabarke2003",
+      "supports": "Tasks with no clear start, no deadline and no reward are the ones ADHD brains defer (delay aversion in the dual pathway model)."
+    },
+    {
+      "id": "ptacek2019",
+      "supports": "Time blindness: ADHD brains misjudge how long a task will take, so a short tidy feels like hours."
+    }
+  ]
+}

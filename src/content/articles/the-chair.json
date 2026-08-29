@@ -1,0 +1,40 @@
+{
+  "slug": "the-chair",
+  "title": "The ADHD clothes chair pile: why it happens (and the fix)",
+  "description": "The ADHD clothes chair pile isn't laziness. It's clothes too clean to wash and too worn to put away, a category your brain has no drawer. Here's the fix.",
+  "h1": "Why the chair always ends up covered in clothes (and the ADHD fix)",
+  "group": "bedroom",
+  "target_query": "why do clothes pile up on the chair with ADHD",
+  "published": "2026-07-29",
+  "legacy_modified": "2026-07-31",
+  "faq": [
+    {
+      "q": "What is the ADHD clothes chair called?",
+      "a": "People call it the chair, the clothes chair, or the floordrobe when it spills onto the floor. Whatever you call it, it is the same thing: a pile of clothes that are too clean to wash but too worn to put away. It builds up because those in-between clothes have nowhere to live, so they land on the nearest chair."
+    },
+    {
+      "q": "Why do people with ADHD pile clothes on a chair instead of putting them away?",
+      "a": "Because putting them away asks you to make a decision (wash it or drawer it) and both answers feel wrong for clothes you wore once. ADHD brains also lean on object permanence, so a shirt folded in a closed drawer basically stops existing. The chair keeps the clothes visible and skips the decision, which is exactly why it wins every night."
+    },
+    {
+      "q": "How do I finally clear the clothes chair for good?",
+      "a": "Give the worn-once clothes a real home first, like a hook or an open bin, so they stop needing the chair. Decide your wear-rules once while you are calm (jeans get three wears, shirts get one), then clear the chair five things at a time on your way past instead of tackling the whole pile. The system does the deciding so you do not have to."
+    }
+  ],
+  "related": [
+    "the-floor",
+    "the-laundry",
+    "adhd-object-permanence-cleaning",
+    "messy-room"
+  ],
+  "sources": [
+    {
+      "id": "willcutt2005",
+      "supports": "Planning and deciding are executive functions that are measurably impaired in ADHD, which is why a small wash-or-drawer decision gets deferred."
+    },
+    {
+      "id": "alderson2013",
+      "supports": "Working memory deficits in adults with ADHD: a shirt in a shut drawer drops out of mind."
+    }
+  ]
+}

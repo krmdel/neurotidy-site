@@ -1,0 +1,19 @@
+{
+  "name": "churn-and-burn",
+  "path": "/adhd-mess-types/churn-and-burn/",
+  "title": "The Churn and Burn: the all-or-nothing ADHD mess type",
+  "description": "The Churn and Burn is the ADHD mess type that swings between a four-hour deep clean and weeks of nothing. Why it happens, and the first card to use.",
+  "h1": "The Churn and Burn",
+  "type": "page",
+  "nav_label": "Churn and Burn",
+  "faq": [
+    {
+      "q": "Why can I deep clean for hours but not tidy for five minutes?",
+      "a": "A deep clean has urgency, novelty and a big visible payoff, which is exactly what an ADHD brain runs on. A five-minute tidy has none of those. The swing is not a motivation problem. It is a reward problem, and the fix is to make the small version count as a win."
+    },
+    {
+      "q": "Should I just stop doing deep cleans?",
+      "a": "No. Keep them if you enjoy them. The change is what happens between them. A tiny daily floor keeps the house from ever reaching unbearable, so the next deep clean is a choice instead of an emergency."
+    }
+  ]
+}

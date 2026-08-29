@@ -1,0 +1,40 @@
+{
+  "slug": "the-floor",
+  "title": "ADHD floordrobe: why the floor becomes your closet",
+  "description": "The ADHD floordrobe happens because out of sight is out of mind. Here is why the floor becomes your shelf, plus the visible-storage fix that works.",
+  "h1": "Why your clothes end up on the floor with ADHD (and the fix that actually works)",
+  "group": "bedroom",
+  "target_query": "what is an ADHD floordrobe and how do I fix it",
+  "published": "2026-07-29",
+  "legacy_modified": "2026-07-31",
+  "faq": [
+    {
+      "q": "What is an ADHD floordrobe?",
+      "a": "A floordrobe is when your clothes and belongings live on the floor instead of in a closet or drawers. For ADHD brains it is not laziness. It is a workaround for weak object permanence. If something is out of sight it feels gone, so you leave it in view on the floor where you can still find it."
+    },
+    {
+      "q": "Why do I keep everything on the floor with ADHD?",
+      "a": "Because out of sight is genuinely out of mind for ADHD brains. Closing a drawer or a wardrobe door can make an item disappear from your memory, so your brain keeps things visible as insurance against forgetting. The floor is just the biggest, easiest shelf in the room. The fix is visible storage, not more discipline."
+    },
+    {
+      "q": "How do I stop the ADHD floordrobe?",
+      "a": "Stop hiding things and start storing them in the open. Swap opaque drawers for clear bins, put hooks where your eyes already land, and give each room one visible laundry basket. When away and visible become the same thing, the floor loses its job. Then do a quick five-minute floor reset to catch up."
+    }
+  ],
+  "related": [
+    "adhd-object-permanence-cleaning",
+    "the-chair",
+    "messy-room",
+    "the-laundry"
+  ],
+  "sources": [
+    {
+      "id": "alderson2013",
+      "supports": "The measured mechanism behind out of sight, out of mind in adult ADHD is working memory."
+    },
+    {
+      "id": "willcutt2005",
+      "supports": "Working memory is among the strongest and most consistent executive-function deficits in ADHD."
+    }
+  ]
+}

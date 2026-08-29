@@ -1,0 +1,19 @@
+{
+  "name": "out-of-sight-out-of-mind",
+  "path": "/adhd-mess-types/out-of-sight-out-of-mind/",
+  "title": "The Out-of-Sight Out-of-Mind ADHD mess type",
+  "description": "The Out-of-Sight Out-of-Mind is the ADHD mess type where anything in a drawer stops existing. Why it is working memory, not mess, and the first card.",
+  "h1": "The Out-of-Sight, Out-of-Mind",
+  "type": "page",
+  "nav_label": "Out-of-Sight",
+  "faq": [
+    {
+      "q": "Is ADHD object permanence a real thing?",
+      "a": "The phrase is colloquial. Adults with ADHD know an object still exists when it is hidden. What the research describes is a working-memory difference: things that are out of view drop out of the mental list faster. The lived experience is the same, so the fix is the same: keep what you use where you can see it."
+    },
+    {
+      "q": "Will open storage just look like clutter?",
+      "a": "It can, if everything is out. The card is not permission to keep everything on the counter. It is a rule to give daily-use items one visible home each and put the rest away. Fewer objects in view, each with a spot, reads as calm and still stays findable."
+    }
+  ]
+}

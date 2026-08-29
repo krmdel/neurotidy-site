@@ -1,0 +1,44 @@
+{
+  "slug": "messy-room",
+  "title": "Why is my room always messy? The ADHD answer nobody gave you",
+  "description": "Why is my room always messy? Usually not laziness. ADHD traits rebuild the mess, so the fix is designing the room for your brain, not cleaning harder.",
+  "h1": "Why is my room always messy? The ADHD answer nobody gave you",
+  "group": "bedroom",
+  "target_query": "why is my room always messy with ADHD",
+  "published": "2026-07-31",
+  "legacy_modified": "2026-07-31",
+  "faq": [
+    {
+      "q": "Why does my room get messy again right after I clean it?",
+      "a": "Because cleaning changes the room's state, not the system that produces the mess. If items still have no visible homes and the daily reset still depends on motivation, the same inputs run again and rebuild the same piles. A room stays clean when the storage matches how your brain actually files objects, not when you clean harder."
+    },
+    {
+      "q": "Is a messy room a sign of ADHD?",
+      "a": "Not by itself, and a messy room can't diagnose anyone. Plenty of things cause mess: burnout, a hard season, a small space, a busy job. What is common with ADHD is a specific pattern, where the room relapses within days of every cleanup no matter how motivated you were. If that pattern is familiar and it's affecting your life, it's worth raising with a professional."
+    },
+    {
+      "q": "How do I keep my room clean with ADHD?",
+      "a": "Design the room so staying clean takes almost no decisions. Give every daily-use item one visible home, use open bins and hooks instead of drawers, and keep a laundry basket and a trash can within arm's reach of the bed. Then run a 5-minute nightly reset with a timer, and cut the number of objects in the room so there's less to file."
+    }
+  ],
+  "related": [
+    "the-floor",
+    "the-reset",
+    "adhd-object-permanence-cleaning",
+    "the-chair"
+  ],
+  "sources": [
+    {
+      "id": "alderson2013",
+      "supports": "Working memory deficits in adult ADHD are the measured basis of out of sight, out of mind."
+    },
+    {
+      "id": "willcutt2005",
+      "supports": "Planning and deciding draw on executive functions with consistent deficits in ADHD."
+    },
+    {
+      "id": "volkow2009",
+      "supports": "Reduced dopamine reward signalling in adult ADHD explains why unrewarding resets wait for a deadline."
+    }
+  ]
+}

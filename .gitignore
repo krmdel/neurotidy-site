@@ -1,0 +1,4 @@
+dist-manifest.json
+node_modules/
+.vercel/
+.DS_Store

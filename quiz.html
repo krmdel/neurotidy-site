@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What's Your ADHD Mess Type? Free 60-second quiz — Neurotidy</title>
+<meta name="description" content="Doom Piler, Floordrobe Keeper, Out-of-Sight, or Churn and Burn? Take the free 60-second ADHD mess-type quiz and get the one reset card your brain needs first.">
+<link rel="canonical" href="https://neurotidy.co/quiz.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="What's your ADHD mess type? Free 60-second quiz">
+<meta property="og:description" content="Doom Piler, Floordrobe Keeper, Out-of-Sight, or Churn and Burn? All 4 are valid, none of them mean you are lazy. Take the free quiz and get the one card your brain needs first.">
+<meta property="og:url" content="https://neurotidy.co/quiz.html">
+<meta property="og:site_name" content="Neurotidy">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">
+{ "@context":"https://schema.org","@type":"WebSite","name":"Neurotidy",
+  "url":"https://neurotidy.co/","inLanguage":"en",
+  "about":"ADHD-friendly home organization and cleaning" }
+</script>
+<script type="application/ld+json">
+{ "@context":"https://schema.org","@type":"Quiz","name":"What's your ADHD mess type?",
+  "url":"https://neurotidy.co/quiz.html","inLanguage":"en",
+  "about":"ADHD home organization and cleaning patterns",
+  "educationalLevel":"beginner",
+  "publisher":{"@type":"Organization","name":"Neurotidy"},
+  "description":"A free 60-second quiz that matches your ADHD home patterns to one of four mess types and the first reset card your brain needs." }
+</script>
+<style>
+/* quiz-only styles (shared shell comes from /style.css) */
+.quiz{max-width:var(--maxw);margin:0 auto;padding:8px 20px 0}
+.eyebrow{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:18px 0 6px}
+.quiz h1{font-size:30px;line-height:1.18;letter-spacing:-.02em;margin:6px 0 12px}
+.quiz .valid{font-size:19px;color:var(--ink);background:var(--soft);
+  border-left:3px solid var(--accent);padding:14px 16px;border-radius:8px;margin:0 0 22px}
+.quiz p{margin:0 0 14px}
+.q-text{font-size:22px;line-height:1.3;letter-spacing:-.01em;margin:6px 0 16px;font-weight:700}
+
+/* progress */
+.progress{margin:14px 0 4px}
+.progress-label{font-size:13px;color:var(--muted);margin:0 0 8px}
+.progress-track{height:8px;background:var(--soft);border-radius:999px;overflow:hidden}
+.progress-fill{height:100%;background:var(--accent);width:0;border-radius:999px;transition:width .25s ease}
+
+/* answer buttons */
+.answers{display:grid;grid-template-columns:1fr;gap:12px;margin:0 0 8px}
+.answer{display:block;width:100%;text-align:left;cursor:pointer;
+  background:var(--card);border:1px solid var(--line);border-radius:12px;
+  padding:15px 18px;min-height:56px;color:var(--ink);font:inherit;line-height:1.45;
+  -webkit-tap-highlight-color:transparent}
+.answer:hover{border-color:var(--accent)}
+.answer:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.answer:active{background:var(--soft)}
+
+/* buttons + links */
+.button{display:inline-block;background:var(--accent);color:var(--accent-ink);
+  text-decoration:none;font-weight:700;padding:14px 24px;border-radius:999px;
+  margin-top:6px;border:0;cursor:pointer;font:inherit;font-weight:700}
+.button:hover{filter:brightness(1.06)}
+.button:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+.startwrap{margin:8px 0 4px}
+.linkbtn{background:none;border:0;color:var(--accent);font:inherit;cursor:pointer;
+  padding:0;text-decoration:underline;font-weight:600}
+.linkbtn:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:4px}
+.muted{color:var(--muted);font-size:14px}
+
+/* result */
+.result .valid{margin-bottom:18px}
+.firstcard{background:var(--card);border:1px solid var(--line);border-radius:14px;
+  padding:20px;margin:8px 0 20px;box-shadow:0 1px 0 rgba(31,36,48,.03)}
+.firstcard .kicker{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 6px}
+.firstcard h3{margin:0 0 6px;font-size:19px}
+.result-cta{background:var(--soft);border-radius:14px;padding:20px;margin:8px 0 18px}
+.result-cta h2{margin:0 0 6px;font-size:20px}
+.soft-paid{font-size:15px;color:var(--muted);margin:14px 0 0}
+.soft-paid a{font-weight:600}
+.share{border-top:1px solid var(--line);margin-top:24px;padding-top:18px}
+.share .row{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:0 0 6px}
+[hidden]{display:none !important}
+.quiz-footer-nav{margin:22px 0 0;font-size:14px}
+</style>
+</head>
+<body>
+<header class="site"><a href="/" class="brand">Neurotidy</a>
+<a href="/#free" class="nav-cta">Free ADHD task cards</a></header>
+
+<main class="quiz">
+
+<!-- INTRO -->
+<section id="intro">
+  <p class="eyebrow">Free 60-second quiz</p>
+  <h1>What's your ADHD mess type?</h1>
+  <p class="valid">All 4 are valid. None of them mean you are lazy. Your "mess" is almost always one of four shapes, and each one has a different first move that actually works.</p>
+  <p>Answer 6 quick questions about your real home, the chair, the dishes, the drawers, the way you clean. At the end you get your type and the one reset card your brain needs first.</p>
+  <div class="startwrap">
+    <button type="button" class="button" id="start-btn">Start the quiz</button>
+  </div>
+  <p class="muted" style="margin-top:14px">No email wall. Nothing to install. Just for you.</p>
+</section>
+
+<!-- QUESTIONS -->
+<section id="question" hidden aria-live="polite">
+  <div class="progress">
+    <p class="progress-label" id="progress-label">Question 1 of 6</p>
+    <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+  </div>
+  <p class="q-text" id="q-text"></p>
+  <div class="answers" id="answers" role="group" aria-label="Answer options"></div>
+  <p class="quiz-footer-nav"><button type="button" class="linkbtn" id="back-btn" hidden>Back</button></p>
+</section>
+
+<!-- RESULT -->
+<section id="result" hidden class="result">
+  <p class="eyebrow">Your ADHD mess type</p>
+  <h2 id="r-name" class="r-name" tabindex="-1"></h2>
+  <p class="valid" id="r-mirror"></p>
+  <p id="r-feeling"></p>
+
+  <div class="firstcard">
+    <p class="kicker">The first card your brain needs</p>
+    <h3 id="r-card-name"></h3>
+    <p id="r-card-desc" style="margin:0"></p>
+  </div>
+
+  <div class="result-cta">
+    <h2>Grab the free 5-card set</h2>
+    <p style="margin:0 0 4px">Your starter card is in the free set, plus four more that turn "clean the kitchen" into steps your brain can actually start. Free, no fuss.</p>
+    <a class="button" id="r-free-link" href="/go/quiz.html">Download the free cards</a>
+    <p class="soft-paid" id="r-paid"></p>
+  </div>
+
+  <div class="share">
+    <p style="margin:0 0 8px;font-weight:600" id="r-share-line"></p>
+    <div class="row">
+      <button type="button" class="button" id="share-btn">Share this quiz</button>
+      <button type="button" class="linkbtn" id="retake-btn">Retake the quiz</button>
+    </div>
+    <p class="muted" id="share-status" aria-live="polite" style="margin:6px 0 0"></p>
+    <p class="muted" style="margin:12px 0 0">Want your result and the cards in your inbox? The <a href="/go/quiz.html">free card set</a> gets emailed to you when you grab it, no spam.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="site"><p>Neurotidy. 5-minute reset systems for ADHD homes. Built from 21k ADHD threads, not willpower. Find us on <a href="https://www.instagram.com/neuro.tidy/">Instagram</a>.</p></footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var FREE = "/go/quiz.html";
+  var RESET9 = "https://neurotidy.gumroad.com/l/adhd-home-reset";
+  var STORE = "https://neurotidy.gumroad.com/";
+
+  // Each option is weighted toward one archetype: piler | floor | sight | churn
+  var QUESTIONS = [
+    {
+      q: "Look at the chair in your room right now. what's actually on it?",
+      options: [
+        { t:"piler", text:"A growing pile of stuff that isn't even clothes. mail, a charger, a plate. it's a someday-pile with a seat." },
+        { t:"floor", text:"Clothes. always clothes. clean, dirty, worn-once, they've all merged into one layer." },
+        { t:"sight", text:"It's covered, but on purpose. if i put that stuff away in a drawer i'll forget it exists." },
+        { t:"churn", text:"Nothing right now, i cleared it hard a couple days ago. give it a week though." }
+      ]
+    },
+    {
+      q: "The kitchen. what's the real situation?",
+      options: [
+        { t:"churn", text:"Spotless or full biohazard, no in-between. right now it's whichever end of the swing i'm on." },
+        { t:"piler", text:"One corner of the counter is a permanent someday-stack. mail, receipts, that one thing i'll deal with later." },
+        { t:"sight", text:"Everything's left out on the counter, because the second it goes in a cupboard i forget i own it." },
+        { t:"floor", text:"Counter's honestly fine, it's the bedroom floor that's the crime scene." }
+      ]
+    },
+    {
+      q: "How do the things you use every day get stored?",
+      options: [
+        { t:"sight", text:"Clear bins and open baskets, out where i can see them, or the thing is gone forever." },
+        { t:"piler", text:"In a pile, sort of sorted by geology. newest on top, oldest at the bottom." },
+        { t:"churn", text:"Perfectly organized... for about 48 hours after a deep clean, then it slides." },
+        { t:"floor", text:"On the nearest surface or the floor by wherever i last put it down." }
+      ]
+    },
+    {
+      q: "You finally decide to clean. what actually happens?",
+      options: [
+        { t:"churn", text:"I go feral. 4 hours, every surface, music blasting. then i don't touch it for three weeks." },
+        { t:"piler", text:"I 'tidy' by moving the pile to a different surface. it still exists, it just relocated." },
+        { t:"floor", text:"I start picking up clothes, hit an invisible step three, get overwhelmed, and they go back down." },
+        { t:"sight", text:"I put everything away, then can't find any of it for a week, so i pull it all back out." }
+      ]
+    },
+    {
+      q: "You can't find your keys, wallet, or phone. what's the story?",
+      options: [
+        { t:"sight", text:"If it's not by the door in plain sight, it doesn't exist. it's a daily search party." },
+        { t:"floor", text:"Probably in yesterday's jeans. which are on the floor." },
+        { t:"piler", text:"Somewhere in the pile. i know it's in there. mostly." },
+        { t:"churn", text:"I have a system that works beautifully for the two days right after i reset everything." }
+      ]
+    },
+    {
+      q: "Be honest, where do your clothes actually live?",
+      options: [
+        { t:"floor", text:"On the floor, the chair, the exercise bike. clean and dirty are one geological layer now." },
+        { t:"piler", text:"Draped over the top of whatever pile happens to be tallest that week." },
+        { t:"sight", text:"Out where i can see them. drawers are where clothes go to die." },
+        { t:"churn", text:"Folded and put away, then avalanche, then folded again, then avalanche." }
+      ]
+    }
+  ];
+
+  var RESULTS = {
+    piler: {
+      name: "The Doom Piler",
+      mirror: "Every flat surface is a someday-pile. the chair. the desk. that one corner of the counter. you know what's in there, mostly. you just can't make it not exist.",
+      feeling: "You're not lazy. the pile is every \"i'll deal with it later\" that never got a later. it's not a character flaw, it's a category with nowhere to go.",
+      cardName: "Doom Pile Triage",
+      cardDesc: "Sort into 4 boxes in 10 minutes. the only rule is sort, don't decide. the free 5-card set has a starter version so you can try it tonight.",
+      shareLine: "Tag a friend who is 100% a Doom Piler too 🧡",
+      paidHtml: 'If the free triage card clicks, the <a href="'+RESET9+'">$9 ADHD Home Reset</a> has the full Doom Pile Triage card plus the Bad-Day Floor. start with the free one though, no pressure.'
+    },
+    floor: {
+      name: "The Floordrobe Keeper",
+      mirror: "Clothes live on the floor, the chair, the exercise bike. clean and dirty have merged into one geological layer. the dresser is basically decorative.",
+      feeling: "Putting clothes away is about 6 invisible steps your brain reads as one giant wall. so they stay out. that's wiring, not a discipline problem.",
+      cardName: "The 5-Minute Floordrobe",
+      cardDesc: "One basket, one rule: clean goes back, dirty goes in the basket, that's the whole job. no folding marathon, no decisions at 11pm.",
+      shareLine: "Send this to your fellow floordrobe keeper 🧡",
+      paidHtml: 'That one card is usually enough on its own. if you want the full laundry set, the <a href="'+RESET9+'">$9 ADHD Home Reset</a> has it, and the $27 Whole Home Reset adds the full bedroom set.'
+    },
+    sight: {
+      name: "The Out-of-Sight, Out-of-Mind",
+      mirror: "If you can't see it, it stops existing. so everything stays out, which means everything is everywhere. closed drawers are where things go to die.",
+      feeling: "This is object permanence, not mess. clear bins and open baskets aren't clutter, they're how your brain remembers the thing is even there.",
+      cardName: "Visible Systems",
+      cardDesc: "Clear bins, open baskets, and one launchpad by the door so leaving the house stops being a daily search party. built for a brain that needs to see it.",
+      shareLine: "Tag someone whose whole house is 'out where i can see it' 🧡",
+      paidHtml: 'Your type maps to the <a href="'+STORE+'">$27 Whole Home Reset</a>, which has the workspace and living-room visible-systems cards. the free set is the right place to start though.'
+    },
+    churn: {
+      name: "The Churn & Burn",
+      mirror: "You don't clean, you CLEAN. a 4-hour deep-clean dopamine spree, spotless for two days, then nothing for three weeks until it's unbearable and you do it all again.",
+      feeling: "All-or-nothing is the ADHD default. the fix isn't more discipline, it's a tiny floor so it never gets back to unbearable in the first place.",
+      cardName: "The Bad-Day Floor + Reset Day",
+      cardDesc: "On a no-meds or low day the floor is: teeth, water, one mug, trash tied, outfit on the chair. that's a 10/10 day. it keeps the spiral from ever starting.",
+      shareLine: "Send this to your fellow recovering churn-and-burn 🧡",
+      paidHtml: 'If you want the full reset-day and bad-brain-day sets, they live in the <a href="'+STORE+'">$27 Whole Home Reset</a>. but the bad-day floor card is in the free set, start there.'
+    }
+  };
+
+  var TYPES = ["piler","floor","sight","churn"];
+
+  // state
+  var idx = 0;
+  var picks = [];         // one type per answered question
+  var reachedAt = {};     // type -> array of question indexes where it scored
+
+  var elIntro = document.getElementById("intro");
+  var elQ = document.getElementById("question");
+  var elR = document.getElementById("result");
+  var elQText = document.getElementById("q-text");
+  var elAnswers = document.getElementById("answers");
+  var elProgLabel = document.getElementById("progress-label");
+  var elProgFill = document.getElementById("progress-fill");
+  var elBack = document.getElementById("back-btn");
+
+  function show(el){ el.hidden = false; }
+  function hide(el){ el.hidden = true; }
+
+  function shuffle(arr){
+    var a = arr.slice();
+    for (var i = a.length - 1; i > 0; i--){
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = a[i]; a[i] = a[j]; a[j] = tmp;
+    }
+    return a;
+  }
+
+  function startQuiz(){
+    idx = 0; picks = []; reachedAt = {};
+    hide(elIntro); hide(elR); show(elQ);
+    renderQuestion();
+  }
+
+  function renderQuestion(){
+    var item = QUESTIONS[idx];
+    elProgLabel.textContent = "Question " + (idx + 1) + " of " + QUESTIONS.length;
+    elProgFill.style.width = ((idx) / QUESTIONS.length * 100) + "%";
+    elProgFill.setAttribute("aria-hidden","true");
+    elQText.textContent = item.q;
+    elBack.hidden = (idx === 0);
+
+    elAnswers.innerHTML = "";
+    var opts = shuffle(item.options);
+    opts.forEach(function(opt){
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = "answer";
+      b.textContent = opt.text;
+      b.addEventListener("click", function(){ choose(opt.t); });
+      elAnswers.appendChild(b);
+    });
+    // move focus to the question for screen readers / keyboard users
+    elQText.setAttribute("tabindex","-1");
+    elQText.focus();
+  }
+
+  function choose(type){
+    picks[idx] = type;
+    idx++;
+    if (idx < QUESTIONS.length){
+      renderQuestion();
+    } else {
+      finish();
+    }
+  }
+
+  function goBack(){
+    if (idx === 0) return;
+    idx--;
+    picks.length = idx;
+    renderQuestion();
+  }
+
+  function computeWinner(){
+    var scores = { piler:0, floor:0, sight:0, churn:0 };
+    reachedAt = { piler:[], floor:[], sight:[], churn:[] };
+    picks.forEach(function(t, qi){
+      scores[t]++;
+      reachedAt[t].push(qi);
+    });
+    var max = Math.max(scores.piler, scores.floor, scores.sight, scores.churn);
+    var tied = TYPES.filter(function(t){ return scores[t] === max; });
+    if (tied.length === 1) return tied[0];
+    // tie-break: whichever tied type reached the tying score first (earliest question index)
+    tied.sort(function(a, b){
+      return reachedAt[a][max - 1] - reachedAt[b][max - 1];
+    });
+    return tied[0];
+  }
+
+  function finish(){
+    var winner = computeWinner();
+    var r = RESULTS[winner];
+    hide(elQ); hide(elIntro); show(elR);
+
+    document.getElementById("r-name").textContent = r.name;
+    document.getElementById("r-mirror").textContent = r.mirror;
+    document.getElementById("r-feeling").textContent = r.feeling;
+    document.getElementById("r-card-name").textContent = r.cardName;
+    document.getElementById("r-card-desc").textContent = r.cardDesc;
+    document.getElementById("r-free-link").setAttribute("href", FREE);
+    document.getElementById("r-paid").innerHTML = r.paidHtml;
+    document.getElementById("r-share-line").textContent = r.shareLine;
+
+    var h = document.getElementById("r-name");
+    h.focus();
+    if (window.scrollTo) window.scrollTo(0, 0);
+  }
+
+  function retake(){
+    document.getElementById("share-status").textContent = "";
+    startQuiz();
+  }
+
+  function shareQuiz(){
+    var url = "https://neurotidy.co/quiz.html";
+    var status = document.getElementById("share-status");
+    var text = "i just found out my ADHD mess type. what's yours?";
+    if (navigator.share){
+      navigator.share({ title: "What's your ADHD mess type?", text: text, url: url })
+        .catch(function(){});
+      return;
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(url).then(function(){
+        status.textContent = "Link copied. paste it anywhere.";
+      }, function(){
+        status.textContent = "Copy this link: " + url;
+      });
+      return;
+    }
+    status.textContent = "Copy this link: " + url;
+  }
+
+  document.getElementById("start-btn").addEventListener("click", startQuiz);
+  document.getElementById("retake-btn").addEventListener("click", retake);
+  document.getElementById("share-btn").addEventListener("click", shareQuiz);
+  elBack.addEventListener("click", goBack);
+})();
+</script>
+</body>
+</html>

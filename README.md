@@ -1,0 +1,14 @@
+# neurotidy.co
+
+Static site for Neurotidy (ADHD cleaning systems). Zero-dependency generator.
+
+- `src/content/articles/*.json|*.body.html` — guides (metadata + body)
+- `src/content/pages/*` — free cards, $9 deck, about, mess types
+- `src/content/sources.json` — verified references (DOI-checked); every article cites only these
+- `src/build.mjs` → `dist/` (pages, sitemap, llms.txt, llms-full.txt, robots, vercel.json, assets)
+- `src/checks/audit.mjs` — deterministic SEO/answer-engine audit (`--dist` or `--origin URL`)
+- `src/indexnow.mjs` — IndexNow ping
+
+Build: `node src/build.mjs` · Audit: `node src/checks/audit.mjs --dist --fail-on warning` · Tests live in the business-os repo (`tests/neurotidy-seo/`).
+
+Deploy: Vercel pulls `dist/` from this repo's `main` at build time (see `deploy/vercel-build.md`). Push `dist/` after every build.

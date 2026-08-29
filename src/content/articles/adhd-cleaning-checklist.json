@@ -1,0 +1,40 @@
+{
+  "slug": "adhd-cleaning-checklist",
+  "title": "The ADHD cleaning checklist that actually works (room by room)",
+  "description": "An ADHD cleaning checklist works when every line is one physical action, takes under five minutes, and is written down. Room by room version inside.",
+  "h1": "The ADHD cleaning checklist that actually works (room by room)",
+  "group": "method",
+  "target_query": "what is an ADHD friendly cleaning checklist",
+  "published": "2026-07-31",
+  "legacy_modified": "2026-07-31",
+  "faq": [
+    {
+      "q": "What is an ADHD friendly cleaning checklist?",
+      "a": "It's a checklist where every line is one physical action your body can do without thinking, like 'put the cups in the sink' instead of 'clean the kitchen'. Each list stays under five minutes, and it lives on paper or your wall, not in your head. The point is to remove decisions, because deciding what to do next is the part ADHD brains stall on, not the wiping."
+    },
+    {
+      "q": "Why don't normal cleaning checklists work for ADHD?",
+      "a": "Because most checklist items are projects in disguise. 'Do the laundry' is really ten steps and five decisions, so your brain sees fog instead of a task and refuses to start. A checklist works for ADHD when the deciding has already been done and each line is small enough to finish before your attention moves on."
+    },
+    {
+      "q": "How long should an ADHD cleaning session be?",
+      "a": "Short. Five minutes per room is plenty, and stopping while it still feels easy is the trick. Set a timer, run one room's list, and stop when it rings, even if you're on a roll. Short resets you actually repeat beat one heroic deep clean followed by three weeks of avoiding the kitchen."
+    }
+  ],
+  "related": [
+    "the-reset",
+    "bare-minimum-cleaning-day",
+    "adhd-cleaning-schedule-that-sticks",
+    "adhd-bathroom-reset"
+  ],
+  "sources": [
+    {
+      "id": "alderson2013",
+      "supports": "Working memory is measurably weaker in adults with ADHD, so a list held in the head is unreliable."
+    },
+    {
+      "id": "willcutt2005",
+      "supports": "Planning is an executive function with consistent deficits in ADHD, so vague lines that need a plan stall."
+    }
+  ]
+}

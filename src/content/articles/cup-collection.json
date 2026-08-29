@@ -1,0 +1,44 @@
+{
+  "slug": "cup-collection",
+  "title": "ADHD cups everywhere? It's object permanence, not mess",
+  "description": "ADHD cups everywhere isn't slobbery, it's object permanence. Here's why you leave a cup in every room and the once-a-day sweep that actually stops it.",
+  "h1": "ADHD cups everywhere? It's object permanence, not slobbery",
+  "group": "kitchen",
+  "target_query": "why do I leave cups in every room with ADHD",
+  "published": "2026-07-29",
+  "legacy_modified": "2026-07-31",
+  "faq": [
+    {
+      "q": "Why do I leave cups in every room with ADHD?",
+      "a": "Because of object permanence. When you carry a drink to another room and then leave, your ADHD brain files the cup under 'later' the moment it's out of sight. Later rarely arrives, so the cups quietly pile up. It's a memory glitch, not a character flaw."
+    },
+    {
+      "q": "Is leaving cups everywhere a sign of ADHD?",
+      "a": "It's a very common ADHD pattern, though on its own it doesn't diagnose anything. ADHD brains struggle to hold onto objects that leave their line of sight, so cups, mugs, and glasses get abandoned all over the house. If this sounds painfully familiar alongside other focus and follow-through struggles, it may be worth talking to a professional."
+    },
+    {
+      "q": "How do I stop leaving cups all over the house?",
+      "a": "Stop relying on memory and build a system instead. Give cups one visible landing spot near where you sit, then do a single sweep once a day where you grab every cup on your way to the kitchen. Out of sight is the problem, so keep the cup, or the reminder to clear it, in sight."
+    }
+  ],
+  "related": [
+    "adhd-object-permanence-cleaning",
+    "the-floor",
+    "adhd-dishes-pile-up",
+    "the-reset"
+  ],
+  "sources": [
+    {
+      "id": "alderson2013",
+      "supports": "Working memory, not object permanence in the developmental sense, is the measured deficit behind out of sight, out of mind."
+    },
+    {
+      "id": "willcutt2005",
+      "supports": "Working memory is one of the most consistent executive-function deficits in ADHD."
+    },
+    {
+      "id": "sonugabarke2003",
+      "supports": "A cup mission with no urgency, deadline or reward is the kind of task ADHD brains defer (delay aversion)."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "the-laundry",
+  "title": "ADHD laundry: why the clean pile never gets folded",
+  "description": "ADHD laundry folding is the hard part, not the washing. Here's why the clean basket sits for a week, and five ways to actually get clothes put away.",
+  "h1": "ADHD and laundry: why the clean pile never gets folded",
+  "group": "laundry",
+  "target_query": "why can't I fold laundry with ADHD",
+  "published": "2026-07-29",
+  "legacy_modified": "2026-07-31",
+  "faq": [
+    {
+      "q": "Why can't I fold laundry with ADHD?",
+      "a": "Folding is a long, boring task with no clear reward, which is exactly the kind of task an ADHD brain struggles to start. Washing gives you a visible win, but folding gives you almost nothing back, so your brain quietly skips it. The clean clothes end up living in the basket because the last step never got its dopamine."
+    },
+    {
+      "q": "How do I deal with a clean laundry basket I never put away?",
+      "a": "Lower the bar on the last step instead of trying to force yourself to fold it all. Hang what you can, drop the rest into labeled bins, and keep the basket in the room the clothes belong to so putting away is something you walk past, not carry. Do five hangers per trip instead of tackling the whole load at once."
+    },
+    {
+      "q": "Is it bad to not fold your clothes?",
+      "a": "No. Folding is a preference, not a requirement. Clothes that are clean and easy to find have done their job, whether they are folded in a drawer, hung on a rail, or dropped in a bin. If skipping folding is the difference between clothes being put away and clothes living in a basket for a week, skip the folding."
+    }
+  ],
+  "related": [
+    "the-chair",
+    "the-floor",
+    "bare-minimum-cleaning-day",
+    "body-doubling"
+  ],
+  "sources": [
+    {
+      "id": "volkow2009",
+      "supports": "Dopamine reward-pathway dysfunction in adult ADHD underlies weaker motivation for unrewarding steps like folding."
+    },
+    {
+      "id": "sonugabarke2003",
+      "supports": "Large, low-reward, open-ended tasks are the delay-aversion case ADHD brains avoid."
+    }
+  ]
+}

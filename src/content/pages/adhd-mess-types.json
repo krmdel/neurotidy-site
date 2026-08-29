@@ -1,0 +1,19 @@
+{
+  "name": "adhd-mess-types",
+  "path": "/adhd-mess-types/",
+  "title": "The 4 ADHD mess types (and the first fix for each)",
+  "description": "The four ADHD mess types: Doom Piler, Floordrobe Keeper, Out-of-Sight Out-of-Mind, and Churn and Burn. What each looks like and the one card to start with.",
+  "h1": "The four ADHD mess types",
+  "type": "page",
+  "nav_label": "Mess types",
+  "faq": [
+    {
+      "q": "Can I be more than one ADHD mess type?",
+      "a": "Yes, and most people are. The types describe the shape your mess takes most often, not a personality. Pick the one that matches the room bothering you most right now, use its first card, and come back for the next type when that one feels handled."
+    },
+    {
+      "q": "Is this a diagnosis?",
+      "a": "No. The mess types are a Neurotidy framework for choosing a starting point, built from patterns in more than 21,000 ADHD threads. They do not diagnose ADHD or anything else. A messy room on its own says nothing about whether you have ADHD."
+    }
+  ]
+}

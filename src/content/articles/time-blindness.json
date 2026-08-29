@@ -1,0 +1,40 @@
+{
+  "slug": "time-blindness",
+  "title": "ADHD time blindness: why cleaning feels like forever",
+  "description": "You avoid the kitchen because it feels like an hour. ADHD time blindness makes cleaning feel huge, but time it once and it's six minutes, not willpower.",
+  "h1": "Why cleaning feels like it takes forever with ADHD (and the six-minute fix)",
+  "group": "mind",
+  "target_query": "why does cleaning feel like it takes forever with ADHD",
+  "published": "2026-07-29",
+  "legacy_modified": "2026-07-31",
+  "faq": [
+    {
+      "q": "Why do tasks feel like they take forever with ADHD?",
+      "a": "ADHD brains have trouble sensing how much time a task will actually take, so a short job gets a huge estimate. That is time blindness. The feeling is real, but the number your brain hands you is usually wrong, and it is what makes you avoid the task."
+    },
+    {
+      "q": "How long does cleaning the kitchen actually take?",
+      "a": "Most of the daily reset jobs you dread, wiping the counter, loading the dishwasher, clearing the sink, take between three and ten minutes. Wiping a counter is often under two. The only way to trust this is to time yourself once so you have your own real number instead of the inflated one."
+    },
+    {
+      "q": "Is avoiding chores an ADHD thing or just laziness?",
+      "a": "It is an ADHD thing. Avoidance is a predictable response to a task that feels enormous, and time blindness is what makes it feel enormous. You are not choosing to dodge a six-minute job, you are dodging the two-hour version your brain invented. Shrink the estimate and the avoidance eases."
+    }
+  ],
+  "related": [
+    "the-reset",
+    "the-meds-window",
+    "cleaning-paralysis",
+    "adhd-cleaning-schedule-that-sticks"
+  ],
+  "sources": [
+    {
+      "id": "ptacek2019",
+      "supports": "Altered time perception is a clinically relevant feature of ADHD."
+    },
+    {
+      "id": "weissenberger2021",
+      "supports": "Time perception problems are a focal symptom of adult ADHD, so estimates of task length run wrong."
+    }
+  ]
+}

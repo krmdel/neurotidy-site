@@ -1,0 +1,29 @@
+{
+  "slug": "adhd-bathroom-reset",
+  "title": "The ADHD bathroom reset that actually gets done",
+  "description": "An ADHD bathroom cleaning reset that actually gets done: a five-minute wipe-and-go in a fixed order, tied to your shower. No deep clean, no decisions.",
+  "h1": "Why the bathroom never gets cleaned with ADHD (and the five-minute reset that fixes it)",
+  "group": "bathroom",
+  "target_query": "ADHD bathroom cleaning reset that actually gets done",
+  "published": "2026-08-30",
+  "faq": [
+    {
+      "q": "How often should I clean the bathroom with ADHD?",
+      "a": "Do the five-minute reset twice a week, tied to a shower you already take, and stop planning a deep clean at all. Two short resets keep a bathroom presentable indefinitely. If it has been a while, the first reset just takes ten minutes instead of five, and then you are back on the twice-a-week rhythm."
+    },
+    {
+      "q": "Why is cleaning the bathroom so hard when it's such a small room?",
+      "a": "Because a bathroom is a small room with a lot of separate surfaces, and each surface is its own start. Sink, taps, mirror, toilet, floor, shower: that is six tasks pretending to be one, and starting tasks is the part ADHD makes expensive. A fixed order removes the starting problem by making each step the automatic next move."
+    },
+    {
+      "q": "What is the fastest way to make a bathroom look clean?",
+      "a": "Clear the counter and wipe the sink and taps. A clear counter and a shiny tap read as clean to anyone walking in, even if the shower has not been touched. If you have ninety seconds, do those two and nothing else."
+    }
+  ],
+  "related": ["the-reset", "time-blindness", "bare-minimum-cleaning-day", "cleaning-paralysis"],
+  "sources": [
+    {"id": "willcutt2005", "supports": "Task initiation and planning deficits explain why a room made of six small separate jobs stalls before it starts."},
+    {"id": "ptacek2019", "supports": "Altered time perception in ADHD is why the bathroom feels like an hour-long job when it takes five minutes."},
+    {"id": "barkley1997", "supports": "External cues and fixed sequences substitute for weaker internal self-regulation, which is why tying the reset to the shower works."}
+  ]
+}

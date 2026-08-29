@@ -1,0 +1,43 @@
+{
+  "slug": "bare-minimum-cleaning-day",
+  "title": "The bare-minimum ADHD cleaning day (for when it's all too much)",
+  "description": "A bare minimum ADHD cleaning routine for when everything is too much: three anchor moments, ten minutes total, no deep clean. Enough to hold the line.",
+  "h1": "When everything is too much, what does a bare-minimum cleaning day actually look like?",
+  "group": "method",
+  "target_query": "bare minimum cleaning routine for ADHD when everything is too much",
+  "published": "2026-08-30",
+  "faq": [
+    {
+      "q": "What is the bare minimum I should clean each day with ADHD?",
+      "a": "Three anchor moments: a two-minute kitchen close after your last meal, a one-minute bathroom wipe after you brush your teeth, and a three-minute bedroom path clear before bed. That is under ten minutes and it keeps the house livable. Nothing else is required on a bare-minimum day."
+    },
+    {
+      "q": "How long can I run on bare minimum before it becomes a problem?",
+      "a": "Indefinitely, if the three anchors actually happen. A house on bare minimum is not clean but it is not getting worse, and that is the whole job during a hard stretch. When the stretch ends, one 15-minute reset brings it back. You do not need a deep clean to recover."
+    },
+    {
+      "q": "Why can't I just do a little bit of everything?",
+      "a": "Because a little bit of everything means deciding what a little bit is, in every room, every day. Decisions are the expensive part for an ADHD brain, especially during a bad stretch. Fixed anchors attached to things you already do remove the deciding, which is why they survive weeks that free-form tidying does not."
+    }
+  ],
+  "related": [
+    "low-energy-adhd-cleaning-list",
+    "the-reset",
+    "adhd-cleaning-checklist",
+    "cleaning-paralysis"
+  ],
+  "sources": [
+    {
+      "id": "barkley1997",
+      "supports": "Barkley's model frames ADHD as a self-regulation difference where external cues and structure substitute for internal control, which is why anchoring tasks to existing habits works."
+    },
+    {
+      "id": "willcutt2005",
+      "supports": "Planning and sustained effort on unrewarding tasks are reliably impaired in ADHD, so open-ended daily tidying fails during hard stretches."
+    },
+    {
+      "id": "volkow2009",
+      "supports": "Reduced dopamine reward signalling in adult ADHD helps explain why maintenance tasks with no visible payoff are hardest to sustain."
+    }
+  ]
+}
