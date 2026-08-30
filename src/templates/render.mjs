@@ -51,7 +51,7 @@ ${extraLd.map(jsonld).join("\n")}
 
 const header = (cfg) => `<header class="site"><a href="/" class="brand">${esc(cfg.brand)}</a>
 <a href="${cfg.products.free_cards_page}" class="nav-cta">Free ADHD task cards</a></header>`;
-const footer = (cfg) => `<footer class="site"><p>${esc(cfg.brand)}. ${esc(cfg.tagline)}. Built from 21k ADHD threads, not willpower. <a href="/about/">About</a> · <a href="/guides/">All guides</a> · <a href="${cfg.products.free_cards_page}">Free cards</a> · <a href="${cfg.products.home_reset_page}">The $9 deck</a> · <a href="https://www.instagram.com/neuro.tidy/">Instagram</a></p></footer>
+const footer = (cfg) => `<footer class="site"><p>${esc(cfg.brand)}. ${esc(cfg.tagline)}. Built from 21k ADHD threads, not willpower. <a href="/about/">About</a> · <a href="/guides/">All guides</a> · <a href="${cfg.products.free_cards_page}">Free cards</a> · <a href="${cfg.products.home_reset_page}">The $9 deck</a> · <a href="https://www.instagram.com/neuro.tidy/">Instagram</a> · <a href="https://www.tiktok.com/@neuro.tidy">TikTok</a></p></footer>
 <script>document.addEventListener("click",function(e){var a=e.target.closest("[data-event]");if(a&&window.va){va("event",{name:a.getAttribute("data-event"),data:{path:location.pathname}})}});</script>
 </body>
 </html>`;
