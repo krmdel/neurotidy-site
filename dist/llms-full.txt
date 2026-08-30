@@ -2,12 +2,16 @@
 
 Free printable ADHD task cards and plain-language guides for cleaning with ADHD. Reset systems built for how your brain actually works, not willpower.
 
-## Why dishes pile up with ADHD (and the fix)
+## Why dishes pile up with ADHD (and what helps)
 URL: https://neurotidy.co/articles/adhd-dishes-pile-up.html
 Published: 2026-07-29 · Updated: 2026-08-30
 Author: Mara Ellery (pen name of the founder)
 
 Dishes pile up with ADHD because one dirty dish is really four small decisions stacked behind it: scrape it, rinse it, load it or hand-wash it, and figure out where it goes when it is clean. ADHD brains run out of decisions long before they run out of dishes, so the plate stays in the sink and the guilt piles up on top of it.
+
+Why do dishes pile up with ADHD?
+
+Because a dirty dish is not one task, it is four: scrape it, rinse it, decide dishwasher or hand-wash, and figure out where it goes once it is clean. Your ADHD brain runs low on decision-making fuel long before the sink runs out of dishes, so you stall at the first choice and the pile keeps growing. That is decision fatigue, not a lack of caring.
 
 The dish was never the problem
 
@@ -25,7 +29,7 @@ It is decision fatigue, not laziness
 
 Every choice you make in a day spends a little fuel. ADHD brains burn through that fuel faster and refill it slower, especially for boring, low-dopamine tasks with no clear finish line (Volkow et al., 2009) (Sonuga-Barke, 2003). Dishes are exactly that. They never fully end, so they quietly collect every unmade choice from the whole day.
 
-By the time you are standing at the sink, you are not out of care. You are out of decisions. That is why the fix is not trying harder. The fix is taking the decisions off the table before you get there.
+By the time you are standing at the sink, you are not out of care. You are out of decisions. That is why the fix is not trying harder. The fix is taking the decisions off the table before you get there. If the whole kitchen feels like too much some days, start with the 5-minute reset instead of the sink.
 
 The fix: remove the decisions before they stack
 
@@ -53,18 +57,26 @@ How do people with ADHD keep the kitchen clean?
 
 They stop relying on willpower and remove the decisions instead. Rinse while you are still standing at the sink, treat the dishwasher as a drying rack you load as you go, keep a sink of soapy water so things soak themselves, and wash only the three things on top when the pile feels huge. Fewer choices means fewer places to stall.
 
+My dishes keep piling up in my sink because of my ADHD, what actually helps?
+
+Removing decisions helps more than willpower does. Rinse each dish the moment you're done so nothing dries on, let the dishwasher act as a loading rack you fill as you go, keep a sink of soapy water so anything dropped in starts soaking itself, and when the pile feels enormous, wash only the three things on top. A smaller decision beats a whole sink every time.
+
 Sources:
 - Willcutt EG, Doyle AE, Nigg JT, Faraone SV, Pennington BF (2005). Validity of the executive function theory of attention-deficit/hyperactivity disorder: a meta-analytic review. Biological Psychiatry, 57(11), 1336-1346. https://doi.org/10.1016/j.biopsych.2005.02.006
 - Volkow ND, Wang GJ, Kollins SH, et al. (2009). Evaluating dopamine reward pathway in ADHD: clinical implications. JAMA, 302(10), 1084-1091. https://doi.org/10.1001/jama.2009.1308
 - Sonuga-Barke EJS (2003). The dual pathway model of AD/HD: an elaboration of neuro-developmental characteristics. Neuroscience & Biobehavioral Reviews, 27(7), 593-604. https://doi.org/10.1016/j.neubiorev.2003.08.005
 
 
-## ADHD cups everywhere? It's object permanence, not mess
+## ADHD cups everywhere? Why you leave one in every room
 URL: https://neurotidy.co/articles/cup-collection.html
 Published: 2026-07-29 · Updated: 2026-08-30
 Author: Mara Ellery (pen name of the founder)
 
 If you have ADHD and find abandoned cups in every room, that's object permanence quietly failing, not laziness. You make a drink, carry it somewhere, and the second you leave that room your brain files the cup under "later," and later never comes.
+
+Why do you leave cups in every room with ADHD?
+
+Because the cup disappears from your mind the moment it leaves your sight. You don't decide to abandon it, your ADHD brain simply stops tracking an object once it's out of view, so it never occurs to you to carry it back to the kitchen. By the end of the day there's a cup in the bedroom, one by the couch, and one on the bathroom shelf, and each one feels like a small surprise.
 
 What's actually happening in your brain
 
@@ -92,7 +104,7 @@ Give cups one landing spot. Put a small tray next to where you usually sit. Cups
 
 Sweep, never special-trip. Once a day, grab whatever cups you pass on your way to the kitchen anyway. Piggyback it on a trip you're already making instead of scheduling a mission that won't happen.
 
-Run the dishwasher half empty. A half-full load you actually run beats a perfect full load you keep postponing. A clean cup tomorrow beats an efficient one never.
+Run the dishwasher half empty. A half-full load you actually run beats a perfect full load you keep postponing. A clean cup tomorrow beats an efficient one never. If the dishes pile up for the same reason, the same fix works there too.
 
 Keep the tray in your eyeline. If you can see the drop-spot from your seat, the cups stay on your radar. The whole point is to keep the cup, or the reminder, in sight so your brain doesn't have to hold it.
 
@@ -109,6 +121,10 @@ It's a very common ADHD pattern, though on its own it doesn't diagnose anything.
 How do I stop leaving cups all over the house?
 
 Stop relying on memory and build a system instead. Give cups one visible landing spot near where you sit, then do a single sweep once a day where you grab every cup on your way to the kitchen. Out of sight is the problem, so keep the cup, or the reminder to clear it, in sight.
+
+I leave cups and glasses in every room of the house, is this an ADHD thing?
+
+It can be. ADHD brains commonly lose track of an object the moment it leaves their sight, so a cup gets left wherever you last used it instead of carried back to the kitchen. On its own it doesn't confirm anything, but it's a well-documented pattern, not carelessness. If it shows up alongside other focus or follow-through struggles, it's worth mentioning to a doctor.
 
 Sources:
 - Alderson RM, Kasper LJ, Hudec KL, Patros CHG (2013). Attention-deficit/hyperactivity disorder (ADHD) and working memory in adults: a meta-analytic review. Neuropsychology, 27(3), 287-302. https://doi.org/10.1037/a0032371

@@ -1,10 +1,10 @@
 {
   "slug": "cup-collection",
-  "title": "ADHD cups everywhere? It's object permanence, not mess",
+  "title": "ADHD cups everywhere? Why you leave one in every room",
   "description": "ADHD cups everywhere isn't slobbery, it's object permanence. Here's why you leave a cup in every room and the once-a-day sweep that actually stops it.",
-  "h1": "ADHD cups everywhere? It's object permanence, not slobbery",
+  "h1": "ADHD cups everywhere? Why you leave one in every room of the house",
   "group": "kitchen",
-  "target_query": "why do I leave cups in every room with ADHD",
+  "target_query": "why do I leave cups in every room",
   "published": "2026-07-29",
   "legacy_modified": "2026-07-31",
   "faq": [
@@ -19,6 +19,10 @@
     {
       "q": "How do I stop leaving cups all over the house?",
       "a": "Stop relying on memory and build a system instead. Give cups one visible landing spot near where you sit, then do a single sweep once a day where you grab every cup on your way to the kitchen. Out of sight is the problem, so keep the cup, or the reminder to clear it, in sight."
+    },
+    {
+      "q": "I leave cups and glasses in every room of the house, is this an ADHD thing?",
+      "a": "It can be. ADHD brains commonly lose track of an object the moment it leaves their sight, so a cup gets left wherever you last used it instead of carried back to the kitchen. On its own it doesn't confirm anything, but it's a well-documented pattern, not carelessness. If it shows up alongside other focus or follow-through struggles, it's worth mentioning to a doctor."
     }
   ],
   "related": [
