@@ -1,6 +1,8 @@
 # neurotidy.co
 
-Static site for Neurotidy (ADHD cleaning systems). Zero-dependency generator.
+Source for **https://neurotidy.co**, plain-language ADHD cleaning and home-reset guides plus free printable ADHD task cards. Zero-dependency static generator.
+
+Site: https://neurotidy.co · Free task cards: https://neurotidy.co/free-adhd-task-cards/ · Guides: https://neurotidy.co/guides/
 
 - `src/content/articles/*.json|*.body.html` — guides (metadata + body)
 - `src/content/pages/*` — free cards, $9 deck, about, mess types
