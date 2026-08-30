@@ -131,7 +131,7 @@ export function renderGuides(cfg, articles, { modified }) {
 ${articles.filter((a) => a.group === g).map((a) => `<li><a href="/articles/${a.slug}.html">${esc(a.title)}</a><span>${esc(a.description)}</span></li>`).join("\n")}
 </ul></section>`).join("\n");
   const p = { path: "/guides/", title: "ADHD cleaning guides, by room and by trait", description: `${articles.length} plain-language guides to cleaning and organizing with ADHD, grouped by room and by the brain trait behind the mess. Every guide lists its sources.`, h1: "Every Neurotidy guide, by room and by trait", nav_label: "Guides", byline: false,
-    body: `<p class="lede">These are all ${articles.length} Neurotidy guides to cleaning with ADHD, grouped by the room the mess lives in and by the brain trait that produces it. Each one opens with the answer, ends with a five-step fix, and lists the research it leans on.</p>\n${body}` };
+    body: `<p class="lede">These are all ${articles.length} Neurotidy guides to cleaning with ADHD, grouped by the room the mess lives in and by the brain trait that produces it. Each one opens with the answer, ends with a five-step fix, and lists the research it leans on.</p>\n${body}\n<h2>The four ADHD mess types</h2>\n<p>Every home falls into one of four patterns. Read yours, or take the <a href="/quiz.html">60-second quiz</a>.</p>\n<ul><li><a href="/adhd-mess-types/doom-piler/">Doom Piler</a></li><li><a href="/adhd-mess-types/floordrobe-keeper/">Floordrobe Keeper</a></li><li><a href="/adhd-mess-types/out-of-sight-out-of-mind/">Out of Sight, Out of Mind</a></li><li><a href="/adhd-mess-types/churn-and-burn/">Churn and Burn</a></li></ul>\n<p><a href="/adhd-mess-types/">How the four types work</a></p>` };
   return renderPage(cfg, p, { modified });
 }
 
@@ -157,7 +157,8 @@ ${header(cfg)}
 <aside class="cta" id="quiz" style="max-width:720px;margin:8px auto 0;">
 <h2>What's your ADHD mess type?</h2>
 <p>Doom Piler, Floordrobe Keeper, Out-of-Sight, or Churn and Burn? Take the free 60-second quiz and get the one reset card your brain needs first. All four are valid, none of them mean you are lazy.</p>
-<a class="button" href="/quiz.html">Take the free quiz</a> <a class="button secondary" href="/adhd-mess-types/">Read about the four types</a></aside>
+<a class="button" href="/quiz.html">Take the free quiz</a> <a class="button secondary" href="/adhd-mess-types/">Read about the four types</a>
+<p style="margin:10px 0 0;font-size:.95rem">Read your type straight away: <a href="/adhd-mess-types/doom-piler/">Doom Piler</a>, <a href="/adhd-mess-types/floordrobe-keeper/">Floordrobe Keeper</a>, <a href="/adhd-mess-types/out-of-sight-out-of-mind/">Out of Sight, Out of Mind</a>, <a href="/adhd-mess-types/churn-and-burn/">Churn and Burn</a>.</p></aside>
 
 <aside class="cta" id="deck" style="max-width:720px;margin:8px auto 0;">
 <h2>The ADHD Home Reset: 20 cards + the guide, $9</h2>
@@ -168,7 +169,7 @@ ${header(cfg)}
 <div class="grid">
 ${cards.map((a) => `<a class="card" href="/articles/${a.slug}.html"><b>${esc(a.title)}</b><span>${esc(a.description)}</span></a>`).join("\n")}
 </div>
-<p class="section-label"><a href="/guides/">All guides by room and trait</a> · <a href="/about/">About Neurotidy</a></p>
+<p class="section-label"><a href="/guides/">All guides by room and trait</a> · <a href="/adhd-mess-types/">The four ADHD mess types</a> · <a href="/quiz.html">Mess type quiz</a> · <a href="/about/">About Neurotidy</a></p>
 ${footer(cfg)}`;
 }
 
