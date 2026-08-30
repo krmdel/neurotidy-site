@@ -1,24 +1,24 @@
 {
   "slug": "cleaning-paralysis",
-  "title": "ADHD cleaning paralysis: why you can't start (even when you want to)",
-  "description": "ADHD cleaning paralysis is when you want to clean but can't make yourself start. It's task-initiation failure, not laziness. Here's the fix.",
-  "h1": "ADHD cleaning paralysis: why you can't start (even when you want to)",
+  "title": "ADHD cleaning paralysis: why you can't start when you want to",
+  "description": "ADHD cleaning paralysis is task-initiation failure, not laziness. Two studies explain why wanting and starting are separate, plus the On-Ramp Method fix.",
+  "h1": "Why you can't start cleaning with ADHD (even though you really want to)",
   "group": "mind",
-  "target_query": "why can't I start cleaning even though I want to",
+  "target_query": "why can't I clean my house when I have ADHD even though I want to",
   "published": "2026-07-31",
   "legacy_modified": "2026-07-31",
   "faq": [
     {
-      "q": "Why can't I start cleaning even though I want to?",
-      "a": "Because wanting and starting run on different brain circuits. Your motivation is real, but task initiation, the executive function that turns intent into a first physical movement, is the part ADHD disrupts. So you can sit there genuinely wanting a clean room and still not move. The fix is to shrink the first move until it is almost silly, then launch it with an outside cue like a timer or a song."
+      "q": "Why can't I clean my house when I have ADHD even though I want to?",
+      "a": "Because wanting and starting run on different brain circuits. Your motivation is real, but task initiation, the executive function that turns intent into a first physical movement, is the part ADHD disrupts. A meta-analysis of 83 studies found ADHD groups scored worse on every executive-function measure tested, task initiation included. The fix is to shrink the first move until it is almost silly, then launch it with an outside cue like a timer, a song, or a body double."
     },
     {
-      "q": "Is cleaning paralysis a real thing with ADHD?",
-      "a": "Yes. People usually call it task paralysis or ADHD freeze, and it shows up hardest around cleaning because a messy room is hundreds of small open decisions at once. It is an executive function issue, not laziness and not a character flaw. If the freeze is constant and wrecking daily life, that is worth raising with a clinician, but the pattern itself is common and very workable."
+      "q": "I want to clean but I physically can't start. Is this ADHD paralysis?",
+      "a": "Most likely yes. People usually call it task paralysis or ADHD freeze, and it shows up hardest around cleaning because a messy room is hundreds of small open decisions at once. It is an executive-function issue, not laziness and not a character flaw. If the freeze is constant and wrecking daily life, that is worth raising with a clinician, but the pattern itself is common and very workable with the right on-ramp."
     },
     {
       "q": "How do I make myself start cleaning when I'm frozen?",
-      "a": "Pick one tiny entry task before you need it, like carrying five things to the kitchen, so there is no decision left at start time. Then borrow an external starter: a 10-minute timer, one specific song, or a friend on a video call doing their own thing. Give yourself full permission to do it badly, and stop while it still feels okay. A start that ends well makes tomorrow's start cheaper."
+      "a": "Pick one tiny entry task before you need it, like carrying five things to the kitchen, so there is no decision left at start time. Then borrow an external starter: a 10-minute timer, one specific song, or a body double, someone present in real time or on a call. In one survey, most people who body double said they finish tasks more reliably with someone else present. Give yourself full permission to do it badly, and stop while it still feels okay."
     }
   ],
   "related": [
@@ -30,15 +30,15 @@
   "sources": [
     {
       "id": "barkley1997",
-      "supports": "ADHD as a deficit of behavioral inhibition and executive self-regulation, distinct from motivation."
+      "supports": "Barkley's model describes ADHD as centered on a deficit in behavioral inhibition that drags down the executive functions built on top of it, working memory among them, which is the mechanism behind failing to launch a task you genuinely want to do."
     },
     {
       "id": "willcutt2005",
-      "supports": "Executive functions such as planning and working memory show consistent deficits in ADHD."
+      "supports": "A meta-analysis of 83 studies (3,734 people with ADHD vs 2,969 without) found ADHD groups scored significantly worse on every executive-function measure tested, with effect sizes in the medium range (.46 to .69), evidence that task initiation trouble is measured, not imagined."
     },
     {
       "id": "eagle2023",
-      "supports": "Body doubling as a studied external starter for neurodivergent people."
+      "supports": "A survey of 220 people found over half (186) said they were more likely to complete a task when someone else was present, real-time or on a call, which is the evidence behind using a body double as an external starter."
     }
   ]
 }

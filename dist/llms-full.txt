@@ -248,30 +248,36 @@ Sources:
 - Eagle T, Baltaxe-Admony LB, Ringland KE (2023). Proposing body doubling as a continuum of space/time and mutuality: an investigation with neurodivergent participants. ASSETS '23: 25th International ACM SIGACCESS Conference on Computers and Accessibility. https://doi.org/10.1145/3597638.3614486
 
 
-## ADHD floordrobe: why the floor becomes your closet
+## ADHD floordrobe: why clothes end up on the floor (and the fix)
 URL: https://neurotidy.co/articles/the-floor.html
 Published: 2026-07-29 · Updated: 2026-08-30
 Author: Mara Ellery (pen name of the founder)
 
-The ADHD floordrobe, where clothes and things pile up on the floor instead of in drawers, happens because for an ADHD brain, out of sight is genuinely out of mind. The floor becomes your shelf because it is the one spot where you can still see your stuff, so putting things away feels like making them vanish.
+A floordrobe, where clothes and things pile up on the floor instead of in drawers, happens because for an ADHD brain, out of sight is genuinely out of mind. The floor becomes your shelf because it's the one spot where you can still see your stuff, so putting things away feels like making them vanish.
 
-What is actually happening in your brain
+What is actually happening in your brain when clothes hit the floor?
 
-This is object permanence, and ADHD brains tend to have a weaker version of it. The everyday term is a shorthand: what researchers actually measure in ADHD is working memory, the system that keeps something in mind once it is out of view (Alderson et al., 2013). When you can't see something, part of you stops believing it exists. Close the drawer and the sweater is gone. Zip the bag into the closet and the charger inside it evaporates from your mental map.
+What researchers actually measure in adult ADHD is working memory, the system that keeps something in mind once it's out of view, and a meta-analysis of 38 studies found this deficit is consistent across adults with ADHD (Alderson et al., 2013). When you can't see something, part of you stops believing it exists. Close the drawer and the sweater is gone. Zip the bag into the closet and the charger inside it evaporates from your mental map.
 
-So your brain does something clever, not lazy. It keeps everything in view as a memory aid (Willcutt et al., 2005). The floor is the biggest, flattest, most visible surface you own, which makes it the default holding zone for anything you are scared to forget.
+A larger meta-analysis of 83 studies, covering more than 6,700 people, found working memory sitting among the most consistently impaired executive functions in ADHD, with effect sizes in the medium range on nearly every measure tested (Willcutt et al., 2005). Working memory even shows up by name in Russell Barkley's model of ADHD, as one of four executive functions that lean on the same underlying inhibition deficit (Barkley, 1997). For the full mechanism, read why object permanence and ADHD cleaning are actually a working-memory story. So your brain does something clever, not lazy: it keeps everything in view as a memory aid. The floor is the biggest, flattest, most visible surface you own, which makes it the default holding zone for anything you're scared to forget.
 
-Why "just put it away" never sticks
+Why doesn't "just put it away" work?
 
-The standard advice is to hang your clothes up and close the door. For an ADHD brain, that advice quietly deletes the item. If you have ever thought "I have to keep it out or I will forget it exists," you already know the trap. Tidying by hiding things creates a fresh problem for future you, who now can't find anything and has to re-buy the deodorant they already own.
+Because for an ADHD brain, hanging clothes up and closing the door quietly deletes the item from memory. If you've ever thought "I have to keep it out or I'll forget it exists," you already know the trap. Tidying by hiding things creates a fresh problem for future you, who now can't find anything and has to re-buy the deodorant they already own.
 
-You are not failing at a simple task. You are being handed a system built for a brain that trusts closed doors, and yours does not. That is a design mismatch, not a character flaw.
+You aren't failing at a simple task. You're being handed a system built for a brain that trusts closed doors, and yours doesn't. That's a design mismatch, not a character flaw.
 
-The reframe: work with the visibility, not against it
+It also explains why the floordrobe comes back after a big organizing push. You spend a Saturday hanging everything up beautifully, and by Wednesday the chair is buried again. That isn't backsliding, it's the same working-memory gap reasserting itself the moment the new system relies on a closed door somewhere.
 
-Once you stop treating the floor as evidence of a broken person and start seeing it as your brain's open storage doing exactly what it promised, the fix gets obvious. You do not need more willpower. You need storage you can see into. Make "away" and "visible" the same thing, and the floor stops being the only shelf you trust.
+What's the reframe that actually fixes it?
 
-The fix: give your stuff a visible home
+Once you stop treating the floor as evidence of a broken person and start seeing it as your brain's open storage doing exactly what it promised, the fix gets obvious. You don't need more willpower. You need storage you can see into. Make "away" and "visible" the same thing, and the floor stops being the only shelf you trust.
+
+This is why open shelving, clear shoe boxes, and pegboards work so well for ADHD bedrooms even though they look less tidy in photos. A wardrobe full of matching hangers photographs better, but a wall of hooks and see-through bins is the one your brain will actually keep using six months from now. Pick the version that survives contact with a Tuesday, not the one that wins a magazine shoot.
+
+What is the See-to-Keep Method?
+
+The See-to-Keep Method replaces hidden storage with visible storage, room by room, so your brain never has to trust a closed door again.
 
 Name the real problem. If you can't see it, it's gone. The floor isn't mess, it's your brain keeping things in sightline. Naming that takes the shame out and points you at the actual fix.
 
@@ -281,17 +287,17 @@ Hooks where your eyes land. Coats and bags hit the floor because the hook is beh
 
 One laundry basket per room. The floor pile is usually clothes. A single visible basket in each room catches them before they become the carpet. No trip down the hall required.
 
-Play "the floor is lava" for five minutes. Set a timer. Pick up whatever is on the floor and drop it in its visible home. No sorting, no folding, no spirals. Six minutes of pickup, and the reset itself is the win.
+Play "the floor is lava" for five minutes. Set a timer. Pick up whatever is on the floor and drop it in its visible home. No sorting, no folding, no spirals. Five minutes of pickup, and the reset itself is the win.
 
 FAQ
 
-What is an ADHD floordrobe?
+What is a floordrobe, and how do I fix mine if I have ADHD?
 
-A floordrobe is when your clothes and belongings live on the floor instead of in a closet or drawers. For ADHD brains it is not laziness. It is a workaround for weak object permanence. If something is out of sight it feels gone, so you leave it in view on the floor where you can still find it.
+A floordrobe is when your clothes and belongings live on the floor instead of in a closet or drawers. For ADHD brains it isn't laziness, it's a workaround for weak working memory: if something is out of sight it feels gone, so you leave it in view where you can still find it. The fix is visible storage, clear bins, hooks at eye level, one basket per room, not more discipline.
 
 Why do I keep everything on the floor with ADHD?
 
-Because out of sight is genuinely out of mind for ADHD brains. Closing a drawer or a wardrobe door can make an item disappear from your memory, so your brain keeps things visible as insurance against forgetting. The floor is just the biggest, easiest shelf in the room. The fix is visible storage, not more discipline.
+Because out of sight is genuinely out of mind for ADHD brains. Closing a drawer or a wardrobe door can make an item disappear from your working memory, so your brain keeps things visible as insurance against forgetting. The floor is just the biggest, easiest shelf in the room. The fix is visible storage, not more discipline.
 
 How do I stop the ADHD floordrobe?
 
@@ -300,6 +306,7 @@ Stop hiding things and start storing them in the open. Swap opaque drawers for c
 Sources:
 - Alderson RM, Kasper LJ, Hudec KL, Patros CHG (2013). Attention-deficit/hyperactivity disorder (ADHD) and working memory in adults: a meta-analytic review. Neuropsychology, 27(3), 287-302. https://doi.org/10.1037/a0032371
 - Willcutt EG, Doyle AE, Nigg JT, Faraone SV, Pennington BF (2005). Validity of the executive function theory of attention-deficit/hyperactivity disorder: a meta-analytic review. Biological Psychiatry, 57(11), 1336-1346. https://doi.org/10.1016/j.biopsych.2005.02.006
+- Barkley RA (1997). Behavioral inhibition, sustained attention, and executive functions: constructing a unifying theory of ADHD. Psychological Bulletin, 121(1), 65-94. https://doi.org/10.1037/0033-2909.121.1.65
 
 
 ## ADHD laundry: why the clean pile never gets folded
@@ -358,48 +365,58 @@ Sources:
 - Sonuga-Barke EJS (2003). The dual pathway model of AD/HD: an elaboration of neuro-developmental characteristics. Neuroscience & Biobehavioral Reviews, 27(7), 593-604. https://doi.org/10.1016/j.neubiorev.2003.08.005
 
 
-## The 5-minute ADHD cleaning reset (closing-shift method)
+## The 5-minute ADHD evening cleaning reset (closing-shift method)
 URL: https://neurotidy.co/articles/the-reset.html
 Published: 2026-07-29 · Updated: 2026-08-30
 Author: Mara Ellery (pen name of the founder)
 
-A 5-minute ADHD cleaning reset is a closing shift for your home: you set a timer, clear the flat surfaces, reset the sink, and set up one easy start for tomorrow, then you stop. It works because a cafe never deep cleans at night either, it just resets for the next morning, and your brain can follow that same short, decision-free routine in five to fifteen minutes.
+A 5-minute ADHD cleaning reset for the evening is a closing shift for your home: you set a timer, clear the flat surfaces, reset the sink, and set up one easy start for tomorrow, then you stop. It works because a cafe never deep cleans at night either, it just resets for the next morning, and your brain can follow that same short, decision-free routine in five to fifteen minutes.
 
-Why "just clean up" never works for an ADHD brain
+Why doesn't "just clean up" work for an ADHD brain?
 
-The pile on the chair is not laziness. An ADHD brain runs on interest and urgency, not on a calm sense of "I'll do it later." When a task has no clear start, no deadline, and no dopamine in it, it slides to the bottom of the list, and so does the laundry (Sonuga-Barke, 2003).
+Because a plain "clean up" is an open-ended task with no clear start, no deadline, and no built-in reward, and those are exactly the tasks ADHD brains defer, a pattern researchers call delay aversion (Sonuga-Barke, 2003). The pile on the chair isn't laziness, and neither is the laundry that never gets folded. Both are what happens when a task has nowhere to grab onto.
 
-Then add time blindness, where fifteen minutes of tidying feels like two hours before you have even begun (Ptacek et al., 2019), and object permanence, where the mug you can't see may as well not exist. Stack those together and a full deep clean feels impossible to start, so you don't.
+Then add time blindness, where fifteen minutes of tidying feels like two hours before you've even begun (Ptacek et al., 2019), and object permanence, where the mug you can't see may as well not exist. A meta-analysis of 83 studies found executive-function deficits like these sit in the medium effect-size range across ADHD, which is measured impairment, not a mood (Willcutt et al., 2005). Stack those together and a full deep clean feels impossible to start, so you don't.
 
-Why "deep clean the whole house" backfires
+Why does "deep clean the whole house" backfire?
 
-Most cleaning advice is written for brains that can hold one big, boring, open-ended task in their head and grind through it. Yours flinches at exactly that. "Clean the kitchen" is not one task, it is forty tiny decisions, and every single decision costs you something.
+Because most cleaning advice is written for brains that can hold one big, boring, open-ended task in their head and grind through it, and yours flinches at exactly that. "Clean the kitchen" is not one task, it's dozens of tiny decisions, and every single decision costs you something, the same executive-function cost behind the 83-study finding above.
 
 So you either avoid it completely, or you burn out on a four-hour reset once a month that you dread and never want to repeat. Neither one gives you a home that stays livable on a normal Tuesday. The goal was never a spotless house. It was a home you can breathe in tonight.
 
-The reframe: aim for reset, not spotless
+What's the reframe: reset instead of spotless?
 
-Here is the trick a cafe uses. They do not deep clean every night. At close, a barista wipes the counters, resets the machine, and gets the room ready for the morning. Same moves, about fifteen minutes, every single night.
+Here's the trick a cafe uses. It doesn't deep clean every night. At close, a barista wipes the counters, resets the machine, and gets the room ready for the morning. Same moves, about fifteen minutes, every single night.
 
-Your home can run on the exact same idea. You are not aiming for clean, you are aiming for ready: a livable space that hands tomorrow-you an easy start. A spotless house is a myth that keeps you from a livable one. Reset beats spotless because reset is a thing you can actually finish.
+Your home can run on the same idea. You aren't aiming for clean, you're aiming for ready: a livable space that hands tomorrow-you an easy start. There's also a second reason a timer matters here beyond starting the task: a review of time perception in ADHD adults describes time itself feeling like it moves faster once you're inside a task (Weissenberger et al., 2021). That's the version where "I'll just quickly wipe the counter" quietly eats forty minutes. The timer that ends the reset is doing as much work as the one that starts it.
 
-The fix: your closing-shift checklist
+What is the Closing-Shift Method?
 
-Set a timer for five to fifteen minutes. When it dings, you are done, even if it is not perfect. The timer is the deadline your brain was missing, and it stops a quick reset from eating your whole night.
+The Closing-Shift Method is the same five moves, in the same order, every night, so there's nothing left to decide once the timer starts.
+
+Step5-minute version15-minute version
+
+Timer5 minutes, one room15 minutes, whole main floor
+SurfacesCounters onlyCounters, table, coffee table
+SinkRinse and stackFully cleared and wiped
+FloorSkip it tonightQuick pickup, no vacuuming
+Tomorrow's setupOne item, like keys by the doorCoffee, kettle, and keys staged
+
+Set a timer for five to fifteen minutes. When it dings, you're done, even if it isn't perfect. The timer is the deadline your brain was missing, and it stops a quick reset from eating your whole night.
 
 Clear flat surfaces only. Counters, the table, the coffee table. Clear surfaces make a whole room read as calm, even with a cupboard full of chaos behind them. Ignore the cupboard tonight.
 
-Reset the sink. Dishes in the dishwasher or washed, then wipe it down. A clean, empty sink is the "closed" sign for your kitchen, and it is the one spot that makes the morning feel handled.
+Reset the sink. Dishes in the dishwasher or washed, then wipe it down. A clean, empty sink is the "closed" sign for your kitchen, and it's the one spot that makes the morning feel handled.
 
-Set up tomorrow's first win. Lay out the coffee, fill the kettle, put your keys on the tray. You are gift-wrapping one easy start so tomorrow-you does not have to decide anything before caffeine.
+Set up tomorrow's first win. Lay out the coffee, fill the kettle, put your keys on the tray. You're gift-wrapping one easy start so tomorrow-you doesn't have to decide anything before caffeine.
 
 Run the same order every night. Sink, surfaces, floor, done. A fixed order means no deciding, and no deciding is how this actually gets done more than once.
 
 FAQ
 
-How long should an ADHD cleaning reset take?
+What is a 5-minute ADHD cleaning reset routine for the evening?
 
-Five to fifteen minutes, and you set a timer so it cannot quietly eat your whole evening. Five minutes is enough to clear the main surfaces and reset the sink. Fifteen is the full closing shift with the floor and tomorrow's setup added. When the timer goes off, you stop, even if it is not perfect.
+It's a closing shift for your home: set a timer for five to fifteen minutes, clear the surfaces you see and use, reset the sink, and set up one easy win for tomorrow. Run it at the same time every night, right after dinner works well, so there's no decision left about when or what. When the timer ends, you stop, even if it isn't perfect.
 
 What if I can't finish the whole house in the reset?
 
@@ -412,6 +429,8 @@ Do the same short steps in the same order every night so there are no decisions 
 Sources:
 - Sonuga-Barke EJS (2003). The dual pathway model of AD/HD: an elaboration of neuro-developmental characteristics. Neuroscience & Biobehavioral Reviews, 27(7), 593-604. https://doi.org/10.1016/j.neubiorev.2003.08.005
 - Ptacek R, Weissenberger S, Braaten E, et al. (2019). Clinical implications of the perception of time in attention deficit hyperactivity disorder (ADHD): a review. Medical Science Monitor, 25, 3918-3924. https://doi.org/10.12659/MSM.914225
+- Weissenberger S, Schonova K, Büttiker P, et al. (2021). Time perception is a focal symptom of attention-deficit/hyperactivity disorder in adults. Medical Science Monitor, 27, e933766. https://doi.org/10.12659/MSM.933766
+- Willcutt EG, Doyle AE, Nigg JT, Faraone SV, Pennington BF (2005). Validity of the executive function theory of attention-deficit/hyperactivity disorder: a meta-analytic review. Biological Psychiatry, 57(11), 1336-1346. https://doi.org/10.1016/j.biopsych.2005.02.006
 
 
 ## ADHD time blindness: why cleaning feels like forever
@@ -606,44 +625,46 @@ Sources:
 - Barkley RA (1997). Behavioral inhibition, sustained attention, and executive functions: constructing a unifying theory of ADHD. Psychological Bulletin, 121(1), 65-94. https://doi.org/10.1037/0033-2909.121.1.65
 
 
-## ADHD cleaning paralysis: why you can't start (even when you want to)
+## ADHD cleaning paralysis: why you can't start when you want to
 URL: https://neurotidy.co/articles/cleaning-paralysis.html
 Published: 2026-07-31 · Updated: 2026-08-30
 Author: Mara Ellery (pen name of the founder)
 
-Cleaning paralysis is when you want to clean, you know how, and you physically can, but you cannot make yourself begin. It is a task-initiation failure, an executive function issue common in ADHD brains, not laziness and not a sign you don't care.
+Cleaning paralysis is when you want to clean, you know how, and you physically can, but you cannot make yourself begin. It's a task-initiation failure, an executive-function glitch that's common in ADHD brains, not laziness and not a sign you don't care.
 
-Starting is its own brain function
+Why can't I start cleaning even though I want to?
 
-Here's the part nobody tells you. Wanting to do something and starting to do it run on different circuits (Barkley, 1997). Motivation is one system. Task initiation, the executive function that converts "I should clean" into your hand actually picking up the first mug, is another. ADHD hits the second one hard (Willcutt et al., 2005).
+Because wanting to clean and starting to clean run on two different systems. Motivation is real. Task initiation, the executive function that turns "I should clean" into your hand actually picking up the first mug, is a separate function, and it's the one ADHD disrupts most.
 
-That's why you can sit on the couch for two hours, staring at the mess, wanting it gone, hating yourself a little more each minute, and still not move. Your motivation was never the problem. The ignition was.
+Russell Barkley's influential model of ADHD centers on exactly this: he describes the disorder as, in his words, "a deficit in behavioral inhibition" that drags down the executive functions built on top of it, working memory included (Barkley, 1997). A later meta-analysis pooling 83 studies and more than 6,700 people found ADHD groups scored worse on every single executive-function measure tested, with the gap landing in the medium range across the board (Willcutt et al., 2005). Task initiation lives inside that bundle. So you can sit on the couch for two hours, genuinely wanting the mess gone, and still not move. Your motivation was never the problem. The ignition was.
 
-Why the freeze gets worse the messier it gets
+Why does the freeze get worse the messier the room gets?
 
-Overwhelm scales with visual input. Every object in your line of sight is an open decision: keep, move, wash, fold, where does it even go. A tidy room asks your brain three questions. A messy one asks three hundred, all at once, all unprioritized.
+Because overwhelm scales with what you can see. Every object in view is an open decision, keep it, move it, wash it, figure out where it goes, and a tidy room only asks your brain a few of those. A messy one asks hundreds, all at once, all unprioritized, which is exactly the kind of load that stalls task initiation further.
 
-So the freeze isn't random. The messier the room, the more decisions it broadcasts, and the harder your brain slams the brakes. Which means it gets messier. Which makes starting harder. You're not spiraling because you're weak. The math of the room is genuinely getting worse.
+So the freeze isn't random and it isn't weakness. The messier the room, the more decisions it broadcasts, and the harder your brain slams the brakes, which means it gets messier, which makes tomorrow's start harder still. You're not spiraling because you lack discipline. The math of the room is genuinely getting worse.
 
-Why "just start anywhere" backfires
+Why doesn't "just start anywhere" work for ADHD?
 
-Well-meaning people say "it doesn't matter where you begin, just start anywhere!" For an ADHD brain that advice is a trap. "Anywhere" is not a starting point. It's another decision, and decisions are the exact thing your brain is refusing to process right now.
+Because "anywhere" isn't a starting point, it's another decision, and decisions are the exact thing a frozen brain is refusing to process right now. Well-meaning advice to just start somewhere hands you an open choice at the one moment you can least afford to make one.
 
-Handing a frozen brain an open choice is like fixing a stalled car by offering it a map. The problem was never direction. The problem is ignition, and ignition needs one specific, pre-chosen first move.
+Handing a stalled brain a map doesn't fix a stalled engine. The problem was never direction. It's ignition, and ignition needs one specific, pre-chosen first move, decided before the moment arrives, not during it.
 
-You are not broken. The on-ramp is missing
+Is this ADHD paralysis, and what's actually missing?
 
-Neurotypical advice assumes you can merge onto the task from a standstill. ADHD brains need a ramp: a pre-made decision, a small first move, an outside push. When the ramp exists, you start fine. When it doesn't, you sit at the bottom of the hill revving.
+Yes, this is what people usually mean by task paralysis or ADHD freeze, and it isn't a character flaw. What's missing isn't resolve. It's an on-ramp: a pre-made decision, a small first move, an outside push that fires the ignition your brain won't fire on its own.
 
-So stop trying to build more resolve. Build ramps. That's not a lower standard. It's the correct tool for the brain you actually have.
+Time blindness often piles on before you even reach the mess. If clearing the counter feels like it will swallow your whole evening, of course you put off finding out it actually takes six minutes. That's a separate, well-documented ADHD trait worth understanding on its own, in why five minutes can feel like two hours. Stack the two together and a full clean feels impossible before you've moved a single object.
 
-The fix: build the on-ramp before you need it
+What is the On-Ramp Method?
 
-Pick the entry task before the energy arrives. Tonight, decide that tomorrow's start is "clear the coffee table". When a wave of energy shows up, there's no decision left to make. You just execute the thing past-you already chose.
+The On-Ramp Method is five small moves that build the ramp before you need it, so there's no open decision left the moment a wave of energy shows up. Do them roughly in this order.
 
-Shrink the first move until it's absurd. Not "do the dishes". One glass to the sink. Not "sort the laundry". Pick up two socks. A first move this small slips under the freeze, and momentum usually carries you into move two on its own.
+Pick the entry task before the energy arrives. Tonight, decide that tomorrow's start is "clear the coffee table". When the wave shows up, there's no decision left to make. You just execute the thing past-you already chose.
 
-Use an external starter. A 10-minute timer, one specific song that means "we're moving now", or a body double (a friend on a video call doing their own thing) (Eagle et al., 2023). Outside cues fire the ignition your brain won't fire internally, and that's allowed.
+Shrink the first move until it's almost silly. Not "do the dishes", one glass to the sink. Not "sort the laundry", pick up two socks. A first move this small slips under the freeze, and momentum usually carries you into move two on its own.
+
+Use an external starter. A 10-minute timer, one specific song that means "we're moving now", or a body double, a friend on a video call doing their own thing. In a survey of 220 people who body double, over half (186) said they were more likely to finish a task with someone else present, even a stranger live-streaming their own chores (Eagle et al., 2023). One participant living with ADHD, OCD, and complex PTSD put it plainly: "It helps me with tasks that are particularly hard or that I've been avoiding." Outside cues fire the ignition your brain won't fire internally, and that's allowed.
 
 Give yourself permission to do it badly. Shoving everything on the bed into one basket counts. Wiping only the visible part of the counter counts. Done badly is a real state of done. Perfect is just the freeze wearing a nicer outfit.
 
@@ -651,17 +672,17 @@ Stop while it still feels okay. Don't push until you're fried. End the session w
 
 FAQ
 
-Why can't I start cleaning even though I want to?
+Why can't I clean my house when I have ADHD even though I want to?
 
-Because wanting and starting run on different brain circuits. Your motivation is real, but task initiation, the executive function that turns intent into a first physical movement, is the part ADHD disrupts. So you can sit there genuinely wanting a clean room and still not move. The fix is to shrink the first move until it is almost silly, then launch it with an outside cue like a timer or a song.
+Because wanting and starting run on different brain circuits. Your motivation is real, but task initiation, the executive function that turns intent into a first physical movement, is the part ADHD disrupts. A meta-analysis of 83 studies found ADHD groups scored worse on every executive-function measure tested, task initiation included. The fix is to shrink the first move until it is almost silly, then launch it with an outside cue like a timer, a song, or a body double.
 
-Is cleaning paralysis a real thing with ADHD?
+I want to clean but I physically can't start. Is this ADHD paralysis?
 
-Yes. People usually call it task paralysis or ADHD freeze, and it shows up hardest around cleaning because a messy room is hundreds of small open decisions at once. It is an executive function issue, not laziness and not a character flaw. If the freeze is constant and wrecking daily life, that is worth raising with a clinician, but the pattern itself is common and very workable.
+Most likely yes. People usually call it task paralysis or ADHD freeze, and it shows up hardest around cleaning because a messy room is hundreds of small open decisions at once. It is an executive-function issue, not laziness and not a character flaw. If the freeze is constant and wrecking daily life, that is worth raising with a clinician, but the pattern itself is common and very workable with the right on-ramp.
 
 How do I make myself start cleaning when I'm frozen?
 
-Pick one tiny entry task before you need it, like carrying five things to the kitchen, so there is no decision left at start time. Then borrow an external starter: a 10-minute timer, one specific song, or a friend on a video call doing their own thing. Give yourself full permission to do it badly, and stop while it still feels okay. A start that ends well makes tomorrow's start cheaper.
+Pick one tiny entry task before you need it, like carrying five things to the kitchen, so there is no decision left at start time. Then borrow an external starter: a 10-minute timer, one specific song, or a body double, someone present in real time or on a call. In one survey, most people who body double said they finish tasks more reliably with someone else present. Give yourself full permission to do it badly, and stop while it still feels okay.
 
 Sources:
 - Barkley RA (1997). Behavioral inhibition, sustained attention, and executive functions: constructing a unifying theory of ADHD. Psychological Bulletin, 121(1), 65-94. https://doi.org/10.1037/0033-2909.121.1.65
@@ -669,40 +690,52 @@ Sources:
 - Eagle T, Baltaxe-Admony LB, Ringland KE (2023). Proposing body doubling as a continuum of space/time and mutuality: an investigation with neurodivergent participants. ASSETS '23: 25th International ACM SIGACCESS Conference on Computers and Accessibility. https://doi.org/10.1145/3597638.3614486
 
 
-## Doom piles vs hoarding: the difference (and why it matters)
+## Doom pile vs hoarding: the difference, and the numbers behind it
 URL: https://neurotidy.co/articles/doom-pile-vs-hoarding.html
 Published: 2026-07-31 · Updated: 2026-08-30
 Author: Mara Ellery (pen name of the founder)
 
 A doom pile is a stack of deferred decisions: you would happily be rid of most of the stuff if sorting it cost nothing. Hoarding disorder is different, it involves real distress at parting with items and continued acquiring, and most ADHD mess is the first, not the second.
 
-What a doom pile actually is
+What is a doom pile, really?
 
-A doom pile is what happens when your brain meets a stream of small objects that each ask for a decision. The receipt, the cable, the shirt that might still fit. ADHD brains find those little open-ended calls unusually expensive, so they defer them, and the objects land in a heap (Willcutt et al., 2005). We wrote a whole piece on the doom box and why it is a decision backlog, not a mess.
+A doom pile is what happens when your brain meets a stream of small objects that each ask for a decision: the receipt, the cable, the shirt that might still fit. Small, open-ended decisions like these draw on executive functions that a meta-analysis of 83 studies found are consistently impaired across ADHD, so the decision gets deferred and the object lands in a heap instead (Willcutt et al., 2005). Starting the sort itself can trigger the same freeze covered in why you can't start cleaning even when you want to, which is part of why the pile survives so long. We also wrote a whole piece on the doom box and why it's a decision backlog, not a mess.
 
-Here is the tell: you don't love the stuff in the pile. You barely remember what's in there. If a genie offered to sort it all correctly while you slept, you would say yes before the sentence finished.
+Here's the tell: you don't love the stuff in the pile. You barely remember what's in there. If a genie offered to sort it all correctly while you slept, you'd say yes before the sentence finished.
 
-What hoarding disorder actually involves
+What does hoarding disorder actually involve?
 
-Hoarding disorder is a recognized condition, and it is not just "a lot of clutter". It involves persistent difficulty parting with possessions regardless of their value, real distress when discarding comes up, and often continued acquiring of new items. Over time the clutter can stop rooms from doing their jobs, so the kitchen can't cook and the bed can't be slept in.
+Hoarding disorder is a recognized condition, and it's not just "a lot of clutter." It involves persistent difficulty parting with possessions regardless of their value, real distress when discarding comes up, and often continued acquiring of new items. Over time the clutter can stop rooms from doing their jobs, so the kitchen can't cook and the bed can't be slept in.
 
-None of that is a character flaw either. It's a genuine condition that responds to treatment, and people living with it deserve support, not jokes about TV shows.
+Sharon Morein-Zamir, who led one of the largest studies on hoarding in ADHD, put it this way in discussing the findings: "Hoarding Disorder is much more than simply collecting too many possessions" (Morein-Zamir et al., 2022). None of that is a character flaw either. It's a genuine condition that responds to treatment, and people living with it deserve support, not jokes about TV shows.
 
-The practical test
+How common is hoarding in ADHD, actually?
 
-Try this thought experiment. Imagine a kind, competent stranger sorted everything perfectly overnight. Trash gone, keepers put away, nothing lost, nothing decided badly. How do you feel waking up to that?
+Less common than the fear suggests, but not negligible. The same study screened three groups for clinically significant hoarding symptoms, and the gap between them is the clearest evidence that a doom pile and hoarding are not the same thing statistically, let alone emotionally.
 
-If your whole body says relief, you have a doom pile. The objects were never the problem, the decisions were. If the thought makes you anxious or genuinely upset, if losing control of those items feels like losing something that matters, that reaction is worth taking seriously, and a professional who understands hoarding is the right person to explore it with (Morein-Zamir et al., 2022).
+GroupSample sizeClinically significant hoarding symptoms
 
-To be clear, we are not diagnosing anyone here, and if you are genuinely worried about hoarding, a warm conversation with a professional will tell you far more than any article can.
+Adults with ADHD (clinic sample)8819%
+General population (control sample)902%
+Larger online sample2203%
 
-Why this distinction matters so much
+Source: Morein-Zamir et al., 2022. Roughly one in five adults with ADHD in that clinic sample crossed the clinical threshold, which is meaningfully higher than the general population, but it still means about four in five did not. If you have ADHD and a messy home, the odds favor a doom pile.
 
-Because "am I a hoarder?" is one of the quietest, heaviest fears in the ADHD community. People whisper it about themselves after one look at the chair pile. And for most of them the honest answer is no, you are carrying a decision backlog, which is a completely different thing with a completely different fix (Morein-Zamir et al., 2022).
+What's the practical test for telling them apart?
+
+Try this thought experiment. Imagine a kind, competent stranger sorted everything perfectly overnight: trash gone, keepers put away, nothing lost, nothing decided badly. How do you feel waking up to that?
+
+If your whole body says relief, you have a doom pile. The objects were never the problem, the decisions were. If the thought makes you anxious or genuinely upset, if losing control of those items feels like losing something that matters, that reaction is worth taking seriously, and a professional who understands hoarding is the right person to explore it with. To be clear, we are not diagnosing anyone here, and if you are genuinely worried, a warm conversation with a professional will tell you far more than any article can. As the researchers behind the numbers above put it, "Our findings also indicate that Hoarding Disorder should be routinely assessed in individuals with ADHD" (Morein-Zamir et al., 2022), which is a reason to ask, not a reason to panic.
+
+Why does this distinction matter so much?
+
+Because "am I a hoarder?" is one of the quietest, heaviest fears in the ADHD community. People whisper it about themselves after one look at the chair pile. And for roughly four out of five of them, the honest answer is no, they're carrying a decision backlog, which is a completely different thing with a completely different fix.
 
 You can't shame your way out of either one. But you can stop borrowing a scarier label than the one you actually have. That alone frees up energy to deal with the pile.
 
-The fix for the doom-pile case: shrink the decisions
+What is the Five-at-a-Time Sort?
+
+The Five-at-a-Time Sort shrinks a doom pile into decisions small enough that your brain won't flinch at any single one.
 
 Set a 10-minute timer. You are not clearing the pile today, you are touching it for ten minutes. Finite is startable.
 
@@ -714,13 +747,13 @@ Keep a "maybe" pile. Anything you can't call today goes in maybe and you keep mo
 
 FAQ
 
-Is my ADHD mess hoarding?
-
-Usually not. Most ADHD mess is a decision backlog: things pile up because each item needed a small decision your brain deferred, not because you can't bear to part with them. Hoarding disorder involves real distress at discarding and ongoing acquiring, and the clutter keeps rooms from being usable. If a magically sorted home sounds like pure relief, you are almost certainly looking at doom piles.
-
 What is the difference between a doom pile and hoarding?
 
-A doom pile is deferred decisions. You would happily be rid of most of the stuff if sorting cost nothing, you just never got to it. Hoarding disorder is a recognized condition where parting with possessions causes genuine distress, new items keep arriving, and living spaces stop working. The piles can look the same from the outside, but the relationship to the objects is completely different.
+A doom pile is deferred decisions. You would happily be rid of most of the stuff if sorting cost nothing, you just never got to it. Hoarding disorder is a recognized condition where parting with possessions causes genuine distress, new items keep arriving, and living spaces stop working. The piles can look the same from the outside, but the relationship to the objects is completely different, and the two are far from equally common.
+
+Is my ADHD mess hoarding?
+
+Usually not. Most ADHD mess is a decision backlog: things pile up because each item needed a small decision your brain deferred, not because you can't bear to part with them. In one clinic sample, about 19% of adults with ADHD showed clinically significant hoarding symptoms, versus roughly 2 to 3% of people without ADHD, so it is worth taking seriously but is not the majority pattern. If a magically sorted home sounds like pure relief, you are almost certainly looking at doom piles.
 
 When should I talk to a professional about my clutter?
 
