@@ -215,3 +215,12 @@ export function renderLlmsFull(cfg, articles, pages, sources) {
 }
 
 export const helpers = { esc, abs, fmtDate };
+
+// Sitemap of the pre-move host. Google recrawls what a submitted sitemap lists, sees the 308, and
+// moves the page to the apex; without it the www copies it crawled on 2026-08-10 stay stranded.
+// Only cfg.legacy.paths are listed, so crawl budget goes to the pages that actually exist on www.
+export function renderLegacySitemap(cfg, entries) {
+  const want = new Set((cfg.legacy?.paths) || []);
+  const list = entries.filter((e) => want.has(e.path));
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${list.map((e) => `  <url><loc>https://${cfg.legacy.host}${e.path}</loc><lastmod>${e.modified}</lastmod></url>`).join("\n")}\n</urlset>\n`;
+}
