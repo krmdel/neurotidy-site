@@ -1263,6 +1263,96 @@ Sources:
 - Sonuga-Barke EJS (2003). The dual pathway model of AD/HD: an elaboration of neuro-developmental characteristics. Neuroscience & Biobehavioral Reviews, 27(7), 593-604. https://doi.org/10.1016/j.neubiorev.2003.08.005
 
 
+## What is the 1-3-5 rule for ADHD, and does it work for cleaning?
+URL: https://neurotidy.co/articles/1-3-5-rule-adhd.html
+Published: 2026-09-03 · Updated: 2026-09-03
+Author: Mara Ellery (pen name of the founder)
+
+The 1-3-5 rule for ADHD is a daily list with a fixed shape: one big task, three medium tasks, five small tasks, and nothing else. Nine things, sized the night before, so the day starts with the sorting already done. It was not invented for ADHD, but a capped list happens to fit the exact place an ADHD brain stalls: staring at twenty equally loud items and choosing none.
+
+Where the rule comes from
+
+The 1-3-5 rule (you will also see it written 1/3/5) comes from a 2013 article by Alex Cavoulacos, co-founder of The Muse, later reprinted by Fast Company. Her premise was about office work: on any given day you can realistically finish one big thing, three medium things, and five small things, so write the list in that shape and stop pretending the other thirty items are happening today.
+
+It has since been picked up by ADHD coaches and forums as a planning method, mostly by word of mouth. To be plain about it: there is no study of the 1-3-5 rule in people with ADHD. What is studied is the problem it sidesteps, and that is why it is worth your attention.
+
+Why a capped list suits an ADHD brain
+
+An open-ended to-do list asks you to hold every item in mind, rank them, and pick one, all before doing anything. Working memory is one of the most consistently reduced functions in adult ADHD (Alderson et al., 2013), so that first step, holding the list, is already the expensive part. Twenty items do not get ranked. They get looked at, and then the phone comes out.
+
+The 1-3-5 rule moves the sorting to a different moment. You size the tasks the night before, when nothing is being asked of you, and the morning list is nine items with their size already decided. That is the pattern the standard model of ADHD recommends in general: when internal regulation is weak, put the structure outside your head (Barkley, 1997). The rule is a small piece of external structure that costs one minute to set up.
+
+The five small tasks do a second job. ADHD involves a weaker response to reward, particularly delayed reward (Volkow et al., 2009), which is why "clean the house" produces nothing and "put the cups in the sink" sometimes does. Five small, visible completions before lunch are five real signals that something happened today. It is the same reason the low-energy list is built from tiny steps.
+
+How to size cleaning tasks (this is where it goes wrong)
+
+People with ADHD reliably misjudge how long dull tasks take, in both directions (Ptacek et al., 2019). A bathroom reset feels like an hour and takes five minutes. Sorting one doom pile feels like ten minutes and takes forty. If you size by feel, the big slot fills with something small and the small slots fill with things that are secretly big, and the rule collapses on day two.
+
+So size by measured minutes and by the number of separate starts a job needs:
+
+Big (one per day): 20 to 45 minutes, one zone. The kitchen closing reset. One doom pile sorted to empty. A laundry cycle carried all the way from basket to drawer. Anything with more than one zone is two big tasks, so it is tomorrow's.
+
+Medium (three): 5 to 15 minutes, one surface or one load. Dishes. The coffee table cleared. One bin round through every room. The chair.
+
+Small (five): under 5 minutes, one object or one motion. Cups walk. Wipe the bathroom counter. Bag of rubbish out. Pillows back on the sofa. Bins out to the kerb.
+
+Time each one once with a real timer and write the number down. After a week you will have a private table of what things actually cost, and the sizing stops being guesswork.
+
+What a 1-3-5 cleaning day looks like
+
+A Tuesday, nothing special, house in its normal state:
+
+1 big: kitchen reset after dinner, timer at 25 minutes. Counters, sink, dishwasher on, floor spot-check. Stop when it rings.
+
+3 medium: one load of laundry to the dryer; coffee table and floor around it cleared; bathroom five-minute reset after the shower.
+
+5 small: cups walk through every room; bag of post sorted into keep and bin; bins out; sofa cushions back; one chair cleared of clothes.
+
+That is the whole day. It looks thin on paper, and that is the point. A list that fits in one glance is a list you can start. The fuller version you would have written, the one with "deep clean the fridge" and "sort the garage" on it, is the list you have been not starting for three months.
+
+The rules inside the rule
+
+Three things keep it from turning back into the old list. First, nothing gets added mid-day. A new task goes on tomorrow's sheet, not today's. Second, an unfinished big task is not a failure, it is tomorrow's big task, and you do not double up to compensate. Third, on a day when you cannot function, the five small ones are the entire plan and the other slots stay empty. The rule has not failed on that day. It has stopped you writing down a day you could not have, which is the whole job of a cap.
+
+If even five small tasks is too much, use the bare-minimum day instead and come back to 1-3-5 tomorrow.
+
+The fix: set up your first 1-3-5 list tonight
+
+Tonight, not tomorrow morning, write nine lines on paper or a note: one big, three medium, five small. Paper is better; it does not have a feed.
+
+Pick the big one from the zone that bothers you most when you walk in. Set its timer length now, 20 to 45 minutes.
+
+Fill the three medium slots with one-surface or one-load jobs. If a job needs more than one start, it is big, not medium.
+
+Fill the five small slots with under-five-minute single motions. The free task cards are already sized this way if you want to pull from them.
+
+In the morning, start with a small one, never the big one. The first completion is what unlocks the rest, and a big task is the worst possible first start.
+
+FAQ
+
+Does the 1-3-5 rule actually work for ADHD?
+
+There is no clinical trial of the 1-3-5 rule itself. What is well studied is the problem it works around: a long, unsorted list overloads working memory and stalls task initiation, and a short list with the size decided in advance removes both. So it works for the same reason a timer works. It is a container, not a treatment, and on a bad day even the five small ones count.
+
+What counts as a big, medium, or small task when cleaning?
+
+Size by time and by how many separate starts it needs, not by how important it feels. Big is 20 to 45 minutes and one zone: the kitchen reset, one doom pile sorted, the laundry cycle from basket to drawer. Medium is 5 to 15 minutes and one surface or one load: dishes, the coffee table, one bin bag round. Small is under 5 minutes and one object: cups walk, chair cleared, bathroom counter wiped.
+
+What if I only manage the five small tasks?
+
+Then you did the five small tasks, and the house is better than it was. The rule caps the day; it does not require the day to be full. Move the big one to tomorrow's slot and do not add anything to make up for it. On a low-energy day the small five alone are the whole plan.
+
+Is the 1-3-5 rule the same as the 1/3/5 rule?
+
+Yes. Same method, written with slashes or dashes depending on who is typing it. It comes from a 2013 productivity article by Alex Cavoulacos and was not designed for ADHD; it has been adopted because a fixed-size list happens to suit how an ADHD brain handles lists.
+
+Sources:
+- Alderson RM, Kasper LJ, Hudec KL, Patros CHG (2013). Attention-deficit/hyperactivity disorder (ADHD) and working memory in adults: a meta-analytic review. Neuropsychology, 27(3), 287-302. https://doi.org/10.1037/a0032371
+- Barkley RA (1997). Behavioral inhibition, sustained attention, and executive functions: constructing a unifying theory of ADHD. Psychological Bulletin, 121(1), 65-94. https://doi.org/10.1037/0033-2909.121.1.65
+- Volkow ND, Wang GJ, Kollins SH, et al. (2009). Evaluating dopamine reward pathway in ADHD: clinical implications. JAMA, 302(10), 1084-1091. https://doi.org/10.1001/jama.2009.1308
+- Ptacek R, Weissenberger S, Braaten E, et al. (2019). Clinical implications of the perception of time in attention deficit hyperactivity disorder (ADHD): a review. Medical Science Monitor, 25, 3918-3924. https://doi.org/10.12659/MSM.914225
+
+
 ## About Neurotidy and who writes the guides
 URL: https://neurotidy.co/about/
 

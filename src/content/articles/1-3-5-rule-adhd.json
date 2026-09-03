@@ -1,0 +1,52 @@
+{
+  "slug": "1-3-5-rule-adhd",
+  "title": "What is the 1-3-5 rule for ADHD, and does it work for cleaning?",
+  "description": "The 1-3-5 rule for ADHD: one big task, three medium, five small per day. Where it comes from, why a capped list suits ADHD, and how to run it on a messy house.",
+  "h1": "What is the 1-3-5 rule for ADHD? (and how to use it on a messy house)",
+  "group": "method",
+  "target_query": "what is the 1/3/5 rule for ADHD",
+  "published": "2026-09-03",
+  "faq": [
+    {
+      "q": "Does the 1-3-5 rule actually work for ADHD?",
+      "a": "There is no clinical trial of the 1-3-5 rule itself. What is well studied is the problem it works around: a long, unsorted list overloads working memory and stalls task initiation, and a short list with the size decided in advance removes both. So it works for the same reason a timer works. It is a container, not a treatment, and on a bad day even the five small ones count."
+    },
+    {
+      "q": "What counts as a big, medium, or small task when cleaning?",
+      "a": "Size by time and by how many separate starts it needs, not by how important it feels. Big is 20 to 45 minutes and one zone: the kitchen reset, one doom pile sorted, the laundry cycle from basket to drawer. Medium is 5 to 15 minutes and one surface or one load: dishes, the coffee table, one bin bag round. Small is under 5 minutes and one object: cups walk, chair cleared, bathroom counter wiped."
+    },
+    {
+      "q": "What if I only manage the five small tasks?",
+      "a": "Then you did the five small tasks, and the house is better than it was. The rule caps the day; it does not require the day to be full. Move the big one to tomorrow's slot and do not add anything to make up for it. On a low-energy day the small five alone are the whole plan."
+    },
+    {
+      "q": "Is the 1-3-5 rule the same as the 1/3/5 rule?",
+      "a": "Yes. Same method, written with slashes or dashes depending on who is typing it. It comes from a 2013 productivity article by Alex Cavoulacos and was not designed for ADHD; it has been adopted because a fixed-size list happens to suit how an ADHD brain handles lists."
+    }
+  ],
+  "related": [
+    "cleaning-paralysis",
+    "the-reset",
+    "low-energy-adhd-cleaning-list",
+    "adhd-cleaning-checklist",
+    "bare-minimum-cleaning-day"
+  ],
+  "sources": [
+    {
+      "id": "alderson2013",
+      "supports": "Working-memory limits in adult ADHD are why an open-ended to-do list overloads before anything gets started; a nine-item cap keeps the list inside what can be held."
+    },
+    {
+      "id": "barkley1997",
+      "supports": "Weak internal self-regulation is compensated by external structure; deciding task sizes the night before moves the sorting out of the moment."
+    },
+    {
+      "id": "volkow2009",
+      "supports": "Reduced dopamine reward signalling in ADHD is why five quick, visible completions matter more than one abstract big goal."
+    },
+    {
+      "id": "ptacek2019",
+      "supports": "Time perception differences in ADHD are why tasks must be sized by measured minutes rather than by how long they feel."
+    }
+  ]
+}
