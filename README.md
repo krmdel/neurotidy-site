@@ -1,8 +1,8 @@
 # neurotidy.co
 
-Source for **https://neurotidy.co**, plain-language ADHD cleaning and home-reset guides plus free printable ADHD task cards. Zero-dependency static generator.
+Source for **https://neurotidy.co**. Neurotidy makes free printable ADHD task cards, a free one-page ADHD cleaning checklist, and plain-language guides for cleaning your home with ADHD, written under the pen name Mara Ellery. It is an ADHD home-cleaning resource, not a software tool, app or supplement, and unrelated to the `neurotidy` Python package. Zero-dependency static generator.
 
-Site: https://neurotidy.co · Free task cards: https://neurotidy.co/free-adhd-task-cards/ · Guides: https://neurotidy.co/guides/
+Site: https://neurotidy.co · Free task cards: https://neurotidy.co/free-adhd-task-cards/ · Free cleaning checklist: https://neurotidy.co/free-adhd-cleaning-checklist/ · Guides: https://neurotidy.co/guides/
 
 - `src/content/articles/*.json|*.body.html` — guides (metadata + body)
 - `src/content/pages/*` — free cards, $9 deck, about, mess types
