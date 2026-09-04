@@ -110,7 +110,7 @@ dates["quiz"] = { hash: hash(quiz), modified: entries.at(-1).modified };
 write("robots.txt", renderRobots(cfg));
 write("sitemap.xml", renderSitemap(cfg, entries));
 if (cfg.legacy?.paths?.length) write("sitemap-legacy.xml", renderLegacySitemap(cfg, entries));
-const llmPages = pages.map((p) => ({ ...p, llms_section: [cfg.products.free_cards_page, cfg.products.home_reset_page].includes(p.path) ? "resources" : "about" }));
+const llmPages = pages.map((p) => ({ ...p, llms_section: [cfg.products.free_cards_page, cfg.products.free_checklist_page, cfg.products.home_reset_page].includes(p.path) ? "resources" : "about" }));
 write("llms.txt", renderLlms(cfg, articles, llmPages));
 write("llms-full.txt", renderLlmsFull(cfg, articles, pages, sources));
 write("vercel.json", JSON.stringify({

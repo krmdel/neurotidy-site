@@ -136,12 +136,15 @@ ${articles.filter((a) => a.group === g).map((a) => `<li><a href="/articles/${a.s
 }
 
 export function renderHome(cfg, articles, pages, { modified }) {
-  const orgLd = { "@context": "https://schema.org", "@type": "Organization", name: cfg.brand, url: cfg.origin + "/", description: cfg.description, sameAs: cfg.organization.sameAs, founder: { "@type": "Person", name: cfg.author.name, url: abs(cfg, cfg.author.path) } };
+  // Entity coherence: outside Google, "neurotidy" resolved to a PyPI package and a supplement (2026-09-04).
+  // The node says what we are, what we are not, and points at every profile the other indexes hold.
+  const o = cfg.organization || {};
+  const orgLd = { "@context": "https://schema.org", "@type": "Organization", "@id": cfg.origin + "/#organization", name: cfg.brand, legalName: o.legalName || cfg.brand, alternateName: o.alternateName, url: cfg.origin + "/", logo: abs(cfg, "/free-adhd-task-cards/cover.png"), description: cfg.description, disambiguatingDescription: o.disambiguatingDescription, knowsAbout: o.knowsAbout, sameAs: o.sameAs, founder: { "@type": "Person", name: cfg.author.name, url: abs(cfg, cfg.author.path) } };
   const siteLd = { "@context": "https://schema.org", "@type": "WebSite", name: cfg.brand, url: cfg.origin + "/", inLanguage: "en", about: "ADHD-friendly home organization and cleaning", publisher: { "@type": "Organization", name: cfg.brand } };
   const featured = ["the-reset", "messy-room", "the-doom-box", "cleaning-paralysis", "adhd-object-permanence-cleaning", "low-energy-adhd-cleaning-list"];
   const byslug = Object.fromEntries(articles.map((a) => [a.slug, a]));
   const cards = [...featured.map((s) => byslug[s]).filter(Boolean), ...articles.filter((a) => !featured.includes(a.slug))];
-  return `${head(cfg, { title: `${cfg.brand} — ${cfg.tagline}`.replace(" — ", ": "), description: cfg.description, path: "/", ogType: "website", extraLd: [orgLd, siteLd] })}
+  return `${head(cfg, { title: `${cfg.brand} — ${cfg.tagline}`.replace(" — ", ": "), description: cfg.meta_description || cfg.description, path: "/", ogType: "website", extraLd: [orgLd, siteLd] })}
 <body>
 ${header(cfg)}
 <section class="hero">

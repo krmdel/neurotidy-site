@@ -2,7 +2,7 @@
   "origin": "https://neurotidy.co",
   "brand": "Neurotidy",
   "tagline": "5-minute reset systems for ADHD homes",
-  "description": "Free printable ADHD task cards and plain-language guides for cleaning with ADHD. Reset systems built for how your brain actually works, not willpower.",
+  "description": "Neurotidy makes free printable ADHD task cards, a free ADHD cleaning checklist, and plain-language guides for cleaning your home with ADHD, written under the pen name Mara Ellery at neurotidy.co.",
   "author": {
     "name": "Mara Ellery",
     "path": "/about/",
@@ -13,9 +13,26 @@
     ]
   },
   "organization": {
+    "legalName": "Neurotidy",
+    "alternateName": [
+      "Neuro Tidy",
+      "neuro.tidy"
+    ],
+    "disambiguatingDescription": "Neurotidy (neurotidy.co) is an ADHD home-cleaning resource: printable task cards, a printable cleaning checklist and guides. It is not a software tool, app, code analyzer or supplement, and it is unrelated to the 'neurotidy' Python package or any product spelled NeuroTyde.",
+    "knowsAbout": [
+      "ADHD cleaning",
+      "executive dysfunction and housework",
+      "doom piles",
+      "body doubling",
+      "ADHD task cards",
+      "ADHD cleaning checklist"
+    ],
     "sameAs": [
       "https://www.instagram.com/neuro.tidy/",
       "https://www.tiktok.com/@neuro.tidy",
+      "https://www.youtube.com/@Neurotidy",
+      "https://www.reddit.com/user/recovering_doompiler/",
+      "https://github.com/krmdel/neurotidy-site",
       "https://neurotidy.gumroad.com/"
     ]
   },
@@ -25,7 +42,9 @@
     "home_reset_page": "/adhd-home-reset/",
     "home_reset_gumroad": "https://neurotidy.gumroad.com/l/adhd-home-reset",
     "whole_home_gumroad": "https://neurotidy.gumroad.com/l/whole-home-reset",
-    "store": "https://neurotidy.gumroad.com/"
+    "store": "https://neurotidy.gumroad.com/",
+    "free_checklist_page": "/free-adhd-cleaning-checklist/",
+    "free_checklist_pdf": "/free-adhd-cleaning-checklist/neurotidy-adhd-cleaning-checklist.pdf"
   },
   "utm": {
     "source": "site",
@@ -51,5 +70,6 @@
       "/articles/body-doubling.html",
       "/articles/the-meds-window.html"
     ]
-  }
+  },
+  "meta_description": "Free printable ADHD task cards, a free ADHD cleaning checklist, and plain-language guides for cleaning your home with ADHD. Built for how your brain works."
 }

@@ -1,0 +1,80 @@
+{
+  "name": "free-adhd-cleaning-checklist",
+  "path": "/free-adhd-cleaning-checklist/",
+  "title": "Free printable ADHD cleaning checklist (one-page PDF, no email)",
+  "description": "Free printable ADHD cleaning checklist: six room resets with timers, a bad-day line for each, and a daily bare minimum. One-page PDF, direct download, no email.",
+  "h1": "Free printable ADHD cleaning checklist",
+  "type": "page",
+  "og_image": "/free-adhd-cleaning-checklist/cover.png",
+  "nav_label": "Checklist",
+  "faq": [
+    {
+      "q": "Is the ADHD cleaning checklist really free?",
+      "a": "Yes. The PDF link on this page is a direct download. No email, no checkout, no trial. It is one A4 page and prints on any home printer."
+    },
+    {
+      "q": "What is on the checklist?",
+      "a": "Six resets with a timer each: kitchen, bedroom, bathroom, living room, laundry from basket to drawer, and one doom pile. Every reset ends with a shaded bad-day line, the single step that still counts on a day you cannot function. A daily bare-minimum block sits at the bottom."
+    },
+    {
+      "q": "How is this different from a normal cleaning checklist?",
+      "a": "Three ways. Every task is sized in minutes you can measure, not in rooms. Every reset has a bad-day version, so the list never asks for more than you have. And the timer is the stop signal: you finish when it rings, not when the room is done."
+    },
+    {
+      "q": "Do I need an ADHD diagnosis to use it?",
+      "a": "No. It is built for anyone whose brain stalls on starting boring tasks or holding a multi-step job in mind. Nothing on it is medical advice and none of it needs a label to work."
+    }
+  ],
+  "jsonld_extra": [
+    {
+      "@type": "DigitalDocument",
+      "name": "Neurotidy free printable ADHD cleaning checklist",
+      "description": "One-page printable ADHD cleaning checklist: six timed room resets, a bad-day line for each, and a daily bare minimum. Free, direct PDF, no email.",
+      "url": "/free-adhd-cleaning-checklist/neurotidy-adhd-cleaning-checklist.pdf",
+      "encodingFormat": "application/pdf",
+      "isAccessibleForFree": true,
+      "author": {
+        "@type": "Person",
+        "name": "Mara Ellery",
+        "url": "/about/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Neurotidy",
+        "url": "/"
+      }
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to use the ADHD cleaning checklist",
+      "totalTime": "PT10M",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Print it",
+          "text": "Download the one-page PDF and print it on plain A4 or letter paper. Stick it where the mess is, not in a drawer."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Pick one reset",
+          "text": "Choose the room that bothers you most when you walk in. Ignore the rest of the sheet."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Set the timer",
+          "text": "Set the timer printed next to that reset, 5 to 15 minutes, and start with the first line."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Stop when it rings",
+          "text": "When the timer rings you are done, even mid-task. Tick what you did. Leave the rest."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "On a bad day, do the shaded line",
+          "text": "If you cannot start, do only the bad-day line in one room and call the day done. It counts."
+        }
+      ]
+    }
+  ]
+}
