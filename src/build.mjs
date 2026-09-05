@@ -10,6 +10,10 @@ const SITE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SRC = path.join(SITE, "src");
 const DIST = path.join(SITE, "dist");
 const TODAY = process.env.BUILD_DATE || new Date().toISOString().slice(0, 10);
+// Full timestamp for sitemap lastmod. Bing reads lastmod as a freshness signal for AI answers and
+// asks for ISO 8601 with a time; it only moves when the content hash moves, never on a rebuild.
+const NOW = process.env.BUILD_DATE ? `${process.env.BUILD_DATE}T00:00:00Z` : new Date().toISOString().replace(/\.\d{3}Z$/, "Z");
+const stampOf = (prev, modified) => prev?.modified_at || `${modified}T00:00:00Z`;
 const cfg = JSON.parse(readFileSync(path.join(SRC, "site.config.json"), "utf8"));
 const sources = JSON.parse(readFileSync(path.join(SRC, "content/sources.json"), "utf8"));
 const datesPath = path.join(SRC, "content/dates.json");
@@ -26,9 +30,11 @@ const loadDir = (dir, kind) => readdirSync(dir).filter((f) => f.endsWith(".json"
   const key = `${kind}:${meta.slug || meta.name}`;
   const h = hash(JSON.stringify({ ...meta, modified: undefined }) + body);
   const prev = dates[key];
-  const modified = prev && prev.hash === h ? prev.modified : TODAY;
-  dates[key] = { hash: h, modified };
-  return { ...meta, body, modified };
+  const same = prev && prev.hash === h;
+  const modified = same ? prev.modified : TODAY;
+  const modified_at = same ? stampOf(prev, modified) : NOW;
+  dates[key] = { hash: h, modified, modified_at };
+  return { ...meta, body, modified, modified_at };
 });
 const articles = loadDir(path.join(SRC, "content/articles"), "article").sort((a, b) => a.published.localeCompare(b.published) || a.slug.localeCompare(b.slug));
 const pages = loadDir(path.join(SRC, "content/pages"), "page");
@@ -70,18 +76,19 @@ const write = (rel, content) => { const f = path.join(DIST, rel); mkdirSync(path
 const entries = [];
 for (const a of articles) {
   write(`articles/${a.slug}.html`, renderArticle(cfg, a, { sources, byslug, modified: a.modified }));
-  entries.push({ path: `/articles/${a.slug}.html`, modified: a.modified, priority: a.slug === "the-reset" ? "0.9" : "0.8" });
+  entries.push({ path: `/articles/${a.slug}.html`, modified: a.modified, modified_at: a.modified_at });
 }
 const parentOf = (p) => (p.path.startsWith("/adhd-mess-types/") && p.path !== "/adhd-mess-types/" ? { name: "ADHD mess types", path: "/adhd-mess-types/" } : null);
 for (const p of pages) {
   write(`${p.path.slice(1)}index.html`, renderPage(cfg, { ...p, parent: parentOf(p) }, { modified: p.modified }));
-  entries.push({ path: p.path, modified: p.modified, priority: p.path === cfg.products.free_cards_page ? "0.9" : "0.7" });
+  entries.push({ path: p.path, modified: p.modified, modified_at: p.modified_at });
 }
 const guidesMod = articles.map((a) => a.modified).sort().at(-1);
+const guidesModAt = articles.map((a) => a.modified_at).sort().at(-1);
 write("guides/index.html", renderGuides(cfg, articles, { modified: guidesMod }));
-entries.push({ path: "/guides/", modified: guidesMod, priority: "0.8" });
+entries.push({ path: "/guides/", modified: guidesMod, modified_at: guidesModAt });
 write("index.html", renderHome(cfg, articles, pages, { modified: guidesMod }));
-entries.unshift({ path: "/", modified: guidesMod, priority: "1.0" });
+entries.unshift({ path: "/", modified: guidesMod, modified_at: guidesModAt });
 
 // quiz: keep the hand-written page, normalize head to the origin, add analytics + event hook + static types block
 let quiz = readFileSync(path.join(SITE, "quiz.html"), "utf8");
@@ -103,8 +110,12 @@ if (!quiz.includes('id="types"')) quiz = quiz.replace("</main>", `</main>\n${typ
 quiz = quiz.replace("</body>", `<script>document.addEventListener("click",function(e){var a=e.target.closest("[data-event]");if(a&&window.va){va("event",{name:a.getAttribute("data-event"),data:{path:location.pathname}})}});</script>\n</body>`);
 quiz = quiz.replace(/—/g, ",");
 write("quiz.html", quiz);
-entries.push({ path: "/quiz.html", modified: dates["quiz"]?.hash === hash(quiz) ? dates["quiz"].modified : TODAY, priority: "0.7" });
-dates["quiz"] = { hash: hash(quiz), modified: entries.at(-1).modified };
+{
+  const same = dates["quiz"]?.hash === hash(quiz);
+  const modified = same ? dates["quiz"].modified : TODAY;
+  entries.push({ path: "/quiz.html", modified, modified_at: same ? stampOf(dates["quiz"], modified) : NOW });
+  dates["quiz"] = { hash: hash(quiz), modified, modified_at: entries.at(-1).modified_at };
+}
 
 // static files
 write("robots.txt", renderRobots(cfg));

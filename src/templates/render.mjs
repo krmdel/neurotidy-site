@@ -182,7 +182,7 @@ export function renderRobots(cfg) {
 }
 
 export function renderSitemap(cfg, entries) {
-  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries.map((e) => `  <url><loc>${abs(cfg, e.path)}</loc><lastmod>${e.modified}</lastmod><priority>${e.priority}</priority></url>`).join("\n")}\n</urlset>\n`;
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries.map((e) => `  <url><loc>${abs(cfg, e.path)}</loc><lastmod>${e.modified_at || e.modified}</lastmod></url>`).join("\n")}\n</urlset>\n`;
 }
 
 export function renderLlms(cfg, articles, pages) {
@@ -225,5 +225,5 @@ export const helpers = { esc, abs, fmtDate };
 export function renderLegacySitemap(cfg, entries) {
   const want = new Set((cfg.legacy?.paths) || []);
   const list = entries.filter((e) => want.has(e.path));
-  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${list.map((e) => `  <url><loc>https://${cfg.legacy.host}${e.path}</loc><lastmod>${e.modified}</lastmod></url>`).join("\n")}\n</urlset>\n`;
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${list.map((e) => `  <url><loc>https://${cfg.legacy.host}${e.path}</loc><lastmod>${e.modified_at || e.modified}</lastmod></url>`).join("\n")}\n</urlset>\n`;
 }
