@@ -1,0 +1,80 @@
+{
+  "name": "free-adhd-cleaning-planner",
+  "path": "/free-adhd-cleaning-planner/",
+  "title": "Free printable ADHD cleaning planner (weekly PDF, no email)",
+  "description": "Free printable ADHD cleaning planner: a week of 10-minute resets, one named first step and a bad-day line per day. One-page PDF, direct download, no email.",
+  "h1": "Free printable ADHD cleaning planner",
+  "type": "page",
+  "og_image": "/free-adhd-cleaning-planner/cover.png",
+  "nav_label": "Planner",
+  "faq": [
+    {
+      "q": "Is the ADHD cleaning planner really free?",
+      "a": "Yes. The PDF link on this page is a direct download. No email, no checkout, no trial. It is one A4 page, prints on any home printer, and you can print a fresh one every Monday."
+    },
+    {
+      "q": "What is the difference between the planner and the checklist?",
+      "a": "The checklist is room by room: pick a room, run its reset. The planner is day by day: each weekday has one theme, one named first step and a bad-day line, so you never decide what to clean, only whether today is a low, mid or high energy day. Most people keep the checklist on the fridge and the planner on the wall by it."
+    },
+    {
+      "q": "How long does each day take?",
+      "a": "Ten minutes on a mid day, twenty on a high day, and on a low day only the shaded bad-day line, which takes under a minute. The timer is the stop signal. Sunday has no cleaning at all: five minutes of setup for Monday and that is the whole job."
+    },
+    {
+      "q": "What if I miss a day, or a whole week?",
+      "a": "Nothing carries over. No day depends on the one before it and the sheet restarts every Monday, so a missed Tuesday does not make Wednesday bigger. Three ticked boxes in a week is a good week; that number is on the sheet on purpose."
+    }
+  ],
+  "jsonld_extra": [
+    {
+      "@type": "DigitalDocument",
+      "name": "Neurotidy free printable ADHD cleaning planner",
+      "description": "One-page weekly ADHD cleaning planner: a theme, a named first step and a bad-day line for each day, an energy selector, a weekly one big thing and a daily bare minimum. Free, direct PDF, no email.",
+      "url": "/free-adhd-cleaning-planner/neurotidy-adhd-cleaning-planner.pdf",
+      "encodingFormat": "application/pdf",
+      "isAccessibleForFree": true,
+      "author": {
+        "@type": "Person",
+        "name": "Mara Ellery",
+        "url": "/about/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Neurotidy",
+        "url": "/"
+      }
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to use the ADHD cleaning planner",
+      "totalTime": "PT10M",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Print it on Monday",
+          "text": "Download the one-page PDF and print it. Put it on the wall where you will walk past it, not in a drawer. Circle one big thing for the week at the top, only one."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Tick today's energy",
+          "text": "Low, mid or high. Low means you do only the shaded bad-day line. Mid is a 10-minute timer. High is 20 minutes and then you stop anyway."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Do the first step, only that",
+          "text": "Each day names one physical first step. Do it without reading the rest of the row. Starting is the hard part; the step is chosen so it is impossible to get wrong."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Stop when the timer rings",
+          "text": "Even mid-task. Tick the box. Take the reward you wrote at the top."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Sunday: no cleaning",
+          "text": "Five minutes in the evening: tomorrow's clothes out, one clear surface, bag by the door. Then print next week's sheet."
+        }
+      ]
+    }
+  ]
+}

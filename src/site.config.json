@@ -44,7 +44,9 @@
     "whole_home_gumroad": "https://neurotidy.gumroad.com/l/whole-home-reset",
     "store": "https://neurotidy.gumroad.com/",
     "free_checklist_page": "/free-adhd-cleaning-checklist/",
-    "free_checklist_pdf": "/free-adhd-cleaning-checklist/neurotidy-adhd-cleaning-checklist.pdf"
+    "free_checklist_pdf": "/free-adhd-cleaning-checklist/neurotidy-adhd-cleaning-checklist.pdf",
+    "free_planner_page": "/free-adhd-cleaning-planner/",
+    "free_planner_pdf": "/free-adhd-cleaning-planner/neurotidy-adhd-cleaning-planner.pdf"
   },
   "utm": {
     "source": "site",

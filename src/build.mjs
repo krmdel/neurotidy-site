@@ -4,7 +4,7 @@ import { readFileSync, writeFileSync, mkdirSync, readdirSync, rmSync, cpSync, ex
 import { createHash } from "node:crypto";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { renderArticle, renderPage, renderGuides, renderHome, renderRobots, renderSitemap, renderLegacySitemap, renderLlms, renderLlmsFull, GROUP_LABELS } from "./templates/render.mjs";
+import { renderArticle, renderPage, renderGuides, renderHome, renderRobots, renderSitemap, renderLegacySitemap, renderFeed, renderLlms, renderLlmsFull, GROUP_LABELS } from "./templates/render.mjs";
 
 const SITE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SRC = path.join(SITE, "src");
@@ -120,8 +120,9 @@ write("quiz.html", quiz);
 // static files
 write("robots.txt", renderRobots(cfg));
 write("sitemap.xml", renderSitemap(cfg, entries));
+write("feed.xml", renderFeed(cfg, articles));
 if (cfg.legacy?.paths?.length) write("sitemap-legacy.xml", renderLegacySitemap(cfg, entries));
-const llmPages = pages.map((p) => ({ ...p, llms_section: [cfg.products.free_cards_page, cfg.products.free_checklist_page, cfg.products.home_reset_page].includes(p.path) ? "resources" : "about" }));
+const llmPages = pages.map((p) => ({ ...p, llms_section: [cfg.products.free_cards_page, cfg.products.free_checklist_page, cfg.products.free_planner_page, cfg.products.home_reset_page].includes(p.path) ? "resources" : "about" }));
 write("llms.txt", renderLlms(cfg, articles, llmPages));
 write("llms-full.txt", renderLlmsFull(cfg, articles, pages, sources));
 write("vercel.json", JSON.stringify({

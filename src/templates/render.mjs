@@ -36,6 +36,7 @@ function head(cfg, { title, description, path, ogType = "article", ogImage, publ
 <title>${esc(title)}</title>
 <meta name="description" content="${attr(description)}">
 <link rel="canonical" href="${url}">
+<link rel="alternate" type="application/atom+xml" title="${esc(cfg.brand)} guides" href="${cfg.origin}/feed.xml">
 <meta property="og:type" content="${ogType}">
 <meta property="og:title" content="${attr(title)}">
 <meta property="og:description" content="${attr(description)}">
@@ -222,6 +223,32 @@ export const helpers = { esc, abs, fmtDate };
 // Sitemap of the pre-move host. Google recrawls what a submitted sitemap lists, sees the 308, and
 // moves the page to the apex; without it the www copies it crawled on 2026-08-10 stay stranded.
 // Only cfg.legacy.paths are listed, so crawl budget goes to the pages that actually exist on www.
+/** Atom feed of the guides, newest change first. Feeds are a cheap freshness signal every AI-readiness audit scores. */
+export function renderFeed(cfg, articles) {
+  const items = [...articles].sort((a, b) => String(b.modified_at || b.modified).localeCompare(String(a.modified_at || a.modified))).slice(0, 30);
+  const updated = items[0]?.modified_at || `${items[0]?.modified || "2026-01-01"}T00:00:00Z`;
+  const entry = (a) => `  <entry>
+    <title>${esc(a.title)}</title>
+    <link href="${abs(cfg, `/articles/${a.slug}.html`)}"/>
+    <id>${abs(cfg, `/articles/${a.slug}.html`)}</id>
+    <published>${a.published}T00:00:00Z</published>
+    <updated>${a.modified_at || `${a.modified}T00:00:00Z`}</updated>
+    <author><name>${esc(cfg.author.name)}</name></author>
+    <summary>${esc(a.description)}</summary>
+  </entry>`;
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>${esc(cfg.brand)} guides</title>
+  <subtitle>${esc(cfg.description)}</subtitle>
+  <link href="${cfg.origin}/feed.xml" rel="self"/>
+  <link href="${cfg.origin}/"/>
+  <id>${cfg.origin}/</id>
+  <updated>${updated}</updated>
+${items.map(entry).join("\n")}
+</feed>
+`;
+}
+
 export function renderLegacySitemap(cfg, entries) {
   const want = new Set((cfg.legacy?.paths) || []);
   const list = entries.filter((e) => want.has(e.path));

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>ADHD cleaning planner, one week, one reset a day</title>
+<style>
+@page { size: A4; margin: 8mm 9mm 7mm; }
+* { box-sizing: border-box; }
+body { font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif; color: #1b1b1f; margin: 0; font-size: 8.8pt; line-height: 1.2; }
+header { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid #5b4bd6; padding-bottom: 4px; margin-bottom: 6px; }
+h1 { font-size: 15pt; margin: 0; letter-spacing: -0.2px; }
+.brand { font-size: 9pt; color: #5b4bd6; font-weight: 600; }
+.rules { font-size: 9pt; color: #444; margin: 0 0 6px; }
+.top { display: grid; grid-template-columns: 1.3fr 1fr; gap: 8px; margin-bottom: 6px; }
+.box { border: 1px solid #d9d7e6; border-radius: 6px; padding: 5px 8px; }
+.box h2 { font-size: 10.6pt; margin: 0 0 3px; color: #2d2a4a; }
+.line { border-bottom: 1px dotted #b9b6cf; height: 12px; }
+.energy { display: flex; gap: 10px; font-size: 8.8pt; }
+.energy span::before { content: ""; display: inline-block; width: 10px; height: 10px; border: 1.3px solid #5b4bd6; border-radius: 2px; margin-right: 4px; vertical-align: -1px; }
+table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+th { text-align: left; font-size: 8.6pt; color: #5b4bd6; border-bottom: 1.5px solid #5b4bd6; padding: 2px 5px; }
+td { border-bottom: 1px solid #d9d7e6; padding: 3px 5px; vertical-align: top; }
+td.day { font-weight: 700; color: #2d2a4a; width: 13%; }
+td.theme { width: 15%; }
+td.first { width: 34%; }
+td.bad { width: 30%; background: #f2f0fb; font-size: 8.6pt; }
+td.done { width: 8%; text-align: center; }
+td.done::before { content: ""; display: inline-block; width: 12px; height: 12px; border: 1.3px solid #5b4bd6; border-radius: 2px; }
+.small { font-size: 8.2pt; color: #666; }
+.bottom { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 6px; }
+ul { list-style: none; margin: 0; padding: 0; }
+li { margin: 0 0 2px; padding-left: 17px; position: relative; }
+li::before { content: ""; position: absolute; left: 0; top: 2px; width: 10px; height: 10px; border: 1.3px solid #5b4bd6; border-radius: 2px; }
+footer { margin-top: 6px; font-size: 8pt; color: #666; display: flex; justify-content: space-between; border-top: 1px solid #d9d7e6; padding-top: 4px; }
+</style></head><body>
+<header><h1>ADHD cleaning planner: one week, one 10-minute reset a day</h1><span class="brand">neurotidy.co</span></header>
+<p class="rules"><b>How it works.</b> Each day has one theme, one named first step, and a bad-day line. Set a 10-minute timer, do the first step, keep going until it rings, then stop even mid-task. On a day you cannot function, do only the shaded line and tick the box. It counts.</p>
+<div class="top">
+<div class="box"><h2>This week's one big thing (only one)</h2><div class="line"></div><div class="line"></div><p class="small">The 1-3-5 idea: one big task a week is enough. Everything else on this page is small on purpose.</p></div>
+<div class="box"><h2>Energy today</h2><p class="energy"><span>Low: bad-day line only</span><span>Mid: 10 minutes</span><span>High: 20 minutes, then stop</span></p><h2 style="margin-top:6px">Reward after the timer</h2><div class="line"></div></div>
+</div>
+<table>
+<thead><tr><th>Day</th><th>Theme</th><th>First step (start here, nothing else)</th><th>Bad-day line</th><th>Done</th></tr></thead>
+<tbody>
+<tr><td class="day">Monday</td><td class="theme">Kitchen</td><td class="first">Fill the sink with hot soapy water and drop everything in. Then bin the wrappers, then wipe the one counter you look at most.</td><td class="bad">Rinse one mug for tomorrow.</td><td class="done"></td></tr>
+<tr><td class="day">Tuesday</td><td class="theme">Laundry</td><td class="first">Carry one basket to the machine and start it before you do anything else. Fold only what comes out of the dryer today; the old pile waits.</td><td class="bad">Dirty clothes off the floor into the basket.</td><td class="done"></td></tr>
+<tr><td class="day">Wednesday</td><td class="theme">Bathroom</td><td class="first">Spray the sink and the toilet before your shower. Wipe both after. Towels to a hook.</td><td class="bad">Wipe the sink with the towel you just used.</td><td class="done"></td></tr>
+<tr><td class="day">Thursday</td><td class="theme">Floors and paths</td><td class="first">Clear the walking path from the door to the bed, then to the sofa. Shoes to one spot. Sweep or vacuum only the path.</td><td class="bad">Clear the path to the bed.</td><td class="done"></td></tr>
+<tr><td class="day">Friday</td><td class="theme">One doom pile</td><td class="first">Pick the pile you walk past most. Four boxes: bin, belongs elsewhere, keep here, decide later. Sort until the timer rings; "decide later" is allowed.</td><td class="bad">Take three things off the top of the pile and bin or put them away.</td><td class="done"></td></tr>
+<tr><td class="day">Saturday</td><td class="theme">Your choice of room</td><td class="first">Walk in, say out loud the one thing that bothers you most, fix only that. Cups back to the kitchen on the way out.</td><td class="bad">Cups from one room back to the kitchen.</td><td class="done"></td></tr>
+<tr><td class="day">Sunday</td><td class="theme">Rest and reset</td><td class="first">No cleaning. Five minutes tonight: tomorrow's clothes out, one clear surface, bag by the door. Circle next week's one big thing above.</td><td class="bad">Tomorrow's clothes out. That is the whole job.</td><td class="done"></td></tr>
+</tbody></table>
+<div class="bottom">
+<div class="box"><h2>Daily bare minimum (any day, any energy)</h2><ul><li>Rubbish that smells goes out</li><li>One clear path through each room</li><li>Tomorrow's first thing set out</li></ul></div>
+<div class="box"><h2>Ticked 3 boxes or more this week?</h2><p class="small">That is a good week. A missed day is not a failed week; the planner restarts every Monday and no day depends on the one before it. Write here what actually worked:</p><div class="line"></div></div>
+</div>
+<footer><span>Free from neurotidy.co/free-adhd-cleaning-planner/ · print as many as you like · written by Mara Ellery</span><span>Not medical advice. Sources for every claim are on the site.</span></footer>
+</body></html>
