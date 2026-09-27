@@ -114,3 +114,4 @@ a.cite:hover{color:var(--accent)}
   body.print-cards #printsheet{display:grid!important;grid-template-columns:1fr 1fr;gap:6mm}
   body.print-cards #printsheet .taskcard{break-inside:avoid;border:1.5px dashed #999;margin:0;font-size:13px}
 }
+.tool-next{margin:4px 0 22px}
