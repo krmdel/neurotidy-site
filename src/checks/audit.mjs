@@ -30,7 +30,9 @@ const parseSitemap = (xml) => [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) 
 let pages = [], robots = "", llms = "", sitemapUrls = [], sitemapStatuses = {}, extra = [];
 if (useDist) {
   const dist = path.join(SITE, "dist");
-  const files = walk(dist).filter((f) => f.endsWith(".html") && !f.includes(`${path.sep}go${path.sep}`));
+  // Redirect stubs are not content pages: /go/* (tracked outbound) and short typeable paths like /tools/ (bio links).
+  const STUB_DIRS = ["go", "tools"];
+  const files = walk(dist).filter((f) => f.endsWith(".html") && !STUB_DIRS.some((d) => f.includes(`${path.sep}${d}${path.sep}`)));
   for (const f of files) pages.push(analyzeHtml(readFileSync(f, "utf8"), urlFromDist(f, dist), ctx));
   robots = readFileSync(path.join(dist, "robots.txt"), "utf8");
   llms = readFileSync(path.join(dist, "llms.txt"), "utf8");
