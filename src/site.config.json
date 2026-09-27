@@ -18,7 +18,7 @@
       "Neuro Tidy",
       "neuro.tidy"
     ],
-    "disambiguatingDescription": "Neurotidy (neurotidy.co) is an ADHD home-cleaning resource: printable task cards, a printable cleaning checklist and guides. It is not a software tool, app, code analyzer or supplement, and it is unrelated to the 'neurotidy' Python package or any product spelled NeuroTyde.",
+    "disambiguatingDescription": "Neurotidy (neurotidy.co) is an ADHD home-cleaning resource: printable task cards, a printable cleaning checklist and guides. It is not a developer tool, code analyzer or supplement, and it is unrelated to the 'neurotidy' Python package or any product spelled NeuroTyde.",
     "knowsAbout": [
       "ADHD cleaning",
       "executive dysfunction and housework",
@@ -41,12 +41,12 @@
     "free_cards_page": "/free-adhd-task-cards/",
     "home_reset_page": "/adhd-home-reset/",
     "home_reset_gumroad": "https://neurotidy.gumroad.com/l/adhd-home-reset",
-    "whole_home_gumroad": "https://neurotidy.gumroad.com/l/whole-home-reset",
     "store": "https://neurotidy.gumroad.com/",
     "free_checklist_page": "/free-adhd-cleaning-checklist/",
     "free_checklist_pdf": "/free-adhd-cleaning-checklist/neurotidy-adhd-cleaning-checklist.pdf",
     "free_planner_page": "/free-adhd-cleaning-planner/",
-    "free_planner_pdf": "/free-adhd-cleaning-planner/neurotidy-adhd-cleaning-planner.pdf"
+    "free_planner_pdf": "/free-adhd-cleaning-planner/neurotidy-adhd-cleaning-planner.pdf",
+    "tools_hub": "/free-adhd-tools/"
   },
   "utm": {
     "source": "site",

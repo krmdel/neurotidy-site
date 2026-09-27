@@ -118,6 +118,8 @@ export function analyzeHtml(html, url, ctx) {
     if (/application\/ld\+json/.test(attrs)) continue;
     if (attrs.includes(ctx.analyticsScript)) continue;
     if (!/src=/.test(attrs) && (/data-event/.test(body) || url.endsWith("/quiz.html"))) continue;
+    // Free tools: inline, self-contained, marked data-tool. Their explanation + FAQ stay static HTML, and nonjs-visible-words-low still applies.
+    if (!/src=/.test(attrs) && /\bdata-tool\b/.test(attrs)) continue;
     issues.push(issue("unexpected-script", attrs.trim().slice(0, 80)));
   }
   if (words < 150) issues.push(issue("nonjs-visible-words-low", `${words}`));

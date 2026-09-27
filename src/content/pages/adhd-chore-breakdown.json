@@ -1,0 +1,24 @@
+{
+  "name": "adhd-chore-breakdown",
+  "path": "/adhd-chore-breakdown/",
+  "title": "Free ADHD chore breakdown: turn any chore into tiny steps",
+  "description": "Type a chore you keep avoiding. The free ADHD chore breakdown turns it into four startable steps and a bad-day version. No signup.",
+  "h1": "ADHD chore breakdown: any chore, four tiny steps",
+  "type": "page",
+  "nav_label": "Chore breakdown",
+  "no_cta": true,
+  "faq": [
+    {
+      "q": "Why is the first step always so small?",
+      "a": "Because starting is the expensive part for an ADHD brain, not doing. A first step you can do in ten seconds, like putting music on or standing in the room, gets you past the start. Momentum does the rest more often than willpower does."
+    },
+    {
+      "q": "Is this AI?",
+      "a": "No. The common chores come from a hand-written library built from reading thousands of real ADHD threads about housework. For anything not in the library, the tool uses the same four-step pattern: go where it happens, set a limit, do the smallest visible piece, then stop or continue."
+    },
+    {
+      "q": "Can I print the result?",
+      "a": "Yes. Press \"Make it a printable card\" and the steps open in the free task card maker, where you can edit them and print four copies on one page."
+    }
+  ]
+}

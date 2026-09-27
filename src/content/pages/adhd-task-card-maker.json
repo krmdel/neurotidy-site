@@ -1,0 +1,24 @@
+{
+  "name": "adhd-task-card-maker",
+  "path": "/adhd-task-card-maker/",
+  "title": "Free ADHD task card maker: print your own chore cards",
+  "description": "Make your own printable ADHD task card: a few tiny steps and a bad-day version. Print four per page or save it as an image. Free, no signup.",
+  "h1": "Make your own printable ADHD task card",
+  "type": "page",
+  "nav_label": "Task card maker",
+  "no_cta": true,
+  "faq": [
+    {
+      "q": "What makes a good ADHD task card?",
+      "a": "It lives where the task happens, the first step takes under ten seconds, there are no more than five steps, and the last line is a bad-day version small enough to do on your worst day. Write steps as actions you can see, not goals."
+    },
+    {
+      "q": "How do I print it?",
+      "a": "Press Print. The page prints four copies of your card on one A4 or letter sheet with dashed borders to cut along. Plain paper works; cardstock lasts longer by the sink."
+    },
+    {
+      "q": "Is anything I type saved?",
+      "a": "No. The card is built in your browser. Nothing is uploaded or stored, and it is gone when you close the tab unless you print it or save the image."
+    }
+  ]
+}

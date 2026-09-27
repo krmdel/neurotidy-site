@@ -1,0 +1,177 @@
+<p class="lede">Pick a room. The timer gives you one small step at a time, one minute each, five steps total. You never have to decide what comes next, and bad-day mode shrinks the whole reset to one step. Free, no signup, nothing saved.</p>
+
+<div class="tool" id="timer-tool">
+<div id="t-setup">
+<label>1. Which room?</label>
+<div class="chips" id="t-rooms" role="group" aria-label="Room"></div>
+<label>2. What kind of day is it?</label>
+<div class="chips" id="t-modes" role="group" aria-label="Mode">
+<button type="button" class="chip" data-mode="normal" aria-pressed="true">Normal day (5 min)</button>
+<button type="button" class="chip" data-mode="bad" aria-pressed="false">Bad day (2 min)</button>
+</div>
+<p style="margin-top:16px"><button type="button" class="button" id="t-start">Start the reset</button></p>
+<p class="muted" id="t-preview"></p>
+</div>
+
+<div id="t-run" class="hidden" aria-live="polite">
+<p class="muted" id="t-count"></p>
+<p class="bigstep" id="t-step"></p>
+<div class="clock" id="t-clock">1:00</div>
+<div class="bar"><i id="t-bar"></i></div>
+<p><button type="button" class="button" id="t-next">Done, next step</button> <button type="button" class="button secondary" id="t-pause">Pause</button></p>
+<p class="muted">When the minute runs out you hear a soft beep and the next step appears. Keep going on the current one if you are on a roll.</p>
+</div>
+
+<div id="t-done" class="hidden">
+<p class="bigstep">Reset done. That counts.</p>
+<p id="t-done-line"></p>
+<p><button type="button" class="button secondary" id="t-again">Reset another room</button></p>
+</div>
+</div>
+
+<aside class="tool-cta">
+<h2>Want this as cards that stay in the room?</h2>
+<p>The ADHD Home Reset is 20 printable task cards in this same format: the steps already decided, a bad-day line on every card, and each card taped where the task happens, so you never need your phone. Kitchen, laundry, bathroom, trash, doom piles, mornings and evenings, plus a short guide. $19 once, no subscription.</p>
+<p><a class="button" href="/go/tool-timer.html">Get the ADHD Home Reset ($19)</a> <a class="button secondary" href="/free-adhd-task-cards/">Or grab 5 free cards</a></p>
+</aside>
+
+<section>
+<h2>Why a reset works when "clean the room" does not</h2>
+<p>"Clean the room" is not a task. It is a pile of hidden decisions: where to start, what counts, when you are done. An ADHD brain tends to stall at exactly that point, which is why <a href="/articles/cleaning-paralysis.html">wanting to clean and being able to start</a> can feel like two different circuits. A reset removes the decisions. Each step is one visible action you can start in under ten seconds, and the timer tells you when to move on.</p>
+<p>The five steps always run in the same order: clear what does not belong, bin the trash, restore one thing, clear one surface, and finish with the step that makes the room feel different. More tools like this are on the <a href="/free-adhd-tools/">free ADHD tools</a> page.</p>
+</section>
+
+<script data-tool>
+(function(){
+  "use strict";
+  var ROOMS = {
+    kitchen: { label: "Kitchen", steps: [
+      "Put music or a video on. That is the first step, really.",
+      "Everything dirty goes into or next to the sink. Do not wash anything yet.",
+      "Trash and packaging into the bin. One lap of the room.",
+      "Wipe the one counter you use most. Just that one.",
+      "Run hot soapy water and drop in whatever fits. Soaking counts."
+    ], bad: "Rinse one mug for tomorrow's coffee." },
+    bathroom: { label: "Bathroom", steps: [
+      "Towels onto the hook or into the laundry.",
+      "Empty bottles and wrappers into the bin.",
+      "Wipe the sink with the towel that is going in the wash anyway.",
+      "Toilet: one squirt of cleaner, one swirl, flush.",
+      "Open the window or switch the fan on. Done."
+    ], bad: "Flush, and hang one towel on the hook." },
+    bedroom: { label: "Bedroom", steps: [
+      "All clothes off the floor into one pile on the bed.",
+      "Sniff test, two seconds each: dirty goes in the basket.",
+      "Cups, plates and wrappers out of the room in one trip.",
+      "Clean clothes onto the chair. The chair is allowed.",
+      "Pull the duvet up. A badly made bed still counts."
+    ], bad: "Pull the duvet up. That is the whole reset." },
+    living: { label: "Living room", steps: [
+      "Every cup and plate to the kitchen in one trip.",
+      "Trash only: one bag, one lap of the room.",
+      "Cushions and blankets back where they live.",
+      "Remotes, chargers and keys into one bowl.",
+      "Clear one surface completely. Pick the one you see first."
+    ], bad: "One bag, trash only, one lap." },
+    doom: { label: "Doom pile", steps: [
+      "Put a bin bag and an empty box next to the pile.",
+      "Obvious trash into the bag. No deciding, only obvious.",
+      "Put away five things that already have a home.",
+      "Everything else goes in the box. The box is for later.",
+      "Wipe the surface you just freed. Look at it for a second."
+    ], bad: "Remove exactly three objects from the pile." },
+    desk: { label: "Desk", steps: [
+      "Cups and dishes off the desk.",
+      "All papers into one stack, face down. No reading.",
+      "Trash into the bin.",
+      "Pens and cables into one container.",
+      "Put back only what today's task needs."
+    ], bad: "Clear a laptop-sized rectangle. Work there." },
+    entry: { label: "Entryway", steps: [
+      "Shoes in pairs, against the wall.",
+      "Bags onto hooks or into one spot.",
+      "Mail into one tray. Do not open it now.",
+      "Keys in the bowl. Every set.",
+      "Put tomorrow's bag and shoes by the door."
+    ], bad: "Put your keys in one place." },
+    laundry: { label: "Laundry", steps: [
+      "Every piece of clothing on the floor goes into the basket.",
+      "Start one load. Darks or lights, that is all the sorting.",
+      "Set a phone alarm for when the machine finishes.",
+      "Fold only what you will wear this week.",
+      "Put one category away: socks, or shirts, or towels."
+    ], bad: "Start the machine. That is the win." }
+  };
+  var ORDER = ["kitchen","bathroom","bedroom","living","doom","desk","entry","laundry"];
+  var room = "kitchen", mode = "normal", steps = [], i = 0, left = 60, per = 60, tick = null, paused = false, wake = null;
+  var $ = function(id){ return document.getElementById(id); };
+  var roomsEl = $("t-rooms"), modesEl = $("t-modes");
+  var q = new URLSearchParams(location.search).get("room");
+  if (q && ROOMS[q]) room = q;
+  ORDER.forEach(function(k){
+    var b = document.createElement("button");
+    b.type = "button"; b.className = "chip"; b.textContent = ROOMS[k].label; b.setAttribute("data-room", k);
+    b.setAttribute("aria-pressed", k === room ? "true" : "false");
+    roomsEl.appendChild(b);
+  });
+  function press(group, attr, val){
+    group.querySelectorAll("[" + attr + "]").forEach(function(b){ b.setAttribute("aria-pressed", b.getAttribute(attr) === val ? "true" : "false"); });
+  }
+  function preview(){
+    var r = ROOMS[room];
+    $("t-preview").textContent = mode === "bad" ? "Bad day: " + r.bad : "First step: " + r.steps[0];
+  }
+  roomsEl.addEventListener("click", function(e){ var b = e.target.closest("[data-room]"); if (!b) return; room = b.getAttribute("data-room"); press(roomsEl, "data-room", room); preview(); });
+  modesEl.addEventListener("click", function(e){ var b = e.target.closest("[data-mode]"); if (!b) return; mode = b.getAttribute("data-mode"); press(modesEl, "data-mode", mode); preview(); });
+  preview();
+  var ctx = null;
+  function beep(){
+    try {
+      ctx = ctx || new (window.AudioContext || window.webkitAudioContext)();
+      var o = ctx.createOscillator(), g = ctx.createGain();
+      o.frequency.value = 660; g.gain.setValueAtTime(0.0001, ctx.currentTime);
+      g.gain.exponentialRampToValueAtTime(0.2, ctx.currentTime + 0.02);
+      g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.6);
+      o.connect(g); g.connect(ctx.destination); o.start(); o.stop(ctx.currentTime + 0.65);
+    } catch (err) {}
+    if (navigator.vibrate) navigator.vibrate(200);
+  }
+  function fmt(s){ return Math.floor(s / 60) + ":" + ("0" + (s % 60)).slice(-2); }
+  function show(){
+    $("t-count").textContent = steps.length > 1 ? "Step " + (i + 1) + " of " + steps.length + " · " + ROOMS[room].label : "Bad-day reset · " + ROOMS[room].label;
+    $("t-step").textContent = steps[i];
+    $("t-clock").textContent = fmt(left);
+    $("t-bar").style.width = Math.round(((per - left) / per) * 100) + "%";
+    $("t-next").textContent = i === steps.length - 1 ? "Done, finish" : "Done, next step";
+  }
+  function finish(){
+    clearInterval(tick); tick = null;
+    if (wake && wake.release) { wake.release(); wake = null; }
+    $("t-run").classList.add("hidden"); $("t-done").classList.remove("hidden");
+    $("t-done-line").textContent = mode === "bad" ? "One step on a hard day is a full reset. The room did not slide further, and that was the goal." : "Five minutes, one room. It will not look perfect and it does not need to. Tomorrow starts one step ahead.";
+  }
+  function next(){
+    i++;
+    if (i >= steps.length) { finish(); return; }
+    left = per; show();
+  }
+  $("t-start").addEventListener("click", function(){
+    steps = mode === "bad" ? [ROOMS[room].bad] : ROOMS[room].steps.slice();
+    per = mode === "bad" ? 120 : 60; i = 0; left = per; paused = false;
+    $("t-pause").textContent = "Pause";
+    $("t-setup").classList.add("hidden"); $("t-done").classList.add("hidden"); $("t-run").classList.remove("hidden");
+    show(); beep();
+    if (navigator.wakeLock) navigator.wakeLock.request("screen").then(function(w){ wake = w; }).catch(function(){});
+    clearInterval(tick);
+    tick = setInterval(function(){
+      if (paused) return;
+      left--;
+      if (left <= 0) { beep(); next(); return; }
+      show();
+    }, 1000);
+  });
+  $("t-next").addEventListener("click", next);
+  $("t-pause").addEventListener("click", function(){ paused = !paused; this.textContent = paused ? "Resume" : "Pause"; });
+  $("t-again").addEventListener("click", function(){ $("t-done").classList.add("hidden"); $("t-setup").classList.remove("hidden"); });
+})();
+</script>

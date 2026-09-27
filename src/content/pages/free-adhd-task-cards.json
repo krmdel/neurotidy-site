@@ -10,7 +10,7 @@
   "faq": [
     {
       "q": "Are the ADHD task cards really free?",
-      "a": "Yes. The PDF link on this page is a direct download. There is no checkout, no trial and no catch. The five cards are a sample of the 20-card ADHD Home Reset, which costs $9 if you want the rest later."
+      "a": "Yes. The PDF link on this page is a direct download. There is no checkout, no trial and no catch. The five cards are a sample of the 20-card ADHD Home Reset, which costs $19 if you want the rest later."
     },
     {
       "q": "Do I need to give my email to download the cards?",
@@ -31,7 +31,10 @@
       "name": "5 Free ADHD Task Cards (printable)",
       "description": "Five printable ADHD task cards for dishes, showers, doom piles, body doubling and bad days. Each card breaks the task into steps an ADHD brain can start, with a bad-day version at the bottom. Free direct PDF, no email required.",
       "image": "/free-adhd-task-cards/cover.png",
-      "brand": { "@type": "Brand", "name": "Neurotidy" },
+      "brand": {
+        "@type": "Brand",
+        "name": "Neurotidy"
+      },
       "offers": {
         "@type": "Offer",
         "price": "0",

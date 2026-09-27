@@ -1,0 +1,24 @@
+{
+  "name": "adhd-room-reset-timer",
+  "path": "/adhd-room-reset-timer/",
+  "title": "Free ADHD room reset timer: one room, five minutes",
+  "description": "Pick a room and a free ADHD reset timer walks you through five one-minute steps, with a bad-day version. No signup, works on your phone.",
+  "h1": "The 5-minute ADHD room reset timer",
+  "type": "page",
+  "nav_label": "Room reset timer",
+  "no_cta": true,
+  "faq": [
+    {
+      "q": "Why five one-minute steps instead of one five-minute timer?",
+      "a": "A single timer still leaves you deciding what to do next, and deciding is the part an ADHD brain stalls on. Each step here is already decided and small enough to start, so the only job is the one line on the screen."
+    },
+    {
+      "q": "What is bad-day mode?",
+      "a": "One step, two minutes. On a low day that step is the whole job, and doing it counts as a full reset. The point is to keep the room from sliding, not to make it perfect."
+    },
+    {
+      "q": "Do I need an account or an app?",
+      "a": "No. It runs in your browser, on your phone or laptop, and nothing is saved or sent anywhere. Keep the tab open while you move around the room."
+    }
+  ]
+}

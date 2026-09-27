@@ -52,7 +52,7 @@ ${extraLd.map(jsonld).join("\n")}
 
 const header = (cfg) => `<header class="site"><a href="/" class="brand">${esc(cfg.brand)}</a>
 <a href="${cfg.products.free_cards_page}" class="nav-cta">Free ADHD task cards</a></header>`;
-const footer = (cfg) => `<footer class="site"><p>${esc(cfg.brand)}. ${esc(cfg.tagline)}. Built from 21k ADHD threads, not willpower. <a href="/about/">About</a> · <a href="/guides/">All guides</a> · <a href="${cfg.products.free_cards_page}">Free cards</a> · <a href="${cfg.products.home_reset_page}">The $9 deck</a> · <a href="https://www.instagram.com/neuro.tidy/">Instagram</a> · <a href="https://www.tiktok.com/@neuro.tidy">TikTok</a></p></footer>
+const footer = (cfg) => `<footer class="site"><p>${esc(cfg.brand)}. ${esc(cfg.tagline)}. Built from 21k ADHD threads, not willpower. <a href="/about/">About</a> · <a href="/guides/">All guides</a> · <a href="${cfg.products.free_cards_page}">Free cards</a> · <a href="/free-adhd-tools/">Free tools</a> · <a href="${cfg.products.home_reset_page}">The $19 deck</a> · <a href="https://www.instagram.com/neuro.tidy/">Instagram</a> · <a href="https://www.tiktok.com/@neuro.tidy">TikTok</a></p></footer>
 <script>document.addEventListener("click",function(e){var a=e.target.closest("[data-event]");if(a&&window.va){va("event",{name:a.getAttribute("data-event"),data:{path:location.pathname}})}});</script>
 </body>
 </html>`;
@@ -165,7 +165,7 @@ ${header(cfg)}
 <p style="margin:10px 0 0;font-size:.95rem">Read your type straight away: <a href="/adhd-mess-types/doom-piler/">Doom Piler</a>, <a href="/adhd-mess-types/floordrobe-keeper/">Floordrobe Keeper</a>, <a href="/adhd-mess-types/out-of-sight-out-of-mind/">Out of Sight, Out of Mind</a>, <a href="/adhd-mess-types/churn-and-burn/">Churn and Burn</a>.</p></aside>
 
 <aside class="cta" id="deck" style="max-width:720px;margin:8px auto 0;">
-<h2>The ADHD Home Reset: 20 cards + the guide, $9</h2>
+<h2>The ADHD Home Reset: 20 cards + the guide, $19</h2>
 <p>The full deck for kitchen, laundry, bathroom, trash, doom piles, mornings and evenings. Every card has a bad-day version.</p>
 <a class="button" href="${cfg.products.home_reset_page}">See what's in the deck</a></aside>
 

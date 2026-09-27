@@ -122,7 +122,7 @@ write("robots.txt", renderRobots(cfg));
 write("sitemap.xml", renderSitemap(cfg, entries));
 write("feed.xml", renderFeed(cfg, articles));
 if (cfg.legacy?.paths?.length) write("sitemap-legacy.xml", renderLegacySitemap(cfg, entries));
-const llmPages = pages.map((p) => ({ ...p, llms_section: [cfg.products.free_cards_page, cfg.products.free_checklist_page, cfg.products.free_planner_page, cfg.products.home_reset_page].includes(p.path) ? "resources" : "about" }));
+const llmPages = pages.map((p) => ({ ...p, llms_section: [cfg.products.free_cards_page, cfg.products.free_checklist_page, cfg.products.free_planner_page, cfg.products.home_reset_page, "/free-adhd-tools/", "/adhd-room-reset-timer/", "/adhd-chore-breakdown/", "/adhd-task-card-maker/"].includes(p.path) ? "resources" : "about" }));
 write("llms.txt", renderLlms(cfg, articles, llmPages));
 write("llms-full.txt", renderLlmsFull(cfg, articles, pages, sources));
 write("vercel.json", JSON.stringify({
