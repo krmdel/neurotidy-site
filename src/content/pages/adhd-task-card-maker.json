@@ -20,5 +20,38 @@
       "q": "Is anything I type saved?",
       "a": "No. The card is built in your browser. Nothing is uploaded or stored, and it is gone when you close the tab unless you print it or save the image."
     }
+  ],
+  "jsonld_extra": [
+    {
+      "@type": "WebApplication",
+      "name": "Neurotidy ADHD task card maker",
+      "url": "/adhd-task-card-maker/",
+      "description": "Free maker for printable ADHD task cards: write a few tiny steps and a bad-day line, then print four per page or save the card as an image.",
+      "applicationCategory": "LifestyleApplication",
+      "operatingSystem": "Any (runs in a web browser)",
+      "browserRequirements": "Requires JavaScript",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "Write your own steps and bad-day line",
+        "Print four cards per page",
+        "Save the card as an image for your phone",
+        "No signup"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Mara Ellery",
+        "url": "/about/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Neurotidy",
+        "url": "/"
+      }
+    }
   ]
 }

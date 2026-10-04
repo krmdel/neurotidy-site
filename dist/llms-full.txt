@@ -4,7 +4,7 @@ Neurotidy makes free printable ADHD task cards, a free ADHD cleaning checklist, 
 
 ## Why dishes pile up with ADHD (and what helps)
 URL: https://neurotidy.co/articles/adhd-dishes-pile-up.html
-Published: 2026-07-29 · Updated: 2026-08-30
+Published: 2026-07-29 · Updated: 2026-10-04
 Author: Mara Ellery (pen name of the founder)
 
 Dishes pile up with ADHD because one dirty dish is really four small decisions stacked behind it: scrape it, rinse it, load it or hand-wash it, and figure out where it goes when it is clean. ADHD brains run out of decisions long before they run out of dishes, so the plate stays in the sink and the guilt piles up on top of it.
@@ -42,6 +42,8 @@ Treat the dishwasher as a drying rack. Load it as you go, run it half full, and 
 Leave the water in. Fill the sink with soapy water in the morning. Anything that lands in it is already soaking, so later is easy instead of welded on, and the soak does the hard part for you.
 
 Wash the visible three. When the sink feels impossible, do not clear it. Wash the three things on top. The mountain becomes a molehill and momentum usually takes the rest. If it does not, three clean things is still a win.
+
+If the sink still feels like one enormous job, type "dishes" into the free ADHD chore breakdown. You get four small steps, an honest time, and a bad-day version for the nights when three plates is the whole plan.
 
 FAQ
 
@@ -311,7 +313,7 @@ Sources:
 
 ## ADHD laundry: why the clean pile never gets folded
 URL: https://neurotidy.co/articles/the-laundry.html
-Published: 2026-07-29 · Updated: 2026-08-30
+Published: 2026-07-29 · Updated: 2026-10-04
 Author: Mara Ellery (pen name of the founder)
 
 If you have ADHD, the hard part of laundry isn't the laundry, it's the folding. Washing gives your brain a clear, visible win, but folding is the boring last step with no dopamine attached, so the clean basket just sits there for a week while you live out of it.
@@ -346,6 +348,8 @@ Pair folding with dopamine. If you do fold, never fold in silence. Put on a show
 
 Wash less, on one day. One laundry day beats a constant trickle you can never finish. A small finished load beats an eternal big one that reloads itself before you're done.
 
+Laundry is really four separate chores pretending to be one. The free chore breakdown splits it into steps you can start, and the task card maker turns those steps into a card to tape above the basket.
+
 FAQ
 
 Why can't I fold laundry with ADHD?
@@ -367,7 +371,7 @@ Sources:
 
 ## The 5-minute ADHD evening cleaning reset (closing-shift method)
 URL: https://neurotidy.co/articles/the-reset.html
-Published: 2026-07-29 · Updated: 2026-08-30
+Published: 2026-07-29 · Updated: 2026-10-04
 Author: Mara Ellery (pen name of the founder)
 
 A 5-minute ADHD cleaning reset for the evening is a closing shift for your home: you set a timer, clear the flat surfaces, reset the sink, and set up one easy start for tomorrow, then you stop. It works because a cafe never deep cleans at night either, it just resets for the next morning, and your brain can follow that same short, decision-free routine in five to fifteen minutes.
@@ -412,6 +416,8 @@ Set up tomorrow's first win. Lay out the coffee, fill the kettle, put your keys 
 
 Run the same order every night. Sink, surfaces, floor, done. A fixed order means no deciding, and no deciding is how this actually gets done more than once.
 
+If you want the sequence handed to you one step at a time, the free 5-minute room reset timer runs it in your browser: pick the room, and each one-minute step appears with a soft beep, so you never have to decide what comes next.
+
 FAQ
 
 What is a 5-minute ADHD cleaning reset routine for the evening?
@@ -435,7 +441,7 @@ Sources:
 
 ## ADHD time blindness: why cleaning feels like forever
 URL: https://neurotidy.co/articles/time-blindness.html
-Published: 2026-07-29 · Updated: 2026-08-30
+Published: 2026-07-29 · Updated: 2026-10-04
 Author: Mara Ellery (pen name of the founder)
 
 You avoid the kitchen because it feels like it will eat an hour of your evening, then you finally time it and the whole thing takes six minutes. That gap between how long a chore feels and how long it actually takes is ADHD time blindness, not laziness and not a willpower problem.
@@ -470,6 +476,8 @@ Use one song per task. Put on a single song and do the dishes until it ends. A s
 
 Shrink the unit. Do not clean the kitchen. Just do the sink. A task you can picture finishing is a task you will actually start, and starting is the whole battle.
 
+If timing a task yourself is the part you never get round to, the free chore breakdown shows the real time most common chores take next to the steps, so the six-minute job stops wearing its two-hour costume.
+
 FAQ
 
 Why do tasks feel like they take forever with ADHD?
@@ -491,7 +499,7 @@ Sources:
 
 ## The ADHD cleaning checklist that actually works (room by room)
 URL: https://neurotidy.co/articles/adhd-cleaning-checklist.html
-Published: 2026-07-31 · Updated: 2026-09-04
+Published: 2026-07-31 · Updated: 2026-10-04
 Author: Mara Ellery (pen name of the founder)
 
 An ADHD cleaning checklist works when every line is one physical action (not "clean the kitchen" but "put the cups in the sink"), takes under five minutes, and is written down so your brain doesn't have to hold it. The full room by room version is below: a 5-minute kitchen reset, a 5-minute bedroom reset, and a 3-minute bathroom reset.
@@ -549,6 +557,8 @@ How to use it without burning out
 Set a timer for the room you're in and do only that room's list. When the timer rings, you're done, even if you can see six other things that need doing. One room per session is the whole system. The kitchen tonight, the bedroom tomorrow, and the house stays livable without a single marathon clean.
 
 Done beats perfect here. A counter that got one wipe is a reset. A duvet pulled straight is a made bed. If your brain argues that it doesn't count unless it's spotless, that's the same all-or-nothing wiring that built the pile in the first place, and it doesn't get a vote. If holding even this list feels like too much, the free printable task cards are this exact checklist in card form, one card per room, so the fridge remembers the kitchen list instead of you. If you want it as a single sheet, the free printable ADHD cleaning checklist is this article on one A4 page, direct PDF, no email.
+
+Want a card for a room this list does not cover? The free ADHD task card maker lets you write your own steps and a bad-day line, then print four to a page or save it as an image for your phone. If you are weighing apps against paper, this comparison of free ADHD cleaning tools covers the main options.
 
 FAQ
 
@@ -627,7 +637,7 @@ Sources:
 
 ## ADHD cleaning paralysis: why you can't start when you want to
 URL: https://neurotidy.co/articles/cleaning-paralysis.html
-Published: 2026-07-31 · Updated: 2026-08-30
+Published: 2026-07-31 · Updated: 2026-10-04
 Author: Mara Ellery (pen name of the founder)
 
 Cleaning paralysis is when you want to clean, you know how, and you physically can, but you cannot make yourself begin. It's a task-initiation failure, an executive-function glitch that's common in ADHD brains, not laziness and not a sign you don't care.
@@ -669,6 +679,8 @@ Use an external starter. A 10-minute timer, one specific song that means "we're 
 Give yourself permission to do it badly. Shoving everything on the bed into one basket counts. Wiping only the visible part of the counter counts. Done badly is a real state of done. Perfect is just the freeze wearing a nicer outfit.
 
 Stop while it still feels okay. Don't push until you're fried. End the session while you'd honestly do five more minutes. Your brain files cleaning as "that thing that ended fine", and tomorrow's start gets noticeably cheaper.
+
+When you cannot even pick the first move, let something else pick it. Type the chore into the free ADHD chore breakdown and it returns four startable steps, with step one small enough to do before your brain objects.
 
 FAQ
 
@@ -766,7 +778,7 @@ Sources:
 
 ## Why is my room always messy? The ADHD answer nobody gave you
 URL: https://neurotidy.co/articles/messy-room.html
-Published: 2026-07-31 · Updated: 2026-08-30
+Published: 2026-07-31 · Updated: 2026-10-04
 Author: Mara Ellery (pen name of the founder)
 
 If your room re-messes itself within days of every cleanup, the cause is usually not laziness but a set of ADHD traits stacking: out of sight is out of mind, every item needs a decision, and boring tasks have no dopamine. The room is downstream of how your brain files objects, not of your character.
@@ -806,6 +818,8 @@ Put one laundry basket and one trash can within arm's reach of the bed. Most bed
 Run a 5-minute nightly reset with a timer. Not a clean, a reset. Timer on, return strays to their homes, stop when it rings. Five minutes a day beats four hours a month.
 
 Cut the object count in the room. Every extra object is one more thing the system has to file. Fewer mugs, fewer decor pieces, fewer maybe-clothes. A room with less stuff re-messes slower and resets faster.
+
+For the nightly reset, the free room reset timer does the remembering for you. Pick "bedroom" and it walks you through five one-minute steps, or one two-minute step on a bad day.
 
 FAQ
 
@@ -1076,7 +1090,7 @@ Sources:
 
 ## The bare-minimum ADHD cleaning day (for when it's all too much)
 URL: https://neurotidy.co/articles/bare-minimum-cleaning-day.html
-Published: 2026-08-30 · Updated: 2026-08-30
+Published: 2026-08-30 · Updated: 2026-10-04
 Author: Mara Ellery (pen name of the founder)
 
 A bare-minimum ADHD cleaning day is three short anchors attached to things you already do: a two-minute kitchen close after your last meal, a one-minute bathroom wipe after brushing your teeth, and a three-minute bedroom path clear before bed. Under ten minutes, no deciding, and the house holds steady until you have capacity again.
@@ -1116,6 +1130,8 @@ Before bed: three-minute path clear. Move whatever is on the floor between the d
 Tape the three anchors where each one happens: by the sink, on the mirror, by the bedroom door. Reading beats remembering.
 
 When the hard stretch ends, do one 15-minute closing-shift reset instead of a deep clean. The anchors kept the house recoverable, so recovery is small.
+
+On a day when even reading the card is a lot, the room reset timer has a bad-day mode: one step, two minutes, and it counts as the whole job.
 
 FAQ
 
@@ -1198,7 +1214,7 @@ Sources:
 
 ## The low-energy ADHD cleaning list for bad brain days
 URL: https://neurotidy.co/articles/low-energy-adhd-cleaning-list.html
-Published: 2026-08-30 · Updated: 2026-08-30
+Published: 2026-08-30 · Updated: 2026-10-04
 Author: Mara Ellery (pen name of the founder)
 
 A low-energy ADHD cleaning list is six tiny tasks that keep tomorrow from being worse: rinse one mug, tie the trash, put dishes in water, clear the path to the bed, one glass of water, outfit on the chair. It takes under ten minutes, needs zero decisions, and on a bad brain day it counts as a full win.
@@ -1243,6 +1259,8 @@ Fill a glass of water for the nightstand and put tomorrow's outfit on the chair.
 
 That is five actions and about eight minutes. If you did them, the day counts. If you did two of them, the day still counts, and the other three are waiting for tomorrow without judgement.
 
+If one item on the floor still feels too big, type it into the free ADHD chore breakdown. It hands back a bad-day version of any chore, sized for exactly this kind of day.
+
 FAQ
 
 What should I clean when I have no energy and ADHD?
@@ -1265,7 +1283,7 @@ Sources:
 
 ## What is the 1-3-5 rule for ADHD, and does it work for cleaning?
 URL: https://neurotidy.co/articles/1-3-5-rule-adhd.html
-Published: 2026-09-03 · Updated: 2026-09-03
+Published: 2026-09-03 · Updated: 2026-10-04
 Author: Mara Ellery (pen name of the founder)
 
 The 1-3-5 rule for ADHD is a daily list with a fixed shape: one big task, three medium tasks, five small tasks, and nothing else. Nine things, sized the night before, so the day starts with the sorting already done. It was not invented for ADHD, but a capped list happens to fit the exact place an ADHD brain stalls: staring at twenty equally loud items and choosing none.
@@ -1327,6 +1345,8 @@ Fill the three medium slots with one-surface or one-load jobs. If a job needs mo
 Fill the five small slots with under-five-minute single motions. The free task cards are already sized this way if you want to pull from them.
 
 In the morning, start with a small one, never the big one. The first completion is what unlocks the rest, and a big task is the worst possible first start.
+
+If a task keeps landing in the wrong slot because you cannot tell how big it is, run it through the free chore breakdown first. Seeing the steps and the real time usually tells you whether it is a 1, a 3 or a 5.
 
 FAQ
 
@@ -1576,6 +1596,84 @@ Steps are actions you can see. "Wipe the counter you use most", not "tidy the ki
 The bad-day line is a full win. Write the version you could do on your worst day, and count it.
 
 Stuck on the steps? The chore breakdown writes a first draft for you. All the tools are on the free ADHD tools page.
+
+
+## Best free ADHD cleaning apps and printables, compared honestly
+URL: https://neurotidy.co/best-free-adhd-cleaning-tools/
+
+Short answer: for breaking any task into steps, goblin.tools Magic ToDo is the one most ADHD threads recommend. For a cleaning schedule that tracks itself, Tody or Sweepy, both free with paid extras. For someone to clean alongside, Focusmate gives three free sessions a week. For paper you can print without handing over an email, ADHD Printable and Neurotidy both give direct PDFs. Below is what each one actually does, what costs money, and where each falls short.
+
+Disclosure: I make Neurotidy, which is on this list. I have kept it to the same format as everything else, including what it does badly. Prices and free tiers were checked on 4 October 2026 and do change, so confirm on each site before you pay for anything.
+
+ToolWhat it isFree partPaid partBest for
+
+goblin.tools (Magic ToDo)AI task splitter, web and phone appsThe tools, kept free by sponsorsA Pro tier exists (accounts sync lists across devices)Breaking down any task, not only cleaning
+TodyCleaning schedule app, iPhone and AndroidCore cleaning plan, no adsPremium $9.99 a year (focus timer, more homes); Premium+ for household syncSeeing which room is due, without a fixed rota
+SweepyGamified cleaning schedule appThe app and basic schedule$3.99 a month or $19.99 a year (multi-user and more)People who like points and streaks
+FocusmateVideo body doubling sessions3 sessions a weekFrom $8 a month billed yearly for unlimitedStarting when you cannot start alone
+ADHD PrintableFree PDF planners and checklistsAll printables, no emailNone listedA wide choice of planner layouts
+Honestly ADHDADHD blog with downloads and a shopA cleaning checklistPlanners and spreadsheets in their shopReading about ADHD alongside the printable
+NeurotidyPrintables and three browser tools for the homeChecklist, planner and 5 task cards as direct PDFs; room reset timer, chore breakdown, card makerA 20-card printable deck, $19 onceTiny first steps and a bad-day version of every task
+
+How do you pick a free ADHD cleaning tool?
+
+Start from where you get stuck, not from the feature list. ADHD cleaning usually breaks at one of four points, and each tool here is good at one of them.
+
+You cannot start. The blocker is initiation. A body double (Focusmate, or a friend on a call) or a timer that hands you one step at a time does more than any list.
+
+You do not know what the steps are. The task feels like one giant blob. A breakdown tool turns it into pieces: Magic ToDo for anything, the Neurotidy chore breakdown for common home chores.
+
+You forget what is due. The problem is memory, not effort. A schedule app like Tody or Sweepy keeps track so you do not have to.
+
+You lose the list. Apps live behind a lock screen full of distractions. Paper taped where the job happens (a fridge, a bathroom mirror) works for a lot of people, which is the case for printables.
+
+Most people end up with one of each kind rather than one perfect tool. A schedule app plus a printed bad-day card is a common pairing in ADHD threads.
+
+goblin.tools Magic ToDo
+
+Magic ToDo takes a task you type and splits it into smaller steps, and you can ask it to split any step again. It is the tool ADHD subreddits name most often when someone says they cannot start, and it covers far more than cleaning: there are sibling tools for estimating time, rewording messages and planning meals. The site says it is kept free by sponsors, there are phone apps, and it now has optional accounts for syncing lists.
+
+Where it falls short: the steps are generated each time, so they vary, and it does not build in a lower-effort version for bad days. You also have to know what to type, which is hard when the whole room is the problem.
+
+Tody
+
+Tody tracks how long it has been since each area was cleaned and shows what is due, instead of making you follow a fixed weekly rota. If you miss a week, the rota does not collapse; overdue areas simply move up the list. The core plan is free on iPhone and Android with no ads. Premium is $9.99 a year and adds a focus timer and multiple homes; household sharing sits in a higher tier.
+
+Where it falls short: setting it up takes a sitting of its own, which is exactly the kind of task that gets put off. It tells you what is due, not how to start it.
+
+Sweepy
+
+Sweepy turns chores into points and lets you split them across a household, which suits people who are motivated by streaks and small rewards. The app is free to start; the paid tier is $3.99 a month or $19.99 a year, and reviews often mention that sharing with other people sits behind it.
+
+Where it falls short: gamification wears off for a lot of ADHD brains once the novelty goes, and there is no lifetime option if you dislike subscriptions.
+
+Focusmate
+
+Focusmate pairs you with a stranger on video for a 25, 50 or 75 minute session. You each say what you are doing, then get on with it. It is built for work, but plenty of people use it for laundry and dishes because having someone present is what gets them moving. The free plan is three sessions a week; unlimited is from $8 a month billed yearly.
+
+Where it falls short: you need a camera and a scheduled slot, which is a lot to ask on a low day. A friend on a voice call does the same job for free. The body doubling guide covers the low-effort versions.
+
+ADHD Printable
+
+A free library of PDF cleaning planners, checklists and routine sheets for adults with ADHD. Every file is a direct download; the site says plainly there is no email, no app and no sign-up. With about a dozen printables, it has the widest choice of planner layouts here.
+
+Where it falls short: they are planners and lists, so they help with remembering and less with starting. You still have to decide where to begin.
+
+Honestly ADHD
+
+An ADHD blog that publishes a free cleaning checklist next to a guide on how to clean with ADHD, and sells planners and spreadsheets in its shop. Worth it if you want the explanation and the printable in one place.
+
+Where it falls short: it runs an email newsletter, so check whether a download asks for your address, and the cleaning material is one part of a much broader ADHD site.
+
+Neurotidy
+
+Neurotidy makes printables and three small browser tools, all built on one rule: the first step is almost nothing, the time is honest, and every task has a bad-day version that still counts. The free part is the one-page cleaning checklist, the weekly cleaning planner, five task cards, the room reset timer, the chore breakdown and the task card maker. All PDFs are direct downloads and the tools need no account and save nothing. The one paid thing is a 20-card deck, $19 once.
+
+Where it falls short: it is a small, new site. There is no app, no reminders, no sync between people and no streaks. The chore breakdown only knows common home chores, about two dozen of them, so for anything outside the home Magic ToDo is the better pick.
+
+What about ChatGPT or another chatbot?
+
+A general chatbot will happily break a chore into steps, and many people with ADHD use one exactly that way, sometimes with a photo of the room. It works. The trade-offs are that the answer changes every time, it tends to give you ten steps when you needed two, and the app you open it in is full of other things to do. If it works for you, keep it. If it does not, the tools above are narrower on purpose.
 
 
 ## The Churn and Burn: the all-or-nothing ADHD mess type
@@ -1978,6 +2076,8 @@ The task card makerWrite your own card, print four to a page to tape where the t
 The ADHD mess type quizSixty seconds to find which of the four mess patterns your home runs on, and the first card to use.
 
 The tools are free and stay free, no account and nothing locked. If you would rather have the system on paper, the ADHD Home Reset is 20 printable cards in the same format ($19 once), and there are 5 free cards too.
+
+Looking at apps as well? Free ADHD cleaning apps and printables, compared puts these next to goblin.tools, Tody, Sweepy, Focusmate and the other free printables, with what each one costs.
 
 
 ## The Out-of-Sight Out-of-Mind ADHD mess type

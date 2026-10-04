@@ -6,5 +6,55 @@
   "h1": "Free ADHD cleaning tools",
   "type": "page",
   "nav_label": "Free tools",
-  "no_cta": true
+  "no_cta": true,
+  "jsonld_extra": [
+    {
+      "@type": "ItemList",
+      "name": "Free ADHD cleaning tools from Neurotidy",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "5-minute ADHD room reset timer",
+          "url": "/adhd-room-reset-timer/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "ADHD chore breakdown",
+          "url": "/adhd-chore-breakdown/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "ADHD task card maker",
+          "url": "/adhd-task-card-maker/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "ADHD mess type quiz",
+          "url": "/quiz.html"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Are these ADHD tools really free?",
+      "a": "Yes. All three run in your browser with no account, no email and no trial. Nothing you type is saved or sent anywhere. They stay free; the only paid thing on the site is an optional printable deck."
+    },
+    {
+      "q": "Which tool should I use first?",
+      "a": "If you are standing in a messy room, use the room reset timer. If one specific chore keeps getting skipped, use the chore breakdown. If you already know the steps and just keep forgetting them, make a card with the task card maker and tape it where the job happens."
+    },
+    {
+      "q": "Do they work on a phone?",
+      "a": "Yes. They are plain web pages, so they work in any phone or laptop browser. Keep the tab open while you move around the room."
+    },
+    {
+      "q": "How are these different from an AI task breakdown app?",
+      "a": "The steps are written by hand from thousands of real ADHD threads, not generated on the spot, so they are the same every time and always include a bad-day version. Nothing goes to a server. If you want a general to-do splitter for any kind of task, an AI tool like goblin.tools Magic ToDo covers more ground; these three are narrower and built only for the home."
+    }
+  ]
 }

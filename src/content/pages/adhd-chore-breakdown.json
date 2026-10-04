@@ -20,5 +20,38 @@
       "q": "Can I print the result?",
       "a": "Yes. Press \"Make it a printable card\" and the steps open in the free task card maker, where you can edit them and print four copies on one page."
     }
+  ],
+  "jsonld_extra": [
+    {
+      "@type": "WebApplication",
+      "name": "Neurotidy ADHD chore breakdown",
+      "url": "/adhd-chore-breakdown/",
+      "description": "Free tool that turns a chore you keep avoiding into four startable steps, an honest time estimate and a bad-day version. No signup.",
+      "applicationCategory": "LifestyleApplication",
+      "operatingSystem": "Any (runs in a web browser)",
+      "browserRequirements": "Requires JavaScript",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "Four startable steps per chore",
+        "Typical real time for common chores",
+        "Bad-day version of every chore",
+        "Copy the steps or turn them into a printable card"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Mara Ellery",
+        "url": "/about/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Neurotidy",
+        "url": "/"
+      }
+    }
   ]
 }

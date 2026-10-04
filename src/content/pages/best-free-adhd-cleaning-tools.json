@@ -1,0 +1,78 @@
+{
+  "name": "best-free-adhd-cleaning-tools",
+  "path": "/best-free-adhd-cleaning-tools/",
+  "title": "Best free ADHD cleaning apps and printables, compared honestly",
+  "description": "Goblin.tools, Tody, Sweepy, Focusmate, ADHD Printable, Honestly ADHD and Neurotidy compared: what is free, what costs money, and which fits where you get stuck.",
+  "h1": "Free ADHD cleaning apps and printables, compared",
+  "type": "page",
+  "nav_label": "Tools compared",
+  "no_cta": true,
+  "faq": [
+    {
+      "q": "What is the best free app for ADHD cleaning?",
+      "a": "It depends on where you get stuck. For breaking a task into steps, goblin.tools Magic ToDo is free and widely recommended. For a schedule that tracks what is due, Tody and Sweepy both have free versions. For starting, Focusmate gives three free body doubling sessions a week."
+    },
+    {
+      "q": "Are there free ADHD cleaning printables without an email sign-up?",
+      "a": "Yes. ADHD Printable offers its cleaning planners and checklists as direct PDFs with no email, and Neurotidy's cleaning checklist, weekly planner and five task cards are direct downloads too."
+    },
+    {
+      "q": "Is there a free alternative to goblin.tools for cleaning?",
+      "a": "Neurotidy's chore breakdown is free and needs no account. It covers about two dozen common home chores with hand-written steps, an honest time and a bad-day version, where Magic ToDo uses AI and covers any task."
+    },
+    {
+      "q": "Do ADHD cleaning apps actually help?",
+      "a": "They help with the part they are built for. Schedule apps help with remembering, breakdown tools help with not knowing where to begin, and body doubling helps with starting. No single app fixes all three, which is why many people pair an app with a printed card."
+    }
+  ],
+  "jsonld_extra": [
+    {
+      "@type": "ItemList",
+      "name": "Free ADHD cleaning apps and printables compared",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "goblin.tools Magic ToDo",
+          "url": "https://goblin.tools/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tody",
+          "url": "https://todyapp.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sweepy",
+          "url": "https://sweepy.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Focusmate",
+          "url": "https://www.focusmate.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "ADHD Printable",
+          "url": "https://adhdprintable.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Honestly ADHD",
+          "url": "https://honestlyadhd.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Neurotidy",
+          "url": "/"
+        }
+      ]
+    }
+  ]
+}
