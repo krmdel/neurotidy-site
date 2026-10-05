@@ -27,7 +27,7 @@
   "jsonld_extra": [
     {
       "@type": "Product",
-      "name": "The ADHD Home Reset: 20 printable task cards + guide",
+      "name": "The ADHD Home Reset by Neurotidy: 20 printable task cards + guide",
       "description": "A $19 deck of 20 printable ADHD task cards covering kitchen, laundry, bathroom, trash, doom piles, mornings and evenings, plus a short guide on why routines fail and the five levers that replace willpower. Every card has a bad-day version.",
       "brand": {
         "@type": "Brand",
