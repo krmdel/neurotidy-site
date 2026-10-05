@@ -5,7 +5,7 @@
   "description": "Five free printable ADHD task cards for dishes, showers, doom piles, body doubling and bad days. Direct PDF, no signup, every card has a bad-day version.",
   "h1": "5 free printable ADHD task cards, no email needed",
   "type": "page",
-  "og_image": "/free-adhd-task-cards/cover.png",
+  "og_image": "/images/og-free-cards.jpg",
   "nav_label": "Free cards",
   "faq": [
     {
@@ -30,7 +30,7 @@
       "@type": "Product",
       "name": "5 Free ADHD Task Cards (printable)",
       "description": "Five printable ADHD task cards for dishes, showers, doom piles, body doubling and bad days. Each card breaks the task into steps an ADHD brain can start, with a bad-day version at the bottom. Free direct PDF, no email required.",
-      "image": "/free-adhd-task-cards/cover.png",
+      "image": "/images/og-free-cards.jpg",
       "brand": {
         "@type": "Brand",
         "name": "Neurotidy"

@@ -33,12 +33,12 @@
     },
     {
       "source": "/deck",
-      "destination": "/go/reset.html",
+      "destination": "/go/deck.html",
       "permanent": false
     },
     {
       "source": "/deck/",
-      "destination": "/go/reset.html",
+      "destination": "/go/deck.html",
       "permanent": false
     },
     {

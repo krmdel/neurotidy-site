@@ -13,7 +13,7 @@
     },
     {
       "q": "What if the cards do not fit how my brain works?",
-      "a": "Start with the free five first. They use the same format, so if they do not click, do not buy the deck. Gumroad handles refunds, and we would rather you keep your $19 than own cards you never use."
+      "a": "Start with the free five first. They use the same format, so if they do not click, you know before you spend anything. If you buy the deck and the cards don't help, there is a 30-day refund: reply to your receipt."
     },
     {
       "q": "Do I need an ADHD diagnosis to use it?",
@@ -40,8 +40,10 @@
         "availability": "https://schema.org/InStock",
         "url": "https://neurotidy.gumroad.com/l/adhd-home-reset"
       },
-      "image": "/adhd-home-reset/cover.png"
+      "image": "/images/og-deck.jpg"
     }
   ],
-  "og_image": "/adhd-home-reset/cover.png"
+  "og_image": "/images/og-deck.jpg",
+  "no_cta": true,
+  "end_box": "<aside class=\"buybox\"><h2>Ready for the full deck?</h2>\n<p>20 cards and the guide, $19 once, instant PDF.</p>\n<p><a class=\"button\" href=\"/go/reset-end.html\" data-event=\"click_gumroad_19_end\">Get the ADHD Home Reset</a></p>\n<p class=\"refund-line\">30-day refund if the cards don't help: reply to your receipt.</p></aside>"
 }

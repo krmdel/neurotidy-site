@@ -8,6 +8,10 @@
   "nav_label": "About",
   "faq": [
     {
+      "q": "Is Neurotidy the same as NeuroTyde, or the neurotidy Python package?",
+      "a": "No. Neurotidy (neurotidy.co) makes free printable ADHD cleaning checklists, task cards and browser tools, written under the pen name Mara Ellery. It is not the NeuroTyde supplement, not the neurotidy Python package, and not neurotidy.com."
+    },
+    {
       "q": "Is Mara Ellery a real person?",
       "a": "Mara Ellery is a pen name. The person behind it is Neurotidy's founder, who writes every guide and built the task cards. The name is a pen name so the brand stays about the systems rather than one face. Nothing else about the author is invented: no credentials, no titles, no claimed training."
     },

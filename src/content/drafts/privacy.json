@@ -1,0 +1,11 @@
+{
+  "_draft_note": "DRAFT, not built or linked (approved 2026-10-05: draft now, link it only when the email form goes live). To publish: move both files to src/content/pages/, fill in the ESP name, and link /privacy/ from the form.",
+  "name": "privacy",
+  "path": "/privacy/",
+  "title": "Privacy at Neurotidy: what we collect and why",
+  "description": "What Neurotidy collects: anonymous page counts, your email only if you ask for the planner emails, and nothing from the free PDFs. How to unsubscribe or get your data deleted.",
+  "h1": "Privacy",
+  "type": "page",
+  "nav_label": "Privacy",
+  "no_cta": true
+}

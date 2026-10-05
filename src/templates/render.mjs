@@ -43,7 +43,7 @@ function head(cfg, { title, description, path, ogType = "article", ogImage, publ
 <meta property="og:description" content="${attr(description)}">
 <meta property="og:url" content="${url}">
 <meta property="og:site_name" content="${attr(cfg.brand)}">
-${img ? `<meta property="og:image" content="${img}">\n` : ""}<meta name="twitter:card" content="${ogImage ? "summary_large_image" : "summary"}">
+${img ? `<meta property="og:image" content="${img}">\n` : ""}<meta name="twitter:card" content="${img ? "summary_large_image" : "summary"}">
 ${published ? `<meta property="article:published_time" content="${published}">\n<meta property="article:modified_time" content="${modified}">` : ""}
 <link rel="stylesheet" href="/style.css">
 <script defer src="${cfg.analytics_script}"></script>
@@ -64,9 +64,19 @@ const breadcrumbLd = (cfg, items) => ({
 });
 const breadcrumbHtml = (items) => `<nav class="crumbs" aria-label="Breadcrumb">${items.map((it, i) => (i === items.length - 1 ? `<span>${esc(it.name)}</span>` : `<a href="${it.path}">${esc(it.name)}</a>`)).join(" › ")}</nav>`;
 
+// Email capture is approved (2026-10-05) but the ESP account does not exist yet: this slot stays hidden until the
+// embed is pasted in. Copy and placement: section 4 #4 of clients/neurotidy/projects/2026-10-05_agentic-seo-best-practices-and-funnel.md.
+export const emailSlot = (where) => `<div class="email-slot" data-slot="esp-form" data-where="${where}" hidden><!-- EMAIL FORM SLOT (hidden): paste the ESP embed here and remove the hidden attribute once the account exists. Link /privacy/ from the form at the same time. --></div>`;
+
 const ctaFree = (cfg) => `<aside class="cta" id="free"><h2>Get the free printable ADHD task cards</h2>
 <p>Five ready-to-print cards that turn "clean the kitchen" into steps your brain can actually start. Free, no email, just the PDF.</p>
-<a class="button" href="${cfg.products.free_cards_page}">Get the free cards</a></aside>`;
+<a class="button" href="${cfg.products.free_cards_page}">Get the free cards</a>
+${emailSlot("guide-end")}</aside>`;
+
+// First-screen offer on guides (section 4 #5): right after the lede, through counted /go/ stubs.
+const startBox = () => `<aside class="startbox"><p><strong>Print this instead of remembering it.</strong> 5 free printable ADHD task cards for dishes, showers, doom piles and bad days. Direct PDF, no email.</p>
+<p><a class="button" href="/go/a-cards.html">Get the 5 free cards</a> <span class="startbox-or">or the <a href="/go/a-deck.html">full 20-card deck, $19 once</a></span></p></aside>`;
+const withStartBox = (cfg, a) => ((cfg.start_box_skip || []).includes(a.slug) ? a.body.trim() : a.body.trim().replace(/(<p class="lede">[\s\S]*?<\/p>)/, (m) => `${m}\n${startBox()}`));
 
 export function renderArticle(cfg, a, { sources, byslug, modified }) {
   const path = `/articles/${a.slug}.html`;
@@ -91,7 +101,7 @@ ${header(cfg)}
 ${breadcrumbHtml(crumbs)}
 <h1>${a.h1}</h1>
 <p class="byline">Written by <a href="${cfg.author.path}">${esc(cfg.author.name)}</a> · Published ${fmtDate(a.published)} · Last reviewed ${fmtDate(modified)}</p>
-${a.body.trim()}
+${withStartBox(cfg, a)}
 
 <section class="sources"><h2 id="sources">Sources</h2>
 <p class="small">${esc(cfg.reviewed_line)}</p>
@@ -123,6 +133,7 @@ ${breadcrumbHtml(crumbs)}
 ${p.byline === false ? "" : `<p class="byline">By <a href="${cfg.author.path}">${esc(cfg.author.name)}</a> · Last reviewed ${fmtDate(modified)}</p>`}
 ${p.body.trim()}
 ${p.faq && p.faq.length && !/class="faq"/.test(p.body) ? `<section class="faq"><h2>FAQ</h2>\n${p.faq.map((q) => `<h3>${esc(q.q)}</h3><p>${esc(q.a)}</p>`).join("\n")}</section>` : ""}
+${p.end_box ? p.end_box.trim() : ""}
 ${p.no_cta ? "" : ctaFree(cfg)}
 </main>
 ${footer(cfg)}`;
@@ -158,7 +169,8 @@ ${header(cfg)}
 <aside class="cta" id="free" style="max-width:720px;margin:8px auto 0;">
 <h2>Get the free printable ADHD task cards</h2>
 <p>Five ready-to-print cards that turn "clean the kitchen" into steps your brain can actually start. Free, no email, direct PDF.</p>
-<a class="button" href="${cfg.products.free_cards_page}">Get the free cards</a></aside>
+<a class="button" href="${cfg.products.free_cards_page}">Get the free cards</a>
+<img class="cta-img" src="/images/free-cards-sheet.webp" width="900" height="1178" alt="A printed sheet of the free Neurotidy task cards: Dish Rescue, the 2-Alarm Shower and Doom Pile Triage, each with steps and a bad-day line"></aside>
 
 <aside class="cta" id="quiz" style="max-width:720px;margin:8px auto 0;">
 <h2>What's your ADHD mess type?</h2>

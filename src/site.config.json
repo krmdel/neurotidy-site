@@ -74,6 +74,10 @@
     ]
   },
   "meta_description": "Free printable ADHD task cards, a free ADHD cleaning checklist, and plain-language guides for cleaning your home with ADHD. Built for how your brain works.",
-  "default_og_image": "/free-adhd-task-cards/cover.png",
-  "logo": "/brand/neurotidy-logo.png"
+  "default_og_image": "/images/og-free-cards.jpg",
+  "logo": "/brand/neurotidy-logo.png",
+  "start_box_skip": [
+    "the-floor"
+  ],
+  "start_box_skip_note": "the-floor is the page-2 experiment E1 (readout 2026-W40). Remove it from start_box_skip only after the readout is recorded."
 }
