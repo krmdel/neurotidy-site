@@ -1,6 +1,6 @@
 # Neurotidy: full text of every guide and page
 
-Neurotidy makes free printable ADHD task cards, a free ADHD cleaning checklist, and plain-language guides for cleaning your home with ADHD, written under the pen name Mara Ellery at neurotidy.co.
+Neurotidy makes free printable ADHD task cards, a free ADHD cleaning checklist and weekly cleaning planner, three free browser tools (a room reset timer, a chore breakdown and a task card maker), and plain-language guides for cleaning your home with ADHD, written under the pen name Mara Ellery at neurotidy.co.
 
 ## Why dishes pile up with ADHD (and what helps)
 URL: https://neurotidy.co/articles/adhd-dishes-pile-up.html
