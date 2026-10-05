@@ -80,8 +80,7 @@ happening in the brain, why willpower advice fails, and the reframe.}
 actually start. Free, no fuss.</p>
 <a class="button" href="https://neurotidy.gumroad.com/l/free-adhd-cards">Download the free cards</a></aside>
 </main>
-<footer class="site"><p>Neurotidy. 5-minute reset systems for ADHD homes. Built from
-21k ADHD threads, not willpower.</p></footer>
+<footer class="site"><p>Neurotidy. 5-minute reset systems for ADHD homes. Built from real ADHD discussions, not willpower.</p></footer>
 </body>
 </html>
 ```

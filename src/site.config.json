@@ -6,7 +6,7 @@
   "author": {
     "name": "Mara Ellery",
     "path": "/about/",
-    "description": "Mara Ellery is the pen name of Neurotidy's founder. The guides are built from reading and sorting more than 21,000 real ADHD threads about cleaning and home life, then checking the mechanisms against published research.",
+    "description": "Mara Ellery is the pen name of Neurotidy's founder. The guides are built from reading and sorting real ADHD discussions about cleaning and home life, then checking the mechanisms against published research.",
     "sameAs": [
       "https://www.instagram.com/neuro.tidy/",
       "https://www.tiktok.com/@neuro.tidy"
@@ -79,5 +79,9 @@
   "start_box_skip": [
     "the-floor"
   ],
-  "start_box_skip_note": "the-floor is the page-2 experiment E1 (readout 2026-W40). Remove it from start_box_skip only after the readout is recorded."
+  "start_box_skip_note": "the-floor is the page-2 experiment E1 (readout 2026-W40). Remove it from start_box_skip only after the readout is recorded.",
+  "drafts": {
+    "paths": [],
+    "note": "Pages listed here are never built into dist/ (so they cannot be deployed by accident). `node src/build.mjs --preview` builds the whole site into preview/ (gitignored) with these pages rendered noindex and kept out of the sitemap, feed, llms.txt and llms-full.txt. To publish one: delete its path from this list, then run a normal build."
+  }
 }

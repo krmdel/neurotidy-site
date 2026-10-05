@@ -8,7 +8,11 @@ import { renderArticle, renderPage, renderGuides, renderHome, renderRobots, rend
 
 const SITE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SRC = path.join(SITE, "src");
-const DIST = path.join(SITE, "dist");
+// Draft pages (cfg.drafts.paths) are never rendered into dist/. `--preview` builds the whole site into
+// preview/ (gitignored, never deployed) with drafts rendered noindex and kept out of the sitemap, feed and
+// llms files. Publishing a draft = removing its path from cfg.drafts.paths, then a normal build.
+const PREVIEW = process.argv.includes("--preview");
+const DIST = path.join(SITE, PREVIEW ? "preview" : "dist");
 const TODAY = process.env.BUILD_DATE || new Date().toISOString().slice(0, 10);
 // Full timestamp for sitemap lastmod. Bing reads lastmod as a freshness signal for AI answers and
 // asks for ISO 8601 with a time; it only moves when the content hash moves, never on a rebuild.
@@ -22,8 +26,12 @@ const hash = (s) => createHash("sha256").update(s).digest("hex").slice(0, 16);
 const fail = (m) => { console.error("BUILD ERROR:", m); process.exit(1); };
 
 // ---- load content
+const draftPaths = new Set(cfg.drafts?.paths || []);
+// A draft page is skipped before it touches dates.json, so a normal build carries no trace of it.
+// Page-owned extras live in src/content/pages/files/<page>/ (a folder, so never read as a page).
 const loadDir = (dir, kind) => readdirSync(dir).filter((f) => f.endsWith(".json")).map((f) => {
   const meta = JSON.parse(readFileSync(path.join(dir, f), "utf8"));
+  if (!PREVIEW && kind === "page" && draftPaths.has(meta.path)) return null;
   const bodyFile = path.join(dir, f.replace(/\.json$/, ".body.html"));
   if (!existsSync(bodyFile)) fail(`${kind} ${f} has no body file`);
   const body = readFileSync(bodyFile, "utf8");
@@ -35,9 +43,11 @@ const loadDir = (dir, kind) => readdirSync(dir).filter((f) => f.endsWith(".json"
   const modified_at = same ? stampOf(prev, modified) : NOW;
   dates[key] = { hash: h, modified, modified_at };
   return { ...meta, body, modified, modified_at };
-});
+}).filter(Boolean);
 const articles = loadDir(path.join(SRC, "content/articles"), "article").sort((a, b) => a.published.localeCompare(b.published) || a.slug.localeCompare(b.slug));
-const pages = loadDir(path.join(SRC, "content/pages"), "page");
+// Normal build: drafts were never loaded (so a link to one fails validation below). Preview: drafts render noindex.
+const pages = loadDir(path.join(SRC, "content/pages"), "page").map((p) => (draftPaths.has(p.path) ? { ...p, noindex: true, draft: true } : p));
+const listed = pages.filter((p) => !p.draft);
 const byslug = Object.fromEntries(articles.map((a) => [a.slug, a]));
 
 // ---- validate content contracts (fail the build, never ship a broken link or an unverified citation)
@@ -81,7 +91,14 @@ for (const a of articles) {
 const parentOf = (p) => (p.path.startsWith("/adhd-mess-types/") && p.path !== "/adhd-mess-types/" ? { name: "ADHD mess types", path: "/adhd-mess-types/" } : null);
 for (const p of pages) {
   write(`${p.path.slice(1)}index.html`, renderPage(cfg, { ...p, parent: parentOf(p) }, { modified: p.modified }));
-  entries.push({ path: p.path, modified: p.modified, modified_at: p.modified_at });
+  // Page-owned files (e.g. a data download or /go/ stubs) ship only when the page itself ships.
+  // Keys are output paths: "/go/x.html" is site-absolute, "x.json" sits next to the page.
+  for (const [out, src] of Object.entries(p.files || {})) {
+    const from = path.join(SRC, "content/pages/files", src);
+    if (!existsSync(from)) fail(`page ${p.name} file ${src} not found`);
+    write(out.startsWith("/") ? out.slice(1) : `${p.path.slice(1)}${out}`, readFileSync(from));
+  }
+  if (!p.draft) entries.push({ path: p.path, modified: p.modified, modified_at: p.modified_at });
 }
 const guidesMod = articles.map((a) => a.modified).sort().at(-1);
 const guidesModAt = articles.map((a) => a.modified_at).sort().at(-1);
@@ -122,9 +139,9 @@ write("robots.txt", renderRobots(cfg));
 write("sitemap.xml", renderSitemap(cfg, entries));
 write("feed.xml", renderFeed(cfg, articles));
 if (cfg.legacy?.paths?.length) write("sitemap-legacy.xml", renderLegacySitemap(cfg, entries));
-const llmPages = pages.map((p) => ({ ...p, llms_section: [cfg.products.free_cards_page, cfg.products.free_checklist_page, cfg.products.free_planner_page, cfg.products.home_reset_page, "/free-adhd-tools/", "/best-free-adhd-cleaning-tools/", "/adhd-room-reset-timer/", "/adhd-chore-breakdown/", "/adhd-task-card-maker/"].includes(p.path) ? "resources" : "about" }));
+const llmPages = listed.map((p) => ({ ...p, llms_section: [cfg.products.free_cards_page, cfg.products.free_checklist_page, cfg.products.free_planner_page, cfg.products.home_reset_page, "/free-adhd-tools/", "/best-free-adhd-cleaning-tools/", "/adhd-room-reset-timer/", "/adhd-chore-breakdown/", "/adhd-task-card-maker/"].includes(p.path) ? "resources" : "about" }));
 write("llms.txt", renderLlms(cfg, articles, llmPages));
-write("llms-full.txt", renderLlmsFull(cfg, articles, pages, sources));
+write("llms-full.txt", renderLlmsFull(cfg, articles, listed, sources));
 write("vercel.json", JSON.stringify({
   trailingSlash: true,
   headers: [
@@ -138,7 +155,9 @@ write("vercel.json", JSON.stringify({
 for (const f of ["style.css", "BingSiteAuth.xml", "d762449bf13f0503c58f46b2c9758ee4.txt"]) cpSync(path.join(SITE, f), path.join(DIST, f));
 cpSync(path.join(SITE, "go"), path.join(DIST, "go"), { recursive: true });
 cpSync(path.join(SRC, "assets"), DIST, { recursive: true });
-writeFileSync(datesPath, JSON.stringify(dates, null, 2) + "\n");
+// A preview must not move real modified dates (a draft would otherwise be stamped with the preview day).
+if (!PREVIEW) writeFileSync(datesPath, JSON.stringify(dates, null, 2) + "\n");
 
 const count = (dir) => readdirSync(dir).reduce((n, f) => n + (statSync(path.join(dir, f)).isDirectory() ? count(path.join(dir, f)) : 1), 0);
-console.log(`built ${articles.length} articles, ${pages.length} pages, ${entries.length} sitemap entries, ${count(DIST)} files → dist/ (build date ${TODAY})`);
+const drafts = pages.filter((p) => p.draft).map((p) => p.path);
+console.log(`built ${articles.length} articles, ${pages.length} pages, ${entries.length} sitemap entries, ${count(DIST)} files → ${path.basename(DIST)}/ (build date ${TODAY})${PREVIEW ? `; PREVIEW, drafts rendered noindex: ${drafts.join(", ") || "none"}` : draftPaths.size ? `; drafts skipped: ${[...draftPaths].join(", ")}` : ""}`);
