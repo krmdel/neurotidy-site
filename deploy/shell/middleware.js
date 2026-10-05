@@ -10,15 +10,23 @@ const BOTS = /(ApifyWebsiteContentCrawler|AI2Bot-DeepResearchEval|GoogleAgent-UR
 
 export default function middleware(request) {
   const ua = request.headers.get("user-agent") || "";
-  // Our own daily audit fetches every page with a GPTBot UA tagged "neurotidy-audit"; it is not a crawler visit.
-  if (ua.includes("neurotidy-audit")) return;
+  // Our own checks tag their user agent "neurotidy-..." (the daily audit sends a GPTBot UA); they are not visits.
+  if (ua.includes("neurotidy-")) return;
   const hit = ua.match(BOTS);
+  const url = new URL(request.url);
+  if (!hit && url.pathname.startsWith("/go/")) {
+    // One human click toward Gumroad. Referring path when it came from this site, host when it came from elsewhere.
+    let ref = null;
+    try { const r = new URL(request.headers.get("referer") || ""); ref = r.host === url.host ? r.pathname : r.host; } catch { /* no referrer */ }
+    console.log("GOHIT " + JSON.stringify({ path: url.pathname, ts: new Date().toISOString(), ref, country: request.headers.get("x-vercel-ip-country") || null }));
+    return;
+  }
   if (hit) {
     console.log(
       "BOTHIT " +
         JSON.stringify({
           bot: hit[1],
-          path: new URL(request.url).pathname,
+          path: url.pathname,
           ts: new Date().toISOString(),
           ua: ua.slice(0, 140),
         }),
