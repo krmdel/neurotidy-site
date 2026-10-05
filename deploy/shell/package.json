@@ -1,0 +1,8 @@
+{
+  "name": "neurotidy-site-shell",
+  "private": true,
+  "version": "2026.10.5-1",
+  "scripts": {
+    "build": "curl -sL https://codeload.github.com/krmdel/neurotidy-site/tar.gz/refs/heads/main | tar xz && rm -rf public && mv neurotidy-site-main/dist public"
+  }
+}

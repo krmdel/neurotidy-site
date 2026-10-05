@@ -1,0 +1,116 @@
+{
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/tt",
+      "destination": "/go/tt.html",
+      "permanent": false
+    },
+    {
+      "source": "/tt/",
+      "destination": "/go/tt.html",
+      "permanent": false
+    },
+    {
+      "source": "/ig",
+      "destination": "/go/ig.html",
+      "permanent": false
+    },
+    {
+      "source": "/ig/",
+      "destination": "/go/ig.html",
+      "permanent": false
+    },
+    {
+      "source": "/cards",
+      "destination": "/go/cards.html",
+      "permanent": false
+    },
+    {
+      "source": "/cards/",
+      "destination": "/go/cards.html",
+      "permanent": false
+    },
+    {
+      "source": "/deck",
+      "destination": "/go/reset.html",
+      "permanent": false
+    },
+    {
+      "source": "/deck/",
+      "destination": "/go/reset.html",
+      "permanent": false
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/:dir+/index.html",
+      "destination": "/:dir+/",
+      "permanent": true
+    },
+    {
+      "source": "/articles/:slug([a-z0-9-]+)",
+      "destination": "/articles/:slug.html",
+      "permanent": true
+    },
+    {
+      "source": "/articles/:slug([a-z0-9-]+)/",
+      "destination": "/articles/:slug.html",
+      "permanent": true
+    },
+    {
+      "source": "/quiz",
+      "destination": "/quiz.html",
+      "permanent": true
+    },
+    {
+      "source": "/quiz/",
+      "destination": "/quiz.html",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        }
+      ]
+    },
+    {
+      "source": "/style.css",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, stale-while-revalidate=604800"
+        }
+      ]
+    },
+    {
+      "source": "/(.*).pdf",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800"
+        }
+      ]
+    }
+  ]
+}

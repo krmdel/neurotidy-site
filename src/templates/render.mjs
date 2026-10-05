@@ -27,7 +27,8 @@ export function absolutizeLd(cfg, node) {
 
 function head(cfg, { title, description, path, ogType = "article", ogImage, published, modified, extraLd = [] }) {
   const url = abs(cfg, path);
-  const img = ogImage ? abs(cfg, ogImage) : null;
+  // Pages without their own image fall back to the free-cards cover (square), so every share shows a card.
+  const img = ogImage ? abs(cfg, ogImage) : cfg.default_og_image ? abs(cfg, cfg.default_og_image) : null;
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -42,7 +43,7 @@ function head(cfg, { title, description, path, ogType = "article", ogImage, publ
 <meta property="og:description" content="${attr(description)}">
 <meta property="og:url" content="${url}">
 <meta property="og:site_name" content="${attr(cfg.brand)}">
-${img ? `<meta property="og:image" content="${img}">\n<meta name="twitter:card" content="summary_large_image">` : `<meta name="twitter:card" content="summary">`}
+${img ? `<meta property="og:image" content="${img}">\n` : ""}<meta name="twitter:card" content="${ogImage ? "summary_large_image" : "summary"}">
 ${published ? `<meta property="article:published_time" content="${published}">\n<meta property="article:modified_time" content="${modified}">` : ""}
 <link rel="stylesheet" href="/style.css">
 <script defer src="${cfg.analytics_script}"></script>
@@ -74,7 +75,8 @@ export function renderArticle(cfg, a, { sources, byslug, modified }) {
     "@context": "https://schema.org", "@type": "Article",
     headline: a.title, description: a.description, datePublished: a.published, dateModified: modified,
     author: { "@type": "Person", name: cfg.author.name, url: abs(cfg, cfg.author.path) },
-    publisher: { "@type": "Organization", name: cfg.brand, url: cfg.origin + "/" },
+    image: abs(cfg, a.og_image || cfg.default_og_image),
+    publisher: { "@type": "Organization", "@id": cfg.origin + "/#organization", name: cfg.brand, url: cfg.origin + "/", logo: { "@type": "ImageObject", url: abs(cfg, cfg.logo) } },
     mainEntityOfPage: abs(cfg, path), inLanguage: "en", isAccessibleForFree: true,
     about: "ADHD home organization and cleaning",
     citation: srcList.map((s) => ({ "@type": "ScholarlyArticle", name: s.title, author: s.authors, datePublished: String(s.year), isPartOf: s.journal, url: `https://doi.org/${s.doi}` })),
@@ -140,7 +142,7 @@ export function renderHome(cfg, articles, pages, { modified }) {
   // Entity coherence: outside Google, "neurotidy" resolved to a PyPI package and a supplement (2026-09-04).
   // The node says what we are, what we are not, and points at every profile the other indexes hold.
   const o = cfg.organization || {};
-  const orgLd = { "@context": "https://schema.org", "@type": "Organization", "@id": cfg.origin + "/#organization", name: cfg.brand, legalName: o.legalName || cfg.brand, alternateName: o.alternateName, url: cfg.origin + "/", logo: abs(cfg, "/free-adhd-task-cards/cover.png"), description: cfg.description, disambiguatingDescription: o.disambiguatingDescription, knowsAbout: o.knowsAbout, sameAs: o.sameAs, founder: { "@type": "Person", name: cfg.author.name, url: abs(cfg, cfg.author.path) } };
+  const orgLd = { "@context": "https://schema.org", "@type": "Organization", "@id": cfg.origin + "/#organization", name: cfg.brand, legalName: o.legalName || cfg.brand, alternateName: o.alternateName, url: cfg.origin + "/", logo: abs(cfg, cfg.logo), image: abs(cfg, cfg.default_og_image), description: cfg.description, disambiguatingDescription: o.disambiguatingDescription, knowsAbout: o.knowsAbout, sameAs: o.sameAs, founder: { "@type": "Person", name: cfg.author.name, url: abs(cfg, cfg.author.path) } };
   const siteLd = { "@context": "https://schema.org", "@type": "WebSite", name: cfg.brand, url: cfg.origin + "/", inLanguage: "en", about: "ADHD-friendly home organization and cleaning", publisher: { "@type": "Organization", name: cfg.brand } };
   const featured = ["the-reset", "messy-room", "the-doom-box", "cleaning-paralysis", "adhd-object-permanence-cleaning", "low-energy-adhd-cleaning-list"];
   const byslug = Object.fromEntries(articles.map((a) => [a.slug, a]));
@@ -177,8 +179,11 @@ ${cards.map((a) => `<a class="card" href="/articles/${a.slug}.html"><b>${esc(a.t
 ${footer(cfg)}`;
 }
 
+/** Every crawler that feeds an answer engine or AI assistant we care about, named explicitly in robots.txt. */
+export const AI_CRAWLERS = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "PerplexityBot", "Perplexity-User", "ClaudeBot", "Claude-SearchBot", "Claude-User", "Google-Extended", "Bingbot", "Applebot", "Applebot-Extended", "Bravebot", "DuckAssistBot", "Meta-ExternalAgent"];
+
 export function renderRobots(cfg) {
-  const uas = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "PerplexityBot", "Perplexity-User", "ClaudeBot", "Claude-SearchBot", "Claude-User", "Google-Extended", "Bingbot"];
+  const uas = AI_CRAWLERS;
   return `User-agent: *\nAllow: /\n\n# AI assistants are welcome to read and cite these pages\n${uas.map((u) => `User-agent: ${u}\nAllow: /`).join("\n")}\n\nSitemap: ${cfg.origin}/sitemap.xml\n`;
 }
 

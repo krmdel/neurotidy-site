@@ -49,7 +49,7 @@ export const ISSUES = {
   "robots-sitemap-host": { severity: "warning", title: "robots.txt Sitemap line is on the wrong host" },
   "llms-missing-page": { severity: "info", title: "Page not listed in llms.txt" },
 };
-export const AI_UAS = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "PerplexityBot", "Perplexity-User", "ClaudeBot", "Claude-SearchBot", "Claude-User", "Google-Extended", "Bingbot"];
+export const AI_UAS = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "PerplexityBot", "Perplexity-User", "ClaudeBot", "Claude-SearchBot", "Claude-User", "Google-Extended", "Bingbot", "Applebot", "Applebot-Extended", "Bravebot", "DuckAssistBot", "Meta-ExternalAgent"];
 
 const issue = (id, detail) => ({ id, severity: ISSUES[id].severity, title: ISSUES[id].title, detail });
 export const visibleText = (html) => html.replace(/<script[\s\S]*?<\/script>/g, " ").replace(/<style[\s\S]*?<\/style>/g, " ").replace(/<noscript[\s\S]*?<\/noscript>/g, " ").replace(/<[^>]+>/g, " ").replace(/&nbsp;/g, " ").replace(/\s+/g, " ").trim();

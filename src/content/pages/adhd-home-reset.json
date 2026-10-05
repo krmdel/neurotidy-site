@@ -39,7 +39,9 @@
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
         "url": "https://neurotidy.gumroad.com/l/adhd-home-reset"
-      }
+      },
+      "image": "/adhd-home-reset/cover.png"
     }
-  ]
+  ],
+  "og_image": "/adhd-home-reset/cover.png"
 }

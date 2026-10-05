@@ -73,5 +73,7 @@
       "/articles/the-meds-window.html"
     ]
   },
-  "meta_description": "Free printable ADHD task cards, a free ADHD cleaning checklist, and plain-language guides for cleaning your home with ADHD. Built for how your brain works."
+  "meta_description": "Free printable ADHD task cards, a free ADHD cleaning checklist, and plain-language guides for cleaning your home with ADHD. Built for how your brain works.",
+  "default_og_image": "/free-adhd-task-cards/cover.png",
+  "logo": "/brand/neurotidy-logo.png"
 }
