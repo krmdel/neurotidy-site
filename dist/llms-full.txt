@@ -71,9 +71,9 @@ Sources:
 - Sonuga-Barke EJS (2003). The dual pathway model of AD/HD: an elaboration of neuro-developmental characteristics. Neuroscience & Biobehavioral Reviews, 27(7), 593-604. https://doi.org/10.1016/j.neubiorev.2003.08.005
 
 
-## ADHD cups everywhere? Why you leave one in every room
+## ADHD cups everywhere? Why it happens and the once-a-day fix
 URL: https://neurotidy.co/articles/cup-collection.html
-Published: 2026-07-29 · Updated: 2026-10-05
+Published: 2026-07-29 · Updated: 2026-10-29
 Author: Mara Ellery (pen name of the founder)
 
 If you have ADHD and find abandoned cups in every room, that's object permanence quietly failing, not laziness. You make a drink, carry it somewhere, and the second you leave that room your brain files the cup under "later," and later never comes.
@@ -138,9 +138,9 @@ Sources:
 - Sonuga-Barke EJS (2003). The dual pathway model of AD/HD: an elaboration of neuro-developmental characteristics. Neuroscience & Biobehavioral Reviews, 27(7), 593-604. https://doi.org/10.1016/j.neubiorev.2003.08.005
 
 
-## The ADHD clothes chair pile: why it happens (and the fix)
+## ADHD clothes chair pile: why it happens and how to clear it
 URL: https://neurotidy.co/articles/the-chair.html
-Published: 2026-07-29 · Updated: 2026-10-05
+Published: 2026-07-29 · Updated: 2026-10-29
 Author: Mara Ellery (pen name of the founder)
 
 The chair covered in clothes is not laziness. It is where the clothes that are too clean to wash but too worn to put away end up, because your ADHD brain has no category for them, and no category means no home.
@@ -260,9 +260,9 @@ Sources:
 - Eagle T, Baltaxe-Admony LB, Ringland KE (2023). Proposing body doubling as a continuum of space/time and mutuality: an investigation with neurodivergent participants. ASSETS '23: 25th International ACM SIGACCESS Conference on Computers and Accessibility. https://doi.org/10.1145/3597638.3614486
 
 
-## ADHD floordrobe: why clothes end up on the floor (and the fix)
+## ADHD floordrobe: why clothes live on the floor, and the fix
 URL: https://neurotidy.co/articles/the-floor.html
-Published: 2026-07-29 · Updated: 2026-09-06
+Published: 2026-07-29 · Updated: 2026-10-29
 Author: Mara Ellery (pen name of the founder)
 
 A floordrobe, where clothes and things pile up on the floor instead of in drawers, happens because for an ADHD brain, out of sight is genuinely out of mind. The floor becomes your shelf because it's the one spot where you can still see your stuff, so putting things away feels like making them vanish.
@@ -300,6 +300,8 @@ Hooks where your eyes land. Coats and bags hit the floor because the hook is beh
 One laundry basket per room. The floor pile is usually clothes. A single visible basket in each room catches them before they become the carpet. No trip down the hall required.
 
 Play "the floor is lava" for five minutes. Set a timer. Pick up whatever is on the floor and drop it in its visible home. No sorting, no folding, no spirals. Five minutes of pickup, and the reset itself is the win.
+
+If most of the floor is clothes, the ADHD Home Reset has The No-Fold Zone, one open bin for the clean clothes that never need folding, and the 10-Minute Room Reset for the pickup ($19).
 
 FAQ
 
@@ -655,9 +657,9 @@ Sources:
 - Barkley RA (1997). Behavioral inhibition, sustained attention, and executive functions: constructing a unifying theory of ADHD. Psychological Bulletin, 121(1), 65-94. https://doi.org/10.1037/0033-2909.121.1.65
 
 
-## ADHD cleaning paralysis: why you can't start when you want to
+## Cleaning paralysis and ADHD: why you freeze and how to start
 URL: https://neurotidy.co/articles/cleaning-paralysis.html
-Published: 2026-07-31 · Updated: 2026-10-05
+Published: 2026-07-31 · Updated: 2026-10-29
 Author: Mara Ellery (pen name of the founder)
 
 Cleaning paralysis is when you want to clean, you know how, and you physically can, but you cannot make yourself begin. It's a task-initiation failure, an executive-function glitch that's common in ADHD brains, not laziness and not a sign you don't care.
@@ -867,9 +869,9 @@ Sources:
 - Volkow ND, Wang GJ, Kollins SH, et al. (2009). Evaluating dopamine reward pathway in ADHD: clinical implications. JAMA, 302(10), 1084-1091. https://doi.org/10.1001/jama.2009.1308
 
 
-## The meds window: timing chores to when your ADHD brain shows up
+## Best time to do chores on ADHD meds: find your easy window
 URL: https://neurotidy.co/articles/the-meds-window.html
-Published: 2026-07-31 · Updated: 2026-10-05
+Published: 2026-07-31 · Updated: 2026-10-29
 Author: Mara Ellery (pen name of the founder)
 
 If you take ADHD medication, there is a window in your day when starting tasks is genuinely easier, and that window is the best time for your five-minute resets. Scheduling chores inside it is strategy, not dependence, and it beats trying to force cleaning at the hours when your brain is not coming to the door.
@@ -925,9 +927,9 @@ Sources:
 - Volkow ND, Wang GJ, Kollins SH, et al. (2009). Evaluating dopamine reward pathway in ADHD: clinical implications. JAMA, 302(10), 1084-1091. https://doi.org/10.1001/jama.2009.1308
 
 
-## The ADHD bathroom reset that actually gets done
+## ADHD bathroom cleaning: a 5-minute reset that gets done
 URL: https://neurotidy.co/articles/adhd-bathroom-reset.html
-Published: 2026-08-30 · Updated: 2026-10-05
+Published: 2026-08-30 · Updated: 2026-10-29
 Author: Mara Ellery (pen name of the founder)
 
 An ADHD bathroom reset that actually gets done is a five-minute wipe-and-go in a fixed order, done right after a shower you were taking anyway: counter clear, sink and taps, mirror, toilet, floor spot-check, out. It works because it removes every decision and every separate start, and it replaces the deep clean you keep postponing.
@@ -1250,9 +1252,9 @@ Sources:
 - Morein-Zamir S, Kasese M, Chamberlain SR, Trachtenberg E (2022). Elevated levels of hoarding in ADHD: a special link with inattention. Journal of Psychiatric Research, 145, 167-174. https://doi.org/10.1016/j.jpsychires.2021.12.024
 
 
-## The low-energy ADHD cleaning list for bad brain days
+## Low-energy ADHD cleaning list: 6 tasks for bad brain days
 URL: https://neurotidy.co/articles/low-energy-adhd-cleaning-list.html
-Published: 2026-08-30 · Updated: 2026-10-05
+Published: 2026-08-30 · Updated: 2026-10-29
 Author: Mara Ellery (pen name of the founder)
 
 A low-energy ADHD cleaning list is six tiny tasks that keep tomorrow from being worse: rinse one mug, tie the trash, put dishes in water, clear the path to the bed, one glass of water, outfit on the chair. It takes under ten minutes, needs zero decisions, and on a bad brain day it counts as a full win.
@@ -1975,6 +1977,17 @@ Prefer the file itself? Open the PDF directly.
 
 The planner tells you which room. The ADHD Home Reset cards tell you what to do once you're standing in it: 20 cards and a short guide, $19 once.
 
+Get the planner one day at a time
+
+7 short morning emails, one room each: the first step and the bad-day line. Free. Unsubscribe with one click.
+
+Email address
+
+Send me day 1
+
+Optional: the PDF above stays a direct download. We use your email for these emails and the occasional new card, nothing else. MailerLite stores it for us. Privacy.
+
+ 
 The whole thing, on one page. Print as many as you like.
 It is a direct link to the file. Print a fresh one every Monday. If you want the room-by-room version instead, the free ADHD cleaning checklist is the same resets sorted by room.
 
@@ -2019,7 +2032,7 @@ It is for anyone whose week falls apart at "what should I clean today". That inc
 Nothing on this page is medical advice. The guides it links to list their sources, and the planner itself makes no claims that need one: it is a piece of paper that decides so you do not have to.
 
 
-## 5 free printable ADHD task cards (no email needed)
+## Free printable ADHD task cards: 5 PDF cards, no email needed
 URL: https://neurotidy.co/free-adhd-task-cards/
 
 These are five free printable ADHD task cards: one each for dishes, showers, doom piles, body doubling and bad days. Each card turns a task your brain refuses to start into three or four steps, and the last line of every card is the bad-day version, so there is always a size of the job you can actually do.
@@ -2034,6 +2047,17 @@ Download the free cards (PDF, no email needed)
 
 Prefer the file itself? Open the PDF directly.
 
+Get the planner one day at a time
+
+7 short morning emails, one room each: the first step and the bad-day line. Free. Unsubscribe with one click.
+
+Email address
+
+Send me day 1
+
+Optional: the PDF above stays a direct download. We use your email for these emails and the occasional new card, nothing else. MailerLite stores it for us. Privacy.
+
+ 
 The first page of the free PDF, printed four to a sheet.
 That link is a direct PDF. No signup, no checkout. Print it at home on A4 or letter paper and cut along the dashed lines.
 
@@ -2179,8 +2203,6 @@ Other types: the Doom Piler, the Floordrobe Keeper, the Churn and Burn. Not sure
 ## Privacy at Neurotidy: what we collect and why
 URL: https://neurotidy.co/privacy/
 
-Last updated 29 October 2026.
-
 Neurotidy collects as little as it can. The free PDFs, the guides and the tools work without an account, and nothing you type into a tool leaves your browser. This page lists everything we do collect, why, and how to get it removed.
 
 Who we are
@@ -2195,7 +2217,7 @@ When you click a button that takes you to Gumroad or to a download, the link pas
 
 Email
 
-We do not run an email list yet, and the site has no signup form. If we add one, this page will say which service stores the addresses before the form goes live, and every email will have a one-click unsubscribe link.
+Some download pages have an optional signup for the 7-day planner by email. The PDFs never need it. If you sign up, your email address is stored by MailerLite, the service that sends the emails, under its own privacy policy. We use the address for those emails and the occasional new card, nothing else, and we never sell or share it. Every email has a one-click unsubscribe link, and if you write to us we will delete your address.
 
 If you write to neurotidy@gmail.com, we keep the conversation only to answer you. Ask and we will delete it.
 

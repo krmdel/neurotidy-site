@@ -120,6 +120,8 @@ export function analyzeHtml(html, url, ctx) {
     if (!/src=/.test(attrs) && (/data-event/.test(body) || url.endsWith("/quiz.html"))) continue;
     // Free tools: inline, self-contained, marked data-tool. Their explanation + FAQ stay static HTML, and nonjs-visible-words-low still applies.
     if (!/src=/.test(attrs) && /\bdata-tool\b/.test(attrs)) continue;
+    // Email signup (render.mjs emailForm): the form is plain HTML and posts without JS; the script only keeps the reader on the page.
+    if (!/src=/.test(attrs) && /\bdata-signup\b/.test(attrs)) continue;
     issues.push(issue("unexpected-script", attrs.trim().slice(0, 80)));
   }
   if (words < 150) issues.push(issue("nonjs-visible-words-low", `${words}`));

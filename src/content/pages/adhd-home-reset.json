@@ -13,7 +13,7 @@
     },
     {
       "q": "What if the cards do not fit how my brain works?",
-      "a": "Start with the free five first. They use the same format, so if they do not click, you know before you spend anything. If you buy the deck and the cards don't help, there is a 30-day refund: reply to your receipt."
+      "a": "If you buy the deck and the cards don't help, there is a 30-day refund: reply to your receipt. If you would rather check the format first, the free five use the same layout, so you know before you spend anything."
     },
     {
       "q": "Do I need an ADHD diagnosis to use it?",
@@ -45,5 +45,6 @@
   ],
   "og_image": "/images/og-deck.jpg",
   "no_cta": true,
+  "nav_cta": false,
   "end_box": "<aside class=\"buybox\"><h2>Ready for the full deck?</h2>\n<p>20 cards and the guide, $19 once, instant PDF.</p>\n<p><a class=\"button\" href=\"/go/reset-end.html\" data-event=\"click_gumroad_19_end\">Get the ADHD Home Reset</a></p>\n<p class=\"refund-line\">30-day refund if the cards don't help: reply to your receipt.</p></aside>"
 }

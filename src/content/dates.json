@@ -1,8 +1,8 @@
 {
   "article:adhd-bathroom-reset": {
-    "hash": "67bcf88adf121d24",
-    "modified": "2026-10-05",
-    "modified_at": "2026-10-05T08:01:11Z"
+    "hash": "62237a6b4c89aebe",
+    "modified": "2026-10-29",
+    "modified_at": "2026-10-29T15:25:42Z"
   },
   "article:adhd-cleaning-checklist": {
     "hash": "39814c74a4b07036",
@@ -35,14 +35,14 @@
     "modified_at": "2026-10-05T08:01:11Z"
   },
   "article:cleaning-paralysis": {
-    "hash": "40042754cc72e043",
-    "modified": "2026-10-05",
-    "modified_at": "2026-10-05T08:01:11Z"
+    "hash": "f112ee193eba7b91",
+    "modified": "2026-10-29",
+    "modified_at": "2026-10-29T15:25:42Z"
   },
   "article:cup-collection": {
-    "hash": "4182797813d7db2f",
-    "modified": "2026-10-05",
-    "modified_at": "2026-10-05T08:01:11Z"
+    "hash": "4e5bc7081489fc2e",
+    "modified": "2026-10-29",
+    "modified_at": "2026-10-29T15:25:42Z"
   },
   "article:declutter-doom-pile-step-by-step": {
     "hash": "c51407e546d34868",
@@ -55,9 +55,9 @@
     "modified_at": "2026-10-05T08:01:11Z"
   },
   "article:low-energy-adhd-cleaning-list": {
-    "hash": "5d112a62ea80bfc8",
-    "modified": "2026-10-05",
-    "modified_at": "2026-10-05T08:01:11Z"
+    "hash": "098c5ec6496f644f",
+    "modified": "2026-10-29",
+    "modified_at": "2026-10-29T15:25:42Z"
   },
   "article:messy-room": {
     "hash": "019e3f179b7a64de",
@@ -65,9 +65,9 @@
     "modified_at": "2026-10-05T08:01:11Z"
   },
   "article:the-chair": {
-    "hash": "05b6c9524d3a4068",
-    "modified": "2026-10-05",
-    "modified_at": "2026-10-05T08:01:11Z"
+    "hash": "d54e047e1b7bee4f",
+    "modified": "2026-10-29",
+    "modified_at": "2026-10-29T15:25:42Z"
   },
   "article:the-doom-box": {
     "hash": "bc072cbb6b82112b",
@@ -75,9 +75,9 @@
     "modified_at": "2026-10-05T08:01:11Z"
   },
   "article:the-floor": {
-    "hash": "9cedd1b2d51649a9",
-    "modified": "2026-09-06",
-    "modified_at": "2026-09-06T13:22:10Z"
+    "hash": "0125818ff560f2c4",
+    "modified": "2026-10-29",
+    "modified_at": "2026-10-29T15:25:42Z"
   },
   "article:the-laundry": {
     "hash": "00ce8c2d6f271c1c",
@@ -85,9 +85,9 @@
     "modified_at": "2026-10-05T08:01:11Z"
   },
   "article:the-meds-window": {
-    "hash": "941477e57f567252",
-    "modified": "2026-10-05",
-    "modified_at": "2026-10-05T08:01:11Z"
+    "hash": "03a0b30dd29f4057",
+    "modified": "2026-10-29",
+    "modified_at": "2026-10-29T15:25:42Z"
   },
   "article:the-reset": {
     "hash": "2687929a97a61ec3",
@@ -105,9 +105,9 @@
     "modified_at": "2026-10-05T15:44:46Z"
   },
   "page:adhd-home-reset": {
-    "hash": "d41c58a9fdea346b",
-    "modified": "2026-08-30",
-    "modified_at": "2026-08-30T00:00:00Z"
+    "hash": "65aa47d53a6da3d2",
+    "modified": "2026-10-29",
+    "modified_at": "2026-10-29T15:25:42Z"
   },
   "page:adhd-mess-types": {
     "hash": "7e7c60545fd408a3",
@@ -130,9 +130,9 @@
     "modified_at": "2026-09-27T08:21:57Z"
   },
   "page:free-adhd-task-cards": {
-    "hash": "c2035160454d08c4",
-    "modified": "2026-10-05",
-    "modified_at": "2026-10-05T15:53:23Z"
+    "hash": "3da375c4c274a5f8",
+    "modified": "2026-10-29",
+    "modified_at": "2026-10-29T15:29:33Z"
   },
   "page:out-of-sight-out-of-mind": {
     "hash": "8406d35d27643fce",
@@ -155,9 +155,9 @@
     "modified_at": "2026-10-05T08:02:55Z"
   },
   "page:free-adhd-cleaning-planner": {
-    "hash": "7d201fd6d6364d72",
-    "modified": "2026-10-05",
-    "modified_at": "2026-10-05T08:02:55Z"
+    "hash": "03c896016e2e930f",
+    "modified": "2026-10-29",
+    "modified_at": "2026-10-29T15:29:21Z"
   },
   "page:adhd-chore-breakdown": {
     "hash": "5aebdf393c987b4e",
@@ -185,8 +185,8 @@
     "modified_at": "2026-10-04T14:50:08Z"
   },
   "page:privacy": {
-    "hash": "357ba5242983bf3b",
+    "hash": "4acee78ca39fc56d",
     "modified": "2026-10-29",
-    "modified_at": "2026-10-29T14:03:20Z"
+    "modified_at": "2026-10-29T15:29:21Z"
   }
 }

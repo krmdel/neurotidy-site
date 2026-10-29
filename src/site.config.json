@@ -80,6 +80,14 @@
     "the-floor"
   ],
   "start_box_skip_note": "the-floor is the page-2 experiment E1 (readout 2026-W40). Remove it from start_box_skip only after the readout is recorded.",
+  "email_capture": {
+    "mailerlite_form_action": "https://assets.mailerlite.com/jsonp/2753228/forms/202676474564576567/subscribe",
+    "placements": [
+      "free-adhd-task-cards",
+      "free-adhd-cleaning-planner"
+    ],
+    "note": "On since 2026-10-29 (MailerLite form for the free-cards group). Off while mailerlite_form_action is empty: the build keeps the hidden email slots and the no-email-list privacy copy, so dist/ does not change. To turn it on, paste the form action URL from the MailerLite embedded form's HTML code (https://assets.mailerlite.com/jsonp/<account>/forms/<form>/subscribe), rebuild, audit, commit, deploy. The build then renders the signup form under the download buttons on the pages in placements (the direct PDF links stay above it) and swaps in the MailerLite paragraph on /privacy/ (the <!--email-capture:on/off--> blocks and *_email_on fields)."
+  },
   "drafts": {
     "paths": [],
     "note": "Pages listed here are never built into dist/ (so they cannot be deployed by accident). `node src/build.mjs --preview` builds the whole site into preview/ (gitignored) with these pages rendered noindex and kept out of the sitemap, feed, llms.txt and llms-full.txt. To publish one: delete its path from this list, then run a normal build."

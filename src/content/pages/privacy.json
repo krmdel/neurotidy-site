@@ -3,6 +3,7 @@
   "path": "/privacy/",
   "title": "Privacy at Neurotidy: what we collect and why",
   "description": "What Neurotidy collects: anonymous page counts and click counts, no email list, nothing from the free PDFs or browser tools. How to reach us or get anything deleted.",
+  "description_email_on": "What Neurotidy collects: page and click counts, optional planner emails sent through MailerLite, nothing from the PDFs or tools. How to get anything deleted.",
   "h1": "Privacy",
   "type": "page",
   "nav_label": "Privacy",

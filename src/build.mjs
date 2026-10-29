@@ -4,7 +4,7 @@ import { readFileSync, writeFileSync, mkdirSync, readdirSync, rmSync, cpSync, ex
 import { createHash } from "node:crypto";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { renderArticle, renderPage, renderGuides, renderHome, renderRobots, renderSitemap, renderLegacySitemap, renderFeed, renderLlms, renderLlmsFull, GROUP_LABELS } from "./templates/render.mjs";
+import { emailForm, renderArticle, renderPage, renderGuides, renderHome, renderRobots, renderSitemap, renderLegacySitemap, renderFeed, renderLlms, renderLlmsFull, GROUP_LABELS } from "./templates/render.mjs";
 
 const SITE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SRC = path.join(SITE, "src");
@@ -25,16 +25,42 @@ const dates = existsSync(datesPath) ? JSON.parse(readFileSync(datesPath, "utf8")
 const hash = (s) => createHash("sha256").update(s).digest("hex").slice(0, 16);
 const fail = (m) => { console.error("BUILD ERROR:", m); process.exit(1); };
 
+// ---- email capture (off until cfg.email_capture.mailerlite_form_action is set; see the note in site.config.json)
+// Off: content renders exactly as before (hidden slots, no-email-list privacy copy), so hashes and dates do not move.
+// On: the hidden slot on each placement page becomes the signup form, <!--email-capture:off-->...<!--/email-capture:off-->
+// blocks drop out, <!--email-capture:on ... --> blocks are unwrapped, and any "<field>_email_on" value replaces <field>.
+const ML_ACTION = String(cfg.email_capture?.mailerlite_form_action || "").trim();
+if (ML_ACTION && !/^https:\/\/([a-z0-9-]+\.)*mailerlite\.com\/[^\s"'<>]+$/.test(ML_ACTION)) fail(`email_capture.mailerlite_form_action must be an https URL on mailerlite.com, got ${ML_ACTION}`);
+const EMAIL_ON = Boolean(ML_ACTION);
+const emailPlacements = new Set(cfg.email_capture?.placements || []);
+const applyEmailCapture = (meta, body) => {
+  const m = {};
+  for (const [k, v] of Object.entries(meta)) if (!k.endsWith("_email_on")) m[k] = v;
+  if (EMAIL_ON) for (const [k, v] of Object.entries(meta)) if (k.endsWith("_email_on")) m[k.slice(0, -"_email_on".length)] = v;
+  let b = body
+    .replace(/<!--email-capture:off-->([\s\S]*?)<!--\/email-capture:off-->(\n?)/g, (_, inner, nl) => (EMAIL_ON ? "" : inner + nl))
+    .replace(/<!--email-capture:on\n([\s\S]*?)\n-->(\n?)/g, (_, inner, nl) => (EMAIL_ON ? inner + nl : ""));
+  if (EMAIL_ON && emailPlacements.has(m.name)) {
+    const slot = /<div class="email-slot" data-slot="esp-form" data-where="([a-z0-9-]+)" hidden>[\s\S]*?<\/div>/;
+    if (!slot.test(b)) fail(`email_capture placement ${m.name} has no hidden email slot to fill`);
+    b = b.replace(slot, (_, where) => emailForm(ML_ACTION, where));
+  }
+  return { meta: m, body: b };
+};
+
 // ---- load content
 const draftPaths = new Set(cfg.drafts?.paths || []);
 // A draft page is skipped before it touches dates.json, so a normal build carries no trace of it.
 // Page-owned extras live in src/content/pages/files/<page>/ (a folder, so never read as a page).
 const loadDir = (dir, kind) => readdirSync(dir).filter((f) => f.endsWith(".json")).map((f) => {
-  const meta = JSON.parse(readFileSync(path.join(dir, f), "utf8"));
-  if (!PREVIEW && kind === "page" && draftPaths.has(meta.path)) return null;
+  const rawMeta = JSON.parse(readFileSync(path.join(dir, f), "utf8"));
+  if (!PREVIEW && kind === "page" && draftPaths.has(rawMeta.path)) return null;
   const bodyFile = path.join(dir, f.replace(/\.json$/, ".body.html"));
   if (!existsSync(bodyFile)) fail(`${kind} ${f} has no body file`);
-  const body = readFileSync(bodyFile, "utf8");
+  const rawBody = readFileSync(bodyFile, "utf8");
+  if (/[\u2014\u2013]/.test(rawBody) || /[\u2014\u2013]/.test(JSON.stringify(rawMeta))) fail(`${kind} ${f} contains an em or en dash`);
+  // Hash the rendered variant, so switching email capture on moves dateModified only where the copy changed.
+  const { meta, body } = applyEmailCapture(rawMeta, rawBody);
   const key = `${kind}:${meta.slug || meta.name}`;
   const h = hash(JSON.stringify({ ...meta, modified: undefined }) + body);
   const prev = dates[key];
@@ -160,4 +186,5 @@ if (!PREVIEW) writeFileSync(datesPath, JSON.stringify(dates, null, 2) + "\n");
 
 const count = (dir) => readdirSync(dir).reduce((n, f) => n + (statSync(path.join(dir, f)).isDirectory() ? count(path.join(dir, f)) : 1), 0);
 const drafts = pages.filter((p) => p.draft).map((p) => p.path);
+console.log(`email capture: ${EMAIL_ON ? `ON (MailerLite form on ${[...emailPlacements].join(", ")})` : "off (no mailerlite_form_action)"}`);
 console.log(`built ${articles.length} articles, ${pages.length} pages, ${entries.length} sitemap entries, ${count(DIST)} files → ${path.basename(DIST)}/ (build date ${TODAY})${PREVIEW ? `; PREVIEW, drafts rendered noindex: ${drafts.join(", ") || "none"}` : draftPaths.size ? `; drafts skipped: ${[...draftPaths].join(", ")}` : ""}`);

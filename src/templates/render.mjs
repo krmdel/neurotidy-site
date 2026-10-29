@@ -51,8 +51,9 @@ ${extraLd.map(jsonld).join("\n")}
 </head>`;
 }
 
-const header = (cfg) => `<header class="site"><a href="/" class="brand">${esc(cfg.brand)}</a>
-<a href="${cfg.products.free_cards_page}" class="nav-cta">Free ADHD task cards</a></header>`;
+// nav_cta: false on a page drops the free-cards pill, so on the $19 page the buy button is the first CTA (2026-10-29).
+const header = (cfg, { navCta = true } = {}) => `<header class="site"><a href="/" class="brand">${esc(cfg.brand)}</a>${navCta ? `
+<a href="${cfg.products.free_cards_page}" class="nav-cta">Free ADHD task cards</a>` : ""}</header>`;
 const footer = (cfg) => `<footer class="site"><p>${esc(cfg.brand)}. ${esc(cfg.tagline)}. Built from real ADHD discussions, not willpower. <a href="/about/">About</a> · <a href="/guides/">All guides</a> · <a href="${cfg.products.free_cards_page}">Free cards</a> · <a href="/free-adhd-tools/">Free tools</a> · <a href="${cfg.products.home_reset_page}">The $19 deck</a> · <a href="https://www.instagram.com/neuro.tidy/">Instagram</a> · <a href="https://www.tiktok.com/@neuro.tidy">TikTok</a> · <a href="/privacy/">Privacy</a></p></footer>
 <script>document.addEventListener("click",function(e){var a=e.target.closest("[data-event]");if(a&&window.va){va("event",{name:a.getAttribute("data-event"),data:{path:location.pathname}})}});</script>
 </body>
@@ -67,6 +68,28 @@ const breadcrumbHtml = (items) => `<nav class="crumbs" aria-label="Breadcrumb">$
 // Email capture is approved (2026-10-05) but the ESP account does not exist yet: this slot stays hidden until the
 // embed is pasted in. Copy and placement: section 4 #4 of clients/neurotidy/projects/2026-10-05_agentic-seo-best-practices-and-funnel.md.
 export const emailSlot = (where) => `<div class="email-slot" data-slot="esp-form" data-where="${where}" hidden><!-- EMAIL FORM SLOT (hidden): paste the ESP embed here and remove the hidden attribute once the account exists. Link /privacy/ from the form at the same time. --></div>`;
+
+// The MailerLite signup form that replaces a hidden slot once cfg.email_capture.mailerlite_form_action is set
+// (build.mjs applyEmailCapture). Optional: it sits under the direct PDF links, never in front of them.
+// With JS it posts in the background and says so in a live region; without JS it is a plain form POST.
+// Copy: the 7-day planner offer from clients/neurotidy/projects/2026-10-05_email-7day-planner-sequence.md.
+export const emailForm = (action, where) => {
+  const id = `signup-email-${where}`;
+  return `<form class="signup" action="${attr(action)}" method="post" data-signup data-where="${attr(where)}">
+<h2 class="signup-title">Get the planner one day at a time</h2>
+<p>7 short morning emails, one room each: the first step and the bad-day line. Free. Unsubscribe with one click.</p>
+<div class="signup-row">
+<label for="${id}">Email address</label>
+<input id="${id}" type="email" name="fields[email]" autocomplete="email" required spellcheck="false">
+<input type="hidden" name="ml-submit" value="1">
+<input type="hidden" name="anticsrf" value="true">
+<button class="button" type="submit" data-event="email_signup_${attr(where)}">Send me day 1</button>
+</div>
+<p class="small">Optional: the PDF above stays a direct download. We use your email for these emails and the occasional new card, nothing else. MailerLite stores it for us. <a href="/privacy/">Privacy</a>.</p>
+<p class="signup-status" role="status" aria-live="polite"></p>
+</form>
+<script data-signup>(function(){var f=document.querySelector('form[data-where="${attr(where)}"]');if(!f||!window.fetch||!window.URLSearchParams)return;f.addEventListener("submit",function(e){e.preventDefault();var s=f.querySelector(".signup-status"),b=f.querySelector("button");b.disabled=true;s.textContent="Sending...";fetch(f.action,{method:"POST",mode:"no-cors",body:new URLSearchParams(new FormData(f))}).then(function(){f.reset();b.disabled=false;s.textContent="Check your inbox. The first one is on its way.";}).catch(function(){b.disabled=false;s.textContent="That did not go through. Try again, or use the PDF link above.";});});})();</script>`;
+};
 
 const ctaFree = (cfg) => `<aside class="cta" id="free"><h2>Get the free printable ADHD task cards</h2>
 <p>Five ready-to-print cards that turn "clean the kitchen" into steps your brain can actually start. Free, no email, just the PDF.</p>
@@ -126,7 +149,7 @@ export function renderPage(cfg, p, { modified }) {
   const faqLd = p.faq && p.faq.length ? [{ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: p.faq.map((q) => ({ "@type": "Question", name: q.q, acceptedAnswer: { "@type": "Answer", text: q.a } })) }] : [];
   return `${head(cfg, { title: p.title, description: p.description, path: p.path, ogType: "website", ogImage: p.og_image, extraLd: [webLd, breadcrumbLd(cfg, crumbs), ...extra, ...faqLd], noindex: !!p.noindex })}
 <body>
-${header(cfg)}
+${header(cfg, { navCta: p.nav_cta !== false })}
 <main class="article page">
 ${breadcrumbHtml(crumbs)}
 <h1>${p.h1}</h1>
