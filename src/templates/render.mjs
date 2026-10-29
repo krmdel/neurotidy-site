@@ -53,7 +53,7 @@ ${extraLd.map(jsonld).join("\n")}
 
 const header = (cfg) => `<header class="site"><a href="/" class="brand">${esc(cfg.brand)}</a>
 <a href="${cfg.products.free_cards_page}" class="nav-cta">Free ADHD task cards</a></header>`;
-const footer = (cfg) => `<footer class="site"><p>${esc(cfg.brand)}. ${esc(cfg.tagline)}. Built from real ADHD discussions, not willpower. <a href="/about/">About</a> · <a href="/guides/">All guides</a> · <a href="${cfg.products.free_cards_page}">Free cards</a> · <a href="/free-adhd-tools/">Free tools</a> · <a href="${cfg.products.home_reset_page}">The $19 deck</a> · <a href="https://www.instagram.com/neuro.tidy/">Instagram</a> · <a href="https://www.tiktok.com/@neuro.tidy">TikTok</a></p></footer>
+const footer = (cfg) => `<footer class="site"><p>${esc(cfg.brand)}. ${esc(cfg.tagline)}. Built from real ADHD discussions, not willpower. <a href="/about/">About</a> · <a href="/guides/">All guides</a> · <a href="${cfg.products.free_cards_page}">Free cards</a> · <a href="/free-adhd-tools/">Free tools</a> · <a href="${cfg.products.home_reset_page}">The $19 deck</a> · <a href="https://www.instagram.com/neuro.tidy/">Instagram</a> · <a href="https://www.tiktok.com/@neuro.tidy">TikTok</a> · <a href="/privacy/">Privacy</a></p></footer>
 <script>document.addEventListener("click",function(e){var a=e.target.closest("[data-event]");if(a&&window.va){va("event",{name:a.getAttribute("data-event"),data:{path:location.pathname}})}});</script>
 </body>
 </html>`;

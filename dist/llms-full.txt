@@ -2174,3 +2174,43 @@ ADHD cups everywhere. A cup in every room is working memory, not slobbery.
 Why is my room always messy? Designing the room for the brain you have.
 
 Other types: the Doom Piler, the Floordrobe Keeper, the Churn and Burn. Not sure? Take the 60-second quiz.
+
+
+## Privacy at Neurotidy: what we collect and why
+URL: https://neurotidy.co/privacy/
+
+Last updated 29 October 2026.
+
+Neurotidy collects as little as it can. The free PDFs, the guides and the tools work without an account, and nothing you type into a tool leaves your browser. This page lists everything we do collect, why, and how to get it removed.
+
+Who we are
+
+Neurotidy (neurotidy.co) makes free printable ADHD cleaning checklists, task cards and browser tools, written under the pen name Mara Ellery. You can reach us at neurotidy@gmail.com.
+
+Page counts
+
+We use Vercel Web Analytics to count page views. It does not use cookies and does not identify you. We see totals such as how many people opened a guide, which site sent them and which country they were in, never who they are.
+
+When you click a button that takes you to Gumroad or to a download, the link passes through a short redirect page so we can count the click. That count records the page, the page you came from and your country. It does not record your IP address or anything that identifies you.
+
+Email
+
+We do not run an email list yet, and the site has no signup form. If we add one, this page will say which service stores the addresses before the form goes live, and every email will have a one-click unsubscribe link.
+
+If you write to neurotidy@gmail.com, we keep the conversation only to answer you. Ask and we will delete it.
+
+Search reports
+
+We read our own Google Search Console reports for neurotidy.co through a private tool, to see which searches bring people to the site. Google reports those as totals per search term and page. Only the site owner signs in to that tool, and it never sees anything about individual visitors.
+
+Buying the deck
+
+The ADHD Home Reset is sold through Gumroad. When you buy it, Gumroad handles the payment and your details under its own privacy policy. We see the email address you used for the purchase so we can answer receipt replies, and nothing about your card.
+
+Free downloads and tools
+
+The free task cards, the cleaning checklist and the weekly planner are direct PDF downloads. We do not ask for an email to download them. The room reset timer, the chore breakdown and the task card maker run entirely in your browser and save nothing.
+
+Changes
+
+If this page changes, the date at the top changes with it.
